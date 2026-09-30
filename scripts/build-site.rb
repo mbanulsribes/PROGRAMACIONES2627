@@ -53,7 +53,7 @@ catalog.each do |entry|
     pdf_link = %(<a href="../descargas/#{id}.pdf">Descargar PDF <small>(#{stamp})</small></a>)
   end
   nav = %(<nav class="site-nav" aria-label="Navegación"><a href="../index.html">← Todas las programaciones</a><span>#{escape.call(entry['level'])} · 2026–2027</span>#{pdf_link}</nav>)
-  html = html.sub(/(<body[^>]*>)/, "\1\n#{nav}")
+  html = html.sub(/<body[^>]*>/) { |tag| "#{tag}\n#{nav}" }
   write.call("#{id}/index.html", html)
   cards << %(<article class="card" data-stage="#{escape.call(entry['stage'])}"><p class="level">#{escape.call(entry['level'])}</p><h3><a href="#{id}/index.html">#{escape.call(entry['title'])}</a></h3><p class="card-action"><a href="#{id}/index.html">Consultar programación <span aria-hidden="true">→</span></a></p>#{pdf_link.gsub('../descargas/', 'descargas/')}</article>)
 end
