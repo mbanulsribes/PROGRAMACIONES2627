@@ -50,3 +50,9 @@ La paginación varía con el contenido y el motor Asciidoctor. Las anotaciones d
 Verificados los hashes SHA-256 de los cuatro originales y la reconstrucción exacta de los cuerpos de AO y ASO a partir de capítulos y anexos. HTML compilado sin advertencias de Asciidoctor; comprobadas las rutas locales de imágenes y CSS. Probado el generador de módulos sobre una copia de trabajo. PDF generado con sumario, enlaces y fuentes incrustadas. La pequeña extensión `scripts/pdf-cover.rb` aplica exclusivamente al panel de portada su fondo gris.
 
 No se ha podido renderizar el DOCX de referencia porque el entorno no incluye LibreOffice; la adaptación se apoya en el XML de estilos, dimensiones, contenido e imágenes del DOCX. Se han inspeccionado visualmente las portadas, el sumario y una página de tablas del PDF; no se certifica identidad página a página con Word. La numeración incluye la portada, aunque su encabezado y pie están ocultos. El HTML conserva el estilo y sumario navegable; el encabezado y pie repetidos con número de página corresponden al PDF.
+
+== Preparación para GitHub Pages
+
+Las materias añadidas posteriormente se reubican sin modificar su contenido: `trdr_1eso/` → `src/eso/trdr-1eso/`; `Programacion_PIAR_I_2ESO_2026-2027.adoc` → `src/eso/piar-i/programacion.adoc`; `Programacion_PIAR_II_3ESO_2026_2027.adoc` → `src/eso/piar-ii/programacion.adoc`. Los includes relativos de TRDR siguen funcionando porque se traslada la carpeta completa. Los hashes del manifiesto de migración a Pages se han verificado después del traslado.
+
+`site/catalogo.json` reúne las cinco programaciones. `build-site.ps1` genera `docs/`, preparada para publicar desde `main` → `/docs`. Se han validado las seis páginas HTML, todos los enlaces locales y sus anclas, y se ha comprobado la portada y PIAR I en un navegador con ancho de móvil. La publicación en GitHub sigue pendiente; no se ha hecho push ni modificado la configuración remota.

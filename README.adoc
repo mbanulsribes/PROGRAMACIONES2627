@@ -1,31 +1,81 @@
 = Programaciones didácticas 2026–2027
 
-== Editar y compilar
+IES Font de Sant Lluís · Departamento de Informática.
 
-Edite los datos en `src/atributos/ao.adoc` o `src/atributos/aso.adoc` y el contenido en `src/capitulos/ao/` o `src/capitulos/aso/`. El maestro es `src/programacion.adoc`; las composiciones independientes están en `src/modulos/`. Los anexos de ASO están en `src/anexos/aso/`.
+== Web y GitHub Pages
 
-Desde PowerShell, en esta carpeta:
+La web publicable está en `docs/index.html`. Incluye TRDR de 1.º ESO, PIAR I de 2.º ESO, PIAR II de 3.º ESO, Aplicaciones Ofimáticas de 1.º SMR y Administración de Sistemas Operativos de 2.º ASIR.
+
+Para verla localmente, abra `docs/index.html` en el navegador. Todos los enlaces son relativos y funcionan también bajo la ruta `/PROGRAMACIONES2627/` de GitHub Pages.
+
+Para publicarla después de subir los cambios al repositorio:
+
+. Abra Settings → Pages en GitHub.
+. En Build and deployment, seleccione Deploy from a branch.
+. Seleccione la rama `main` y la carpeta `/docs`, y pulse Save.
+. Espere al despliegue de GitHub Pages. La dirección prevista es https://mbanulsribes.github.io/PROGRAMACIONES2627/.
+
+Esta reorganización no ha subido cambios ni activado Pages. Guía oficial: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site[Configurar el origen de publicación].
+
+== Editar y actualizar la web
+
+[cols="1,2",options="header"]
+|===
+|Programación |Fuente
+|TRDR · 1.º ESO |`src/eso/trdr-1eso/index.adoc` y los capítulos de esa carpeta
+|PIAR I · 2.º ESO |`src/eso/piar-i/programacion.adoc`
+|PIAR II · 3.º ESO |`src/eso/piar-ii/programacion.adoc`
+|AO · 1.º SMR |`src/atributos/ao.adoc`, `src/capitulos/ao/` y `src/modulos/ao.adoc`
+|ASO · 2.º ASIR |`src/atributos/aso.adoc`, `src/capitulos/aso/`, `src/anexos/aso/` y `src/modulos/aso.adoc`
+|===
+
+Después de editar las fuentes:
 
 [source,powershell]
 ----
-./build.ps1                            # HTML y PDF de todos los módulos
-./build.ps1 -Modulo ao -Formato html
-./build-pdf.ps1 -Modulo aso
-./new-module.ps1 -Id nuevo
+./build-site.ps1
 ----
 
-El nuevo módulo utiliza la plantilla vacía `templates/modulo/`. Complete sus atributos y capítulos y ejecute `./build.ps1 -Modulo nuevo`. No copie los contenidos de otro módulo para crear una programación vacía.
+Este comando compila las cinco programaciones, crea el índice y copia únicamente las imágenes, estilos y PDF disponibles. Detiene la generación si Asciidoctor detecta advertencias. Suba las fuentes modificadas y la carpeta `docs` regenerada; GitHub Pages publica esa carpeta, no compila los AsciiDoc automáticamente. No edite los HTML generados a mano.
 
-Los resultados se guardan en `output/html/` y `output/pdf/`. El HTML depende de `theme/` y `assets/`: conserve la estructura al compartirlo. Para un documento independiente, comparta el PDF.
+El catálogo está en `site/catalogo.json`. Para incorporar otra programación, añada una entrada con identificador único, título, nivel, etapa y ruta de su documento maestro. Los estilos de pantalla están en `site/site.css` y `site/document.css`.
 
-== Compilador
+== PDF y plantilla de Formación Profesional
 
-Se incluye en `.tools/` un compilador local JRuby 9.4.12.1, Asciidoctor 2.0.26 y Asciidoctor PDF 2.3.27, que usa Java instalado en este equipo. No requiere instalación global. Alternativamente, con Ruby instalado, ejecute `gem install asciidoctor asciidoctor-pdf`; los scripts dan prioridad a estos comandos si están disponibles.
+[source,powershell]
+----
+./build.ps1                         # HTML y PDF de los módulos de FP
+./build-pdf.ps1 -Modulo ao
+./build-pdf.ps1 -Modulo aso
+./new-module.ps1 -Id nuevo
+./build-site.ps1                    # Actualiza la web después de compilar
+----
 
-El tema PDF está en `theme/font-programacion-theme.yml`; los estilos HTML en `theme/programacion.css`. La portada compartida está en `templates/portada.adoc`. Las fuentes de Windows se guardan localmente en `assets/fonts/` y no deben redistribuirse sin la licencia correspondiente. `.tools/`, fuentes y archivos generados quedan excluidos de Git.
+Los scripts `build.ps1` y `build-pdf.ps1` trabajan con los módulos de FP de `src/modulos/`. Las tres materias de ESO se compilan a HTML mediante `build-site.ps1`. El sitio ofrece descargas de los PDF de AO y ASO cuando existen en `output/pdf/`, con la fecha de generación indicada. Si cambia una programación de FP, regenere su PDF antes de la web para mantener ambas versiones sincronizadas. No se han generado PDF nuevos para ESO.
 
-== Conservación y referencia
+La plantilla vacía está en `templates/modulo/`; la portada compartida, en `templates/portada.adoc`; el tema PDF, en `theme/font-programacion-theme.yml`. `scripts/pdf-cover.rb` aplica el panel gris de portada. Las fuentes de Windows están en `assets/fonts/` y no se publican en la web.
 
-`archivo/originales/` conserva los cuatro archivos iniciales sin cambios. `archivo/manifiesto-originales.json` registra sus hashes. El DOCX con sus anotaciones se conserva en `referencias/`; sus tres imágenes se han extraído a `assets/images/`. Consulte `MIGRACION.adoc` para el mapa completo de apartados y las decisiones de organización.
+== Estructura
 
-La estructura tiene 13 apartados principales; objetivos generales se integra como subapartado de estándares sin cambiar su texto. Los dos apartados adicionales de ASO se incluyen al final desde anexos. Se conservan todas las advertencias de validación y el contenido didáctico; esta reorganización no constituye una revisión normativa.
+[source,text]
+----
+src/          Fuentes AsciiDoc de ESO y FP
+site/         Catálogo y estilos de la web
+scripts/      Generadores y extensión de portada PDF
+templates/    Plantilla reutilizable de FP
+assets/       Imágenes y fuentes locales
+theme/        Estilo institucional y tema PDF
+docs/         Web lista para GitHub Pages; incluir en Git
+output/       Compilaciones e intermedios locales; excluido de Git
+archivo/      Originales conservados y manifiestos de integridad
+referencias/  DOCX original de referencia
+.tools/       Compilador local; excluido de Git
+----
+
+`docs/.nojekyll` permite servir la web estática sin transformación de Jekyll. `docs/.generated-files.json` registra los archivos administrados por el generador; no lo edite. No se copian a la web el DOCX, los originales históricos, las fuentes de Windows ni el compilador.
+
+== Requisitos y conservación
+
+En este equipo `build-site.ps1` puede usar el compilador local JRuby con Java. Alternativamente, instale Ruby y Asciidoctor (`gem install asciidoctor`). Para PDF se necesita también `asciidoctor-pdf`. Versiones comprobadas: Asciidoctor 2.0.26 y Asciidoctor PDF 2.3.27.
+
+Los originales iniciales permanecen en `archivo/originales/`, verificados mediante SHA-256. Las fuentes de ESO se han reubicado sin cambiar sus bytes; el manifiesto `archivo/manifiesto-migracion-pages.json` registra sus rutas previas y hashes. Consulte `MIGRACION.adoc` para las decisiones de la reorganización inicial. Los avisos de revisión y los acuerdos pendientes se conservan en las programaciones.
