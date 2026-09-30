@@ -1,0 +1,40 @@
+== Metodología del proceso de enseñanza y aprendizaje
+
+=== Enfoque y principios metodológicos
+
+Se adopta una metodología práctica basada en problemas profesionales de dificultad progresiva. La profesora explica y modela las decisiones esenciales, el alumnado ensaya con apoyos y posteriormente resuelve una variante. El objetivo es poder repetir el procedimiento, justificarlo y reconocer cuándo el resultado es incorrecto.
+
+Cada tema mantiene una secuencia reconocible:
+
+. *Incidencia inicial:* comprender qué necesita el usuario y qué producto debe obtenerse.
+. *Rescate guiado:* observar una demostración breve, verbalizando las decisiones.
+. *Lo que necesitas saber:* organizar conceptos y consultar ejemplos y documentación.
+. *Ahora tú:* practicar con instrucciones, modelos y retroalimentación.
+. *Nueva incidencia:* aplicar lo aprendido a datos o condiciones diferentes.
+. *Ticket cerrado:* realizar una evaluable individual y verificar la entrega.
+. *Devolución:* identificar el CE conseguido, el error y la siguiente acción de mejora.
+
+La práctica en parejas y la ayuda entre iguales se emplean para aprender. Las evaluables permiten identificar la competencia de cada estudiante. Se reduce gradualmente el apoyo y se ofrecen ampliaciones cuando el alumnado alcanza antes el objetivo previsto.
+
+=== Organización de la sesión y papel de los participantes
+
+Al comenzar se proyecta una agenda breve con el objetivo, las fases y el producto final. Se comprueba el material de partida y se hace una demostración acotada. El bloque principal se dedica a trabajar y recibir ayuda; al final se reservan unos minutos para guardar, verificar y registrar la siguiente tarea.
+
+La profesora prepara los archivos y equipos, hace visibles los criterios, modela estrategias, observa procesos y ofrece feedback. El alumnado conserva originales, realiza pruebas, consulta fuentes, solicita ayuda describiendo el problema y comprueba los archivos entregados. Un error durante la práctica es información para aprender, no una penalización automática.
+
+=== Vídeos como evidencia del aprendizaje
+
+Algunas evaluables solicitarán una grabación breve, habitualmente de 3–5 minutos, que muestre las acciones decisivas y explique su propósito. Se utilizará SimpleScreenRecorder en los equipos donde está disponible. No se exige mostrar el rostro ni editar una producción audiovisual, excepto cuando la edición sea objeto de la UP8.
+
+El vídeo complementa el archivo editable y la observación: debe mostrar una operación, una modificación y la comprobación del resultado. No basta con recorrer pantallas del producto final. Se podrá pedir una reproducción breve en clase o una explicación individual. La grabación no se considera por sí sola una garantía de autoría.
+
+Cuando una barrera de comunicación, acceso o equipamiento lo aconseje, se acordará una demostración presencial, vídeo sin voz con explicación escrita, capturas secuenciadas u otra evidencia equivalente. La alternativa deberá permitir valorar los mismos CE. La ausencia de micrófono personal no limitará la evaluación.
+
+=== Uso educativo de inteligencia artificial
+
+La prioridad es construir autonomía. Primero se realiza un intento propio; después, cuando esté autorizado, la IA puede servir para aclarar un concepto, ofrecer un ejemplo similar, revisar la claridad de un texto ficticio o ayudar a interpretar un error. Toda respuesta se contrasta mediante la aplicación, los datos y documentación fiable.
+
+Cada evaluable indicará si no se permite IA, si se permite solo para acciones concretas o si el análisis crítico de una respuesta forma parte de la tarea. En la E01 no se permite IA, tampoco para el guion del vídeo. No se presupone que autorizar IA en una práctica la autorice en la evaluable.
+
+Si se utiliza, se declararán herramienta, finalidad, consulta relevante, aportación incorporada y comprobación realizada. No se introducirán datos personales, credenciales, grabaciones del alumnado ni información de empresas. No se exige crear cuentas privadas de pago. La sospecha de uso indebido se contrasta con evidencias y comprobación individual; un detector de IA no decide por sí solo una calificación.
+

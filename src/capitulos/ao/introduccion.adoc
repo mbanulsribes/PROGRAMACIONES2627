@@ -1,0 +1,11 @@
+*IES Font de Sant Lluís · Departamento de Informática* +
+*Ciclo formativo de grado medio de Sistemas Microinformáticos y Redes* +
+*Módulo 0223 · Primer curso · Curso académico 2026–2027*
+
+Esta programación organiza la enseñanza, las actividades y la evaluación del módulo Aplicaciones Ofimáticas. Se elabora a partir de la plantilla del departamento aportada por la profesora y de los materiales del curso, cuyo hilo conductor es la resolución de incidencias en la empresa ficticia CAOS, S.L.
+
+[IMPORTANT]
+====
+*Documento de trabajo para validación del departamento.* La estructura y el desarrollo didáctico están completos. Antes de su aprobación deben incorporarse el reparto de horas y resultados de aprendizaje en empresa, el calendario efectivo del centro y los acuerdos del PCCF sobre evaluación. Las ponderaciones y reglas operativas de calificación que se presentan se identifican como *propuesta*, puesto que no se ha aportado el PCCF aprobado. No sustituyen retroactivamente los criterios ya comunicados al alumnado.
+====
+

@@ -1,0 +1,18 @@
+== Evaluación de la programación y de la práctica docente
+
+Al cierre de cada unidad se revisarán ejecución del calendario, dificultades y disponibilidad del laboratorio. En cada evaluación se elaborará un balance por RA, con medidas y fecha de seguimiento.
+
+[cols="2,2,2",options="header"]
+|===
+|Indicador |Procedimiento |Decisión asociada
+|Cobertura de criterios |CE con evidencia válida frente al total planificado |Reprogramar criterios no observados.
+|Progreso individual |Rúbricas y recuperaciones por RA |Ajustar apoyos y complejidad.
+|Viabilidad temporal |Horas previstas y reales por UP |Reducir repetición y coordinar evidencias sin eliminar CE.
+|Acceso a recursos |Sesiones bloqueadas y alternativas realizadas |Priorizar laboratorio local y elevar incidencias de acceso.
+|Comprensión de consignas |Preguntas de salida y errores recurrentes |Reescribir ejemplos y fragmentar procedimientos.
+|Adecuación de evaluación |Revisión de rúbricas y correspondencia con CE |Corregir instrumentos antes de nuevas actividades.
+|Práctica docente |Autoevaluación, observación y encuesta breve al alumnado |Registrar mejoras concretas para la siguiente unidad.
+|===
+
+Las modificaciones relevantes se anotarán en el registro inicial, se coordinarán con el departamento y se comunicarán cuando afecten al alumnado. No se cambiarán retroactivamente los criterios de calificación.
+

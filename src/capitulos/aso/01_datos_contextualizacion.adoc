@@ -1,0 +1,40 @@
+== Datos identificativos, marco normativo y contextualización
+
+=== Datos identificativos
+
+[cols="1,3",options="header"]
+|===
+|Dato |Valor
+|Familia profesional |Informática y Comunicaciones.
+|Título |Técnico Superior en Administración de Sistemas Informáticos en Red.
+|Módulo y código |Administración de Sistemas Operativos, 0374.
+|Créditos ECTS de referencia |8, según el título estatal.
+|Centro y localidad |IES Font, València capital. Denominación administrativa y código de centro: PENDIENTES DE VALIDACIÓN.
+|Curso y modalidad |2.º ASIR, presencial, 2026-2027.
+|Horario comunicado |Lunes y martes, dos horas cada día: cuatro horas semanales.
+|Carga anual |133 horas; cuatro horas semanales en segundo curso, según el anexo II del Decreto 114/2025 (página 72). Reparto centro-empresa pendiente del plan aprobado.
+|Grupo |Número de estudiantes, características de acceso y necesidades específicas: completar tras evaluación inicial.
+|Docente |María Bañuls Ribes.
+|Canales |Aules para avisos, tareas y calificaciones; web de ASO para teoría y prácticas.
+|===
+
+=== Marco normativo
+
+El marco general del centro se remite al PCCF. Para este módulo se consideran las siguientes referencias, que deberán contrastarse con sus textos vigentes y las instrucciones autonómicas de 2026-2027 antes de la aprobación:
+
+* https://www.boe.es/buscar/doc.php?id=BOE-A-2009-18355[Real Decreto 1629/2009, de 30 de octubre]: título de ASIR, módulo 0374, resultados de aprendizaje, criterios y orientaciones pedagógicas.
+* https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10685[Real Decreto 500/2024, de 21 de mayo]: modificación de títulos de grado superior en el nuevo marco de FP.
+* https://www.boe.es/eli/es/lo/2022/03/31/3/con[Ley Orgánica 3/2022, de ordenación e integración de la Formación Profesional].
+* https://www.boe.es/eli/es/rd/2023/07/18/659/con[Real Decreto 659/2023, de ordenación del Sistema de Formación Profesional].
+* https://dogv.gva.es/datos/2025/08/04/pdf/2025_29742_va.pdf[Decreto 114/2025, de 29 de julio, del Consell] (DOGV 10165, 04/08/2025): currículo autonómico en el nuevo sistema de FP. Artículo 3: referencia de RA y criterios; artículo 7: formación en empresa; artículo 9: estructura de la programación; anexo II, página 72: ASO, código 0374, segundo curso, cuatro horas semanales y 133 horas.
+
+La Orden 36/2012, de 22 de junio, queda como antecedente histórico: la disposición derogatoria primera, apartado 56, del Decreto 114/2025 la deroga expresamente. Las disposiciones transitorias mantienen el régimen anterior para los planes en extinción en los términos allí previstos; no se utiliza como base horaria del grupo ordinario de 2026-2027.
+
+Conforme al artículo 3.2 del Decreto 114/2025, los RA y criterios se remiten al real decreto del título, con las concreciones que correspondan. La estructura de esta programación se alinea con el artículo 9. El reparto de las 133 horas entre unidades es una propuesta docente, no una distribución impuesta por el decreto. Queda por contrastar el calendario y las instrucciones específicas de 2026-2027, junto con los acuerdos del PCCF.
+
+=== Contextualización del módulo
+
+El grupo trabaja presencialmente en un aula de informática con LliureX 21. Se dispone de VirtualBox para las primeras instalaciones de Ubuntu Server. Se parte de conocimientos de primer curso sobre sistemas, redes y hardware, que se comprobarán mediante una actividad inicial de inventario y una ficha de planificación de VM.
+
+La VLAN del aula ha dificultado el acceso SSH y web al servidor del departamento. No se da por resuelta esa incidencia. Las prácticas se realizarán localmente cuando sea posible y migrarán al servidor cuando se confirme la disponibilidad. La contextualización general del centro corresponde al PCCF.
+

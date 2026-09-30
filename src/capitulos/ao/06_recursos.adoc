@@ -1,0 +1,23 @@
+== Recursos
+
+=== Recursos didácticos y materiales
+
+* Web del módulo: https://mbanulsribes.github.io/AO/[Aplicaciones Ofimáticas]. Publicación progresiva de teoría, prácticas y archivos de CAOS, S.L.
+* Aules: https://aules.edu.gva.es/fp/course/view.php?id=223597[Curso de AO]. Enunciados, criterios, fechas, entrega, comentarios y calificaciones.
+* Guía del alumnado, fichas de consulta, instrucciones paso a paso, ejemplos terminados y rúbricas por CE.
+* Materiales sintéticos: documentos, datos de clientes, presupuestos, imágenes, mensajes y tickets, sin datos reales de terceros.
+* LliureX 23; LibreOffice Writer, Calc, Base e Impress; gestor de archivos y compresor; navegador; SimpleScreenRecorder; editores de imagen y vídeo disponibles y autorizados.
+* Equipos de pruebas para instalación, componentes y actualización; proyector; auriculares y micrófono de préstamo; escáner o cámara y dispositivo móvil del centro para los CE que exigen adquisición o sincronización.
+
+Antes de cada unidad se verificará que el software abre los archivos, que las dependencias de Base funcionan y que los permisos permiten la práctica prevista. Si falta un recurso necesario, se programará acceso por turnos o a un equipo alternativo del centro; una explicación teórica no sustituye un CE de ejecución.
+
+=== Bibliografía y referencias de consulta
+
+* https://help.libreoffice.org/latest/es/[Ayuda oficial de LibreOffice], seleccionando la versión y las funciones disponibles en el aula.
+* https://documentation.libreoffice.org/es/documentacion-en-espanol/[Documentación de LibreOffice en español], guías de Writer, Calc, Base e Impress.
+* https://portal.edu.gva.es/lliurex/[Portal oficial de LliureX], documentación y recursos del entorno educativo.
+* https://www.maartenbaert.be/simplescreenrecorder/[Documentación de SimpleScreenRecorder].
+* Normativa y fuentes curriculares enlazadas en el apartado de marco normativo.
+
+Las referencias complementan los materiales propios; no se exige adquirir un manual comercial. La profesora revisará que los ejemplos coincidan con la interfaz instalada.
+

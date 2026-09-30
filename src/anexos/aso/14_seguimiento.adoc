@@ -1,0 +1,9 @@
+== Registro de seguimiento propuesto
+
+[cols="1,1,2,2,2,1",options="header"]
+|===
+|Fecha |RA/CE |Actividad |Evidencia individual |Estado y medida |Revisión
+|Por completar |Por completar |Por completar |Archivo, observación o prueba |Logrado / en progreso / pendiente de ejecución |Fecha
+|===
+
+Conservar este registro en el entorno docente autorizado. Una práctica resuelta mediante Plan B debe indicar qué parte se analizó y qué parte queda pendiente de ejecutar.

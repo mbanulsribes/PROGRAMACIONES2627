@@ -1,0 +1,92 @@
+== Referentes curriculares
+
+=== Competencias específicas
+
+La materia se articula en cuatro competencias específicas (CE):
+
+* *CE1.* Utilizar dispositivos digitales de uso personal en el entorno doméstico y educativo de manera saludable, segura y sostenible.
+* *CE2.* Buscar y seleccionar críticamente información digital de distintas fuentes, interpretarla, organizarla en el entorno personal de aprendizaje y crear contenidos digitales.
+* *CE3.* Construir una identidad digital adecuada y aplicar estrategias básicas para cuidarla y protegerla.
+* *CE4.* Mostrar hábitos básicos que fomenten el bienestar en las relaciones a través de entornos digitales.
+
+=== Contribución a las competencias clave
+
+Las cuatro competencias específicas contribuyen de forma directa a la competencia digital. Asimismo, el currículo establece conexiones con la competencia en comunicación lingüística, la competencia plurilingüe, la competencia matemática y competencia en ciencia, tecnología e ingeniería, la competencia personal, social y de aprender a aprender, la competencia ciudadana y la competencia en conciencia y expresión culturales, según la naturaleza de cada competencia específica.
+
+=== Criterios de evaluación de 1.º ESO
+
+==== CE1. Dispositivos digitales
+
+* *1.1.* Identificar características básicas de los dispositivos digitales de uso personal en el entorno doméstico y educativo.
+* *1.2.* Determinar qué dispositivo y modo de acceso a Internet es el más adecuado a las necesidades.
+* *1.3.* Conectar dispositivos digitales a Internet de manera segura.
+* *1.4.* Reconocer las implicaciones del uso y consumo de tecnología sobre la salud y el medio ambiente.
+* *1.5.* Mostrar hábitos básicos de seguridad para proteger los dispositivos.
+
+==== CE2. Información y contenidos digitales
+
+* *2.1.* Buscar, seleccionar e interpretar información en función de las necesidades a partir de diversas fuentes con sentido crítico, contrastando su veracidad.
+* *2.2.* Reconocer la importancia de las noticias falsas en la desinformación de la sociedad.
+* *2.3.* Detectar los discursos de odio y reconocer sus implicaciones en el desarrollo de la sociedad.
+* *2.4.* Identificar y describir las estrategias subyacentes a la difusión y al consumo de contenido en línea.
+* *2.5.* Organizar y gestionar el entorno personal de aprendizaje mediante la integración de recursos digitales.
+* *2.6.* Crear, integrar y editar contenidos digitales con sentido estético de manera creativa y respetando los derechos de autoría.
+
+==== CE3. Identidad digital
+
+* *3.1.* Identificar y valorar diferentes formas de representar la identidad en Internet y la huella digital que dejan.
+* *3.2.* Gestionar adecuadamente el autoconcepto y la percepción externa a través de la imagen personal en entornos digitales.
+* *3.3.* Reconocer las implicaciones de la publicación de datos personales en la red.
+* *3.4.* Adoptar conductas básicas que protejan la identidad digital y los datos personales.
+
+==== CE4. Relaciones y bienestar digital
+
+* *4.1.* Analizar el funcionamiento de plataformas de interacción social y juego en red.
+* *4.2.* Adoptar conductas básicas que fomenten relaciones personales respetuosas y enriquecedoras.
+* *4.3.* Comprender y aprovechar las ventajas de las interacciones en entorno digital.
+* *4.4.* Identificar y saber reaccionar de manera básica ante situaciones que representen comportamientos abusivos o amenazas a través de dispositivos digitales valorando el bienestar personal y colectivo.
+* *4.5.* Tomar medidas básicas de prevención ante el uso continuado de dispositivos digitales.
+* *4.6.* Mostrar empatía hacia los miembros del grupo reconociendo sus aportaciones y estableciendo un diálogo igualitario e inclusivo para resolver conflictos y discrepancias.
+
+=== Saberes básicos
+
+==== Bloque 1. Dispositivos digitales e Internet — CE1
+
+* Ordenador personal, dispositivos móviles y otros dispositivos de uso doméstico y educativo.
+* Funcionamiento básico y características más importantes de los dispositivos digitales.
+* Sistemas operativos comunes y aplicaciones.
+* Redes de dispositivos. Fundamentos y modos de acceso a Internet.
+* Brecha digital.
+* Hábitos básicos de seguridad para proteger los dispositivos.
+* Implicaciones del uso de los dispositivos digitales para la salud, la sostenibilidad y el medio ambiente. Obsolescencia.
+
+==== Bloque 2. Búsqueda, selección, organización y creación de contenidos digitales — CE2
+
+* Buscadores web y herramientas de filtrado.
+* Selección de información mediante buscadores y contraste de su veracidad.
+* Lectura e interpretación de información de medios digitales.
+* Propiedad intelectual y derechos de autoría.
+* Detección de noticias falsas, bulos y discursos de odio y sus implicaciones sociales.
+* Organización de la información y operaciones básicas con archivos y carpetas.
+* Personalización del entorno de trabajo.
+* Creación básica de contenidos con herramientas digitales.
+* Estética y lenguaje audiovisual.
+
+==== Bloque 3. Identidad digital — CE3
+
+* Identidad personal en Internet. Alias y avatares.
+* Autoconcepto y percepción externa de la identidad digital.
+* Referencias socioculturales en la construcción de la identidad digital. Personas influyentes.
+* Exposición personal en la red y huella digital.
+* Conductas y hábitos para cuidar la identidad digital.
+* Privacidad en la red y protección de datos de carácter personal. Información y consentimiento.
+
+==== Bloque 4. Relaciones en entorno digital — CE4
+
+* Amistad virtual y física.
+* Entornos digitales de intercambio social y juegos en línea.
+* Estrategias para una ciberconvivencia igualitaria, segura y saludable. Etiqueta digital.
+* Prevención, identificación y respuesta básica ante conductas abusivas o amenazas en entornos digitales.
+* Bienestar personal y colectivo en las interacciones digitales.
+* Prevención ante el uso continuado de dispositivos y equilibrio entre actividades digitales y no digitales.
+* Empatía, diálogo igualitario e inclusivo y resolución de conflictos en entornos digitales.

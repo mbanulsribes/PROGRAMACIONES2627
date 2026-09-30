@@ -1,0 +1,27 @@
+== Esquema general y secuenciación
+
+La secuenciación se organiza de septiembre a junio y se ajustará al calendario escolar efectivo, actividades del centro, ritmo del grupo e incidencias. Las fechas son orientativas y prevalece la adquisición progresiva de las competencias sobre el cumplimiento rígido de una distribución semanal.
+
+[cols="1,3,1,2",options="header"]
+|===
+|UD |Título |Periodo |CE principales
+|UD0 |Empezamos con Teams y OneNote |Septiembre |CE2
+|UD1 |Mi ordenador y mis archivos |Septiembre-Octubre |CE1, CE2
+|UD2 |Internet y la Web |Octubre |CE1
+|UD3 |Seguridad digital |Noviembre |CE1, CE3
+|UD4 |Buscar información |Noviembre-Diciembre |CE2
+|Especial |Algoritmos, Scratch y preparación/visita a la UPV |Diciembre |CE2
+|UD5 |Buscar mejor en Internet |Enero |CE2
+|UD6 |¿Verdad o mentira? |Enero-Febrero |CE2, CE4
+|UD7 |Crear contenidos digitales |Febrero-Marzo |CE2
+|UD8 |Mi identidad y mi huella digital |Abril |CE3
+|UD9 |Redes sociales y convivencia digital |Abril-Mayo |CE3, CE4
+|UD10 |Bienestar digital |Mayo |CE1, CE4
+|UD11 |Mi vida digital |Junio |CE1, CE2, CE3, CE4
+|===
+
+=== Distribución por evaluaciones
+
+* *Primera evaluación:* UD0, UD1, UD2, UD3, UD4 y experiencia Scratch/UPV.
+* *Segunda evaluación:* UD5, UD6 y UD7.
+* *Tercera evaluación:* UD8, UD9, UD10 y UD11.

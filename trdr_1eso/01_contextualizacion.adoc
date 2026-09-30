@@ -1,0 +1,26 @@
+== Propuestas de mejora y contextualización
+
+=== Propuestas de mejora y modificaciones
+
+Al tratarse de la programación elaborada para el curso 2026-2027, se adopta una organización orientada a facilitar el trabajo autónomo del alumnado de 1.º ESO y a reducir la dispersión derivada del uso simultáneo de múltiples herramientas. Se centraliza el trabajo en Microsoft Teams y OneNote Class Notebook, que funcionará como libreta digital individual del alumnado.
+
+[cols="1,3",options="header"]
+|===
+|Fecha |Modificación o decisión metodológica
+|Septiembre 2026 |Centralización de materiales y trabajo del alumnado en Teams y OneNote.
+|Septiembre 2026 |Incorporación de una rutina estable de inicio y final de sesión.
+|Septiembre 2026 |Uso de TypingClub como actividad de ampliación para el alumnado que haya completado y revisado el trabajo pendiente.
+|Septiembre 2026 |Organización de los contenidos en unidades breves y eminentemente prácticas.
+|===
+
+=== Contextualización de la materia
+
+El Taller de Relaciones Digitales Responsables es una materia de 1.º de ESO orientada al desarrollo de un uso seguro, crítico, saludable, sostenible y responsable de la tecnología. La programación parte de situaciones próximas al alumnado: uso de dispositivos, navegación web, búsqueda de información, creación de contenidos, identidad y huella digital, privacidad, redes sociales, convivencia y bienestar digital.
+
+La intervención didáctica tiene en cuenta la heterogeneidad propia de 1.º ESO en competencia digital. Por ello, se priorizan instrucciones breves y explícitas, modelado inicial, actividades graduadas, práctica reiterada y un entorno digital estable.
+
+=== Marco normativo
+
+La programación se fundamenta en la normativa estatal y autonómica vigente aplicable a la Educación Secundaria Obligatoria y, específicamente, en el currículo oficial de la materia Taller de Relaciones Digitales Responsables de la Generalitat Valenciana. Se consideran, entre otras, la Ley Orgánica 2/2006, modificada por la Ley Orgánica 3/2020; el Real Decreto 217/2022, de ordenación y enseñanzas mínimas de ESO; el Decreto 107/2022, del Consell, por el que se establece la ordenación y el currículo de ESO en la Comunitat Valenciana, así como la normativa vigente de inclusión educativa y las instrucciones de organización del curso 2026-2027.
+
+La contextualización general del centro y los aspectos comunes se entienden desarrollados en los documentos institucionales correspondientes.

@@ -1,0 +1,21 @@
+== Recursos didácticos y referencias
+
+=== Recursos físicos y lógicos
+
+Ordenadores de aula con LliureX 21, VirtualBox, Ubuntu Server desde ISO oficial, terminal, editor, proyector y almacenamiento para evidencias. Servidor departamental con acceso condicionado a red, cuentas y permisos. Para RA6 y RA7.g se necesita además un entorno propietario autorizado: su disponibilidad y licencias deberán confirmarse antes de esas unidades.
+
+Herramientas previstas: Bash, PowerShell, systemd, utilidades de procesos, planificadores de tareas en terminal y gráficos, Docker/Compose, SSH, herramientas de directorio, CUPS y Samba. Versiones y recursos se comprobarán antes de cada práctica; no se fija una versión de Ubuntu diferente de la ISO realmente utilizada.
+
+=== Materiales y bibliografía
+
+* https://mbanulsribes.github.io/ASO/[Web del módulo], mantenida en AsciiDoc; publicación gradual de unidades.
+* Aules: enunciados, rúbricas, comunicaciones, entregas y calificaciones.
+* Archivo ASO CEED.zip: referencia de teoría y ejercicios, adaptada a presencial. Conservar autoría y licencia de cada recurso reutilizado; los solucionarios docentes no se publican como material del alumnado.
+* https://documentation.ubuntu.com/server/[Documentación de Ubuntu Server].
+* https://www.virtualbox.org/manual/[Manual de VirtualBox].
+* https://www.gnu.org/software/bash/manual/[Manual de Bash].
+* https://learn.microsoft.com/powershell/[Documentación de PowerShell].
+* https://docs.docker.com/[Documentación de Docker y Compose].
+* https://www.samba.org/samba/docs/[Documentación de Samba].
+* https://openprinting.github.io/cups/[Documentación de CUPS].
+

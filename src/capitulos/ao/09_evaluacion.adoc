@@ -1,0 +1,545 @@
+== Evaluación del aprendizaje
+
+=== Principios de la evaluación
+
+La evaluación es continua, práctica y referida a los RA y CE. La evaluación inicial orienta la intervención y no aporta nota. Las prácticas habituales proporcionan feedback. *La calificación se obtiene de las actividades evaluables*, incluidas las pruebas prácticas y demostraciones identificadas como tales, con criterios comunicados previamente.
+
+La asistencia, el comportamiento o la mera acumulación de ejercicios no tienen un porcentaje separado. Cuando una conducta constituye un desempeño curricular observable —por ejemplo, salvaguardar archivos o elaborar un informe de incidencia— se valora mediante su CE. Se informará al alumnado de los instrumentos, condiciones y procedimientos de revisión.
+
+=== Instrumentos de evaluación
+
+[cols="1,3,5",options="header"]
+|===
+|Código |Instrumento |Qué aporta
+|P
+|Prueba práctica individual o desempeño observado
+|Ejecución de operaciones, modificación de datos, diagnóstico y pruebas de funcionamiento.
+|A
+|Análisis del producto entregado
+|Archivo editable, estructura, fórmulas, relaciones, formato y resultados comprobables.
+|L
+|Lista de cotejo del procedimiento
+|Registro de instalación, captura, configuración, sincronización, proyección y seguridad de la información.
+|D
+|Demostración y explicación individual
+|Vídeo cuando se solicite o alternativa accesible; comprobación de decisiones y capacidad de repetir una operación.
+|I
+|Informe, manual o guía
+|Documentación de incidencias, instrucciones al usuario y justificación de decisiones.
+|===
+
+Una misma evaluable puede utilizar varios instrumentos sobre un CE. No se asigna una nota independiente al vídeo por su existencia: se usa para observar el criterio correspondiente. La observación diaria solo se incorpora a la calificación cuando corresponde a una actividad evaluable anunciada y queda registrada.
+
+=== Distribución de la evaluación por resultados de aprendizaje
+
+*Propuesta de ponderación para aprobación por el departamento.* La distribución prioriza producción documental y cálculo, manteniendo peso propio para todos los RA. No constituye una ponderación impuesta por la normativa.
+
+[cols="1,2,5",options="header"]
+|===
+|RA |Peso propuesto en el módulo |Evaluables principales
+|RA1
+|8 %
+|UP 1 y 11
+|RA2
+|20 %
+|UP 2 y 3
+|RA3
+|22 %
+|UP 4 y 5
+|RA4
+|12 %
+|UP 6
+|RA5
+|8 %
+|UP 7
+|RA6
+|8 %
+|UP 8
+|RA7
+|8 %
+|UP 9
+|RA8
+|6 %
+|UP 10
+|RA9
+|8 %
+|UP 1, 3 y 11; aplicación transversal
+|TOTAL
+|100 %
+|
+|===
+
+[[matriz-ce]]
+=== Matriz de criterios de evaluación y evidencias
+
+La tabla incluye los *62 CE*. Su descripción es una síntesis fiel para facilitar el registro; la formulación normativa completa se consulta en el anexo I del Real Decreto 1691/2007. Las letras se mantienen. Se propone igual peso para los CE dentro de cada RA: la expresión *100/n %* representa una fracción exacta, evitando errores de redondeo.
+
+E01–E11 identifican las evaluables de las UP1–UP11. Cuando hay varias tareas para un CE, la primera sirve para obtener evidencia y las posteriores para ampliarla o actualizarla, según la regla de calificación siguiente. Los instrumentos se definen en la tabla anterior.
+
+==== RA1 · 8 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|1.a
+|Identificar y establecer fases de instalación
+|100/9 %
+|E01/E11
+|P, L, I
+|1.b
+|Respetar las especificaciones técnicas de instalación
+|100/9 %
+|E01/E11
+|P, L
+|1.c
+|Configurar aplicaciones según criterios establecidos
+|100/9 %
+|E01/E11
+|P, L
+|1.d
+|Documentar incidencias
+|100/9 %
+|E01/E11
+|I
+|1.e
+|Solucionar problemas de instalación o integración
+|100/9 %
+|E01/E11
+|P, D
+|1.f
+|Añadir o eliminar componentes de la instalación
+|100/9 %
+|E01/E11
+|P, L
+|1.g
+|Actualizar aplicaciones
+|100/9 %
+|E01/E11
+|P, L
+|1.h
+|Respetar las licencias del software
+|100/9 %
+|E01/E11
+|P, I
+|1.i
+|Proponer soluciones software para entornos de aplicación
+|100/9 %
+|E01/E11
+|I, D
+|===
+
+==== RA2 · 20 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|2.a
+|Personalizar opciones y barra de herramientas
+|100/6 %
+|E02
+|P, L
+|2.b
+|Diseñar plantillas
+|100/6 %
+|E02/E03
+|A, D
+|2.c
+|Utilizar aplicaciones y periféricos para introducir textos e imágenes
+|100/6 %
+|E02
+|P, L, A
+|2.d
+|Importar y exportar documentos de otras aplicaciones y formatos
+|100/6 %
+|E02/E03
+|A, P
+|2.e
+|Crear y utilizar macros en documentos
+|100/6 %
+|E03
+|P, A, D
+|2.f
+|Elaborar manuales específicos
+|100/6 %
+|E02/E03
+|I
+|===
+
+==== RA3 · 22 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|3.a
+|Personalizar opciones y barra de herramientas
+|100/8 %
+|E04
+|P, L
+|3.b
+|Utilizar tipos de datos y referencias de celdas, rangos, hojas y libros
+|100/8 %
+|E04/E05
+|A, P, D
+|3.c
+|Aplicar fórmulas y funciones
+|100/8 %
+|E04/E05
+|A, P, D
+|3.d
+|Generar y modificar gráficos de diferentes tipos
+|100/8 %
+|E04/E05
+|A, P
+|3.e
+|Emplear macros en documentos y plantillas de cálculo
+|100/8 %
+|E05
+|A, P, D
+|3.f
+|Importar y exportar hojas de cálculo de otras aplicaciones y formatos
+|100/8 %
+|E04/E05
+|A, P
+|3.g
+|Usar la hoja como base de datos: formularios, listas, filtros, protección y ordenación
+|100/8 %
+|E05
+|A, P
+|3.h
+|Utilizar aplicaciones y periféricos para introducir textos, números, códigos e imágenes
+|100/8 %
+|E04/E05
+|L, P, A
+|===
+
+==== RA4 · 12 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|4.a
+|Identificar elementos de bases de datos relacionales
+|100/8 %
+|E06
+|A, D
+|4.b
+|Crear bases de datos ofimáticas
+|100/8 %
+|E06
+|A, P
+|4.c
+|Insertar, modificar y eliminar registros de las tablas
+|100/8 %
+|E06
+|P, A
+|4.d
+|Utilizar asistentes para crear consultas
+|100/8 %
+|E06
+|P, A
+|4.e
+|Utilizar asistentes para crear formularios
+|100/8 %
+|E06
+|P, A
+|4.f
+|Utilizar asistentes para crear informes
+|100/8 %
+|E06
+|P, A
+|4.g
+|Buscar y filtrar información almacenada
+|100/8 %
+|E06
+|P, A
+|4.h
+|Crear y utilizar macros
+|100/8 %
+|E06
+|P, A, D
+|===
+
+==== RA5 · 8 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|5.a
+|Analizar formatos de imágenes
+|100/5 %
+|E07
+|I, D
+|5.b
+|Adquirir imágenes con periféricos
+|100/5 %
+|E07
+|L, P
+|5.c
+|Trabajar con distintas resoluciones según la finalidad
+|100/5 %
+|E07
+|A, D
+|5.d
+|Emplear herramientas de edición de imagen digital
+|100/5 %
+|E07
+|P, A
+|5.e
+|Importar y exportar imágenes en diversos formatos
+|100/5 %
+|E07
+|A, P
+|===
+
+==== RA6 · 8 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|6.a
+|Reconocer los elementos de una secuencia de vídeo
+|100/5 %
+|E08
+|I, D
+|6.b
+|Estudiar los formatos y códecs más utilizados
+|100/5 %
+|E08
+|I, D
+|6.c
+|Importar y exportar secuencias de vídeo
+|100/5 %
+|E08
+|P, A
+|6.d
+|Capturar secuencias de vídeo con recursos adecuados
+|100/5 %
+|E08
+|L, P
+|6.e
+|Elaborar videotutoriales
+|100/5 %
+|E08
+|A, D
+|===
+
+==== RA7 · 8 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|7.a
+|Identificar opciones básicas de las aplicaciones de presentaciones
+|100/6 %
+|E09
+|P, D
+|7.b
+|Reconocer los tipos de vista de una presentación
+|100/6 %
+|E09
+|P, D
+|7.c
+|Aplicar y reconocer tipografía, composición, diseño y color
+|100/6 %
+|E09
+|A, D
+|7.d
+|Diseñar plantillas de presentaciones
+|100/6 %
+|E09
+|A, P
+|7.e
+|Crear presentaciones
+|100/6 %
+|E09
+|A
+|7.f
+|Utilizar periféricos para ejecutar presentaciones
+|100/6 %
+|E09
+|L, P
+|===
+
+==== RA8 · 6 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|8.a
+|Describir los elementos de un correo electrónico
+|100/7 %
+|E10
+|I, D
+|8.b
+|Analizar necesidades de gestión de correo y agenda
+|100/7 %
+|E10
+|I, D
+|8.c
+|Configurar distintos tipos de cuentas de correo
+|100/7 %
+|E10
+|L, P
+|8.d
+|Conectar y sincronizar agendas del equipo con dispositivos móviles
+|100/7 %
+|E10
+|L, P
+|8.e
+|Operar con la libreta de direcciones
+|100/7 %
+|E10
+|P, A
+|8.f
+|Gestionar correo mediante etiquetas, filtros, carpetas y otras opciones
+|100/7 %
+|E10
+|P, A
+|8.g
+|Utilizar opciones de agenda electrónica
+|100/7 %
+|E10
+|P, A
+|===
+
+==== RA9 · 8 % del módulo propuesto
+
+[cols="1,6,2,2,2",options="header"]
+|===
+|CE |Descripción operativa |Peso dentro del RA |Evaluable |Instrumentos
+|9.a
+|Elaborar guías visuales de conceptos básicos de uso de una aplicación
+|100/8 %
+|E03/E11
+|I
+|9.b
+|Identificar problemas de uso de aplicaciones ofimáticas
+|100/8 %
+|E01/E11
+|P, I
+|9.c
+|Utilizar manuales de usuario para instruir en aplicaciones
+|100/8 %
+|E03/E11
+|P, I, D
+|9.d
+|Aplicar técnicas de asesoramiento en el uso de aplicaciones
+|100/8 %
+|E03/E11
+|P, D
+|9.e
+|Realizar informes de incidencias
+|100/8 %
+|E01/E11
+|I
+|9.f
+|Aplicar procedimientos de salvaguarda y recuperación de información
+|100/8 %
+|E01/E11
+|L, P
+|9.g
+|Utilizar documentación, ayuda y soporte para resolver incidencias
+|100/8 %
+|E01/E11
+|P, I
+|9.h
+|Resolver incidencias en tiempo adecuado y con la calidad esperada
+|100/8 %
+|E01/E11
+|L, P, A
+|===
+
+=== Criterios de calificación
+
+==== Registro y cálculo propuestos
+
+Cada CE se valora en una escala de 0 a 10 mediante los indicadores de la tarea. La rúbrica distingue entre evidencia inexistente o no válida, logro parcial, logro suficiente, logro consistente y transferencia autónoma. Los apoyos de acceso acordados no reducen la nota; se valora el desempeño que corresponde al CE.
+
+La ficha de cada evaluable especificará qué acción permite observar cada criterio. Por ejemplo, para RA3.c se comprobará que las fórmulas calculan correctamente los casos previstos y siguen funcionando cuando cambian los datos; para RA9.f se verificará tanto la copia como la recuperación, no solo la existencia de un archivo ZIP.
+
+. *Nota de un CE:* si una tarea observa todo su alcance, se registra la valoración de la ejecución y del producto. Si se reparte entre varias tareas, el enunciado identifica los indicadores complementarios y su reparto antes de realizarlas.
+. *Nueva evidencia:* una recuperación completa y equivalente actualiza la valoración del mismo CE, conservando el historial. No se suman puntos por repetirlo ni se promedian automáticamente el error inicial y el aprendizaje posterior. Esta regla requiere aprobación y comunicación previa.
+. *Nota del RA:* media de sus CE con la ponderación indicada. Una evidencia parcial no acredita por sí sola todo el criterio.
+. *Nota global calculada:* `0,08·RA1 + 0,20·RA2 + 0,22·RA3 + 0,12·RA4 + 0,08·RA5 + 0,08·RA6 + 0,08·RA7 + 0,06·RA8 + 0,08·RA9`.
+
+En las evaluaciones parciales se informará del progreso en los CE trabajados y de la cobertura pendiente. No se promedian sin más las notas de los trimestres o de los once temas. Los CE todavía no impartidos se registran como «no evaluados», no como cero. La calificación oficial y su expresión se ajustarán a las reglas aprobadas en el PCCF.
+
+==== Descriptores para las rúbricas de las tareas
+
+[cols="2,6",options="header"]
+|===
+|Nivel |Descripción orientativa
+|Sin evidencia suficiente · pendiente de valoración
+|No se dispone de una ejecución o producto verificable que permita observar el CE. Debe identificarse la causa y la oportunidad de obtención de evidencia; no equivale automáticamente a cero.
+|Logro insuficiente · 0–4,9
+|En una ejecución evaluada no realiza la operación o solo logra una parte, con errores que impiden el resultado o sin comprobar los requisitos esenciales.
+|Logro suficiente · 5–6,9
+|Realiza las operaciones esenciales, obtiene un resultado funcional y verifica lo solicitado en el CE.
+|Logro consistente · 7–8,9
+|Trabaja con precisión, corrige errores y explica las decisiones relevantes con claridad.
+|Transferencia autónoma · 9–10
+|Aplica el procedimiento a una variante, justifica alternativas y comprueba el resultado con criterios de calidad.
+|===
+
+Las rúbricas concretas traducirán estos niveles a valores y a indicadores observables adecuados a cada CE. No se impone la misma proporción de presentación, vídeo o informe a todas las evaluables: un presupuesto, una base de datos y una instalación requieren evidencias diferentes.
+
+==== Entregas, ausencia e incidencias
+
+Las evaluables se anunciarán en Aules con fecha, tiempo, material permitido, uso de IA, archivos requeridos y criterios. Se realizarán preferentemente los viernes. El alumnado comprobará que la entrega está finalizada y que los archivos abren correctamente.
+
+Si se conoce con antelación que no se podrá asistir, se avisará a la profesora por Aules antes de la prueba. Ante una ausencia imprevista se comunicará la situación tan pronto como sea posible. La profesora aplicará el procedimiento del centro y, cuando corresponda, acordará otra fecha o una prueba equivalente. La falta de aviso por una causa imprevisible no se convierte por sí sola en un cero automático.
+
+Una falta de entrega o una entrega incompleta se registra inicialmente como evidencia pendiente, diferenciándola de un desempeño insuficiente. Se informará del plazo o procedimiento para resolverla. Al cierre de la evaluación se aplicarán los acuerdos del PCCF; no se inventa aquí un porcentaje de retraso, absentismo o pérdida de evaluación continua.
+
+En caso de fallo técnico se conservarán los archivos y se documentará la incidencia. La profesora comprobará qué parte pudo realizarse y acordará la obtención de la evidencia que falte. Si existen dudas fundamentadas sobre autoría, se pedirá una demostración individual y se seguirá el procedimiento del centro, sin decidir únicamente por apariencia o por detectores automáticos.
+
+=== Recuperación, refuerzo y segunda convocatoria
+
+Tras cada evaluable se identifican los CE no alcanzados y se ofrece una actividad de refuerzo concreta. La recuperación solicita nuevas evidencias de esos criterios, con un caso equivalente y criterios conocidos. Los CE ya suficientemente acreditados se conservan salvo que una tarea integradora necesite comprobar su aplicación conjunta.
+
+La propuesta es que la recuperación pueda acreditar el nivel real de aprendizaje sin un límite artificial de 5; debe validarse con el PCCF antes de aplicarse. Se registra fecha, criterios, instrumento, resultado y cambio respecto a la evidencia anterior.
+
+Para la segunda convocatoria o evaluación extraordinaria se entregará un plan individual con CE pendientes, tareas preparatorias, recursos, formato de prueba y calendario oficial. La prueba será práctica y, si hace falta, incluirá explicación o documentación. No se exigirá rehacer todo el curso de forma indiscriminada. Si faltan evidencias de todos los RA, la prueba cubrirá el conjunto del módulo.
+
+=== Formación en empresa u organismo equiparado
+
+La FE comparte el desarrollo de RA del módulo y no añade un bloque de contenidos ajeno a ellos. Las horas y los CE concretos están pendientes de acuerdo con la tutoría dual y las empresas. La tabla siguiente es una propuesta de tareas posibles, no un plan formativo aprobado.
+
+[cols="4,2,5",options="header"]
+|===
+|Tarea posible en empresa |RA/CE candidatos |Evidencia acordable
+|Configurar o actualizar una aplicación con supervisión
+|RA1.b/c/d/g/h
+|Registro de actuación y lista de cotejo de la tutoría, sin credenciales ni información confidencial.
+|Preparar documentos o plantillas de uso interno
+|RA2.b/d/f
+|Muestra anonimizada o valoración de indicadores por la tutoría cuando no pueda salir documentación.
+|Tratar datos para un informe o presupuesto
+|RA3.b/c/d/f/g
+|Descripción de operaciones y comprobaciones, con datos sintéticos si se necesita aportar un archivo.
+|Gestionar comunicaciones y agenda
+|RA8.b/e/f/g
+|Registro de tareas o lista de cotejo, sin exportar mensajes reales.
+|Documentar y resolver una incidencia de usuario
+|RA9.a–h según la tarea
+|Informe anonimizado, valoración de tutoría y contraste con el alumnado.
+|===
+
+El plan identificará para cada estudiante actividades, horas, RA/CE, fechas, responsables y evidencias. La tutoría de empresa informa de lo observado; la profesora integra esa información en la evaluación del RA correspondiente. *No se asigna un porcentaje independiente por estar en empresa* ni se confunde porcentaje de horas con porcentaje de nota.
+
+Cuando una tarea no pueda realizarse o no permita evidenciar el criterio previsto, se coordinará una actividad alternativa con el equipo y la tutoría dual conforme al plan y a la normativa. La documentación confidencial de la empresa no se publicará en la web ni se exigirá grabar su actividad sin autorización.
+
+=== Proyecto intermodular
+
+El módulo puede aportar documentación, hojas de cálculo, material visual, presentación y manual de usuario a un reto compartido del ciclo. CAOS, S.L. ofrece un contexto posible, pero sus unidades no se identifican automáticamente con el módulo de Proyecto intermodular.
+
+La propuesta de contribución de AO incluye RA2, RA3, RA7 y RA9 según el producto acordado. El equipo docente concretará el reto, responsables y calendario. Una evidencia común puede informar a varios módulos, pero cada docente aplica sus propios CE y evita duplicar una calificación dentro de AO. La nota del Proyecto intermodular se establece según su programación específica.
+
+=== Criterios de superación y promoción
+
+La superación se determina conforme a la normativa aplicable y al PCCF, a partir de la adquisición de los RA y de sus CE. Antes de aprobar este documento se deberán concretar expresamente: umbral y cálculo de superación, posibles mínimos por RA, tratamiento de evidencia pendiente al cierre, redondeo, convocatorias y procedimiento de revisión.
+
+La media ponderada propuesta es una herramienta de cálculo y no autoriza a dar por acreditado un RA sin evidencia. Tampoco se presenta como obligación normativa que todos los CE o todos los RA deban tener individualmente un 5: cualquier condición adicional de mínimos debe estar aprobada, ser coherente con la normativa y comunicarse previamente.
+
+La promoción, permanencia, pérdida de evaluación continua y reclamaciones se remiten a los acuerdos y procedimientos del centro y a la normativa vigente. Esta programación no fija porcentajes de faltas ni reglas de promoción no confirmados.
+

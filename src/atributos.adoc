@@ -1,0 +1,21 @@
+:lang: es
+:doctype: article
+:notitle:
+:toc: macro
+:toc-title: SUMARIO
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:sectanchors:
+:table-caption: Tabla
+:figure-caption: Figura
+:experimental:
+:imagesdir: ../../assets/images
+:pdf-theme: font-programacion
+:pdf-themesdir: ../../theme
+:pdf-fontsdir: ../../assets/fonts;GEM_FONTS_DIR
+:stylesheet: programacion.css
+:stylesdir: ../../theme
+:linkcss:
+:centro: IES Font de Sant Lluís
+:departamento: Informática

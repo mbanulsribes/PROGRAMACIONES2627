@@ -1,0 +1,500 @@
+= Programación didáctica: Programación, Inteligencia Artificial y Robótica I
+María Bañuls Ribes <m.banulsribes@edu.gva.es>
+:lang: es
+:doctype: article
+:encoding: utf-8
+:toc: left
+:toc-title: Índice
+:toclevels: 3
+:sectnums:
+:icons: font
+:experimental:
+:revnumber: 1.0
+:revdate: 30 de septiembre de 2026
+:description: Programación didáctica de 2.º de ESO. IES Font de Sant Lluís. Curso 2026–2027.
+
+[cols="1,3",options="header"]
+|===
+|Dato |Identificación
+|Centro |IES Font de Sant Lluís, València
+|Departamento |Informática
+|Etapa y nivel |Educación Secundaria Obligatoria. 2.º de ESO
+|Materia |Programación, Inteligencia Artificial y Robótica I
+|Curso académico |2026–2027
+|Profesora |María Bañuls Ribes
+|Correo |m.banulsribes@edu.gva.es
+|Horario |Lunes, 9:50–10:40; martes, 11:15–12:10
+|Organización |Trabajo individual, teoría y ejercicios graduados; sin exámenes
+|Documento |Versión para revisión departamental, con las decisiones pendientes identificadas
+|===
+
+Esta programación desarrolla la propuesta individual acordada para el curso y conserva los trece apartados de la plantilla facilitada. La plantilla original corresponde a Formación Profesional; sus referencias a módulos, resultados de aprendizaje, estándares profesionales y formación en empresa se sustituyen por los elementos curriculares de ESO.
+
+La propuesta mantiene pendientes los apartados de micro:bit y mBot2 hasta conocer la disponibilidad de material. El currículo contiene criterios de robótica y un criterio de participación en equipos que no quedan acreditados por las tareas individuales actuales. Esta circunstancia se recoge expresamente para su resolución departamental; no se presenta esta versión como una cobertura completa de todos los criterios.
+
+== Propuestas de mejora y modificaciones respecto a la versión anterior
+
+[cols="1,2,3",options="header"]
+|===
+|Fecha |Modificación |Aplicación
+|30/09/2026 |Adaptación de la plantilla |Cambio de FP a 2.º de ESO y actualización al curso 2026–2027.
+|30/09/2026 |Organización individual |Se sustituyen los proyectos y productos de grupo por ejercicios con objetivos, datos y comprobaciones definidos.
+|30/09/2026 |Material de aprendizaje |Libro del alumnado en Aules, explicaciones breves, ejemplos resueltos y prácticas antes de cada entrega evaluable.
+|30/09/2026 |Evaluación continua |Sin exámenes. Once tareas evaluables, retroalimentación y posibilidad de mejorar las entregas.
+|30/09/2026 |Calificación |90 % tareas y 10 % hábitos de trabajo observables. Esta propuesta sustituye los pesos de la guía inicial anterior.
+|30/09/2026 |Robótica |Micro:bit y mBot2 quedan sin desarrollo ni tareas calificables hasta confirmar recursos.
+|30/09/2026 |Temporalización |Se corrige la duración: dos periodos semanales de 50 y 55 minutos, equivalentes a 105 minutos.
+|===
+
+Las modificaciones posteriores se anotarán con fecha, motivo, unidades afectadas y consecuencias para la evaluación. No se cambiarán retroactivamente los criterios de una tarea ya entregada en perjuicio del alumnado.
+
+== Datos identificativos, marco normativo y contextualización
+
+=== Contexto de aplicación
+
+La programación se dirige al alumnado de 2.º de ESO del IES Font de Sant Lluís, situado en València. Se parte de niveles de experiencia digital que deberán comprobarse al inicio, sin atribuir al grupo características académicas, sociales o necesidades educativas que no se han documentado.
+
+El número de estudiantes, los grupos concretos, las necesidades de apoyo, el inventario del aula y las fechas de evaluación se incorporarán a los registros del centro. La disponibilidad individual de equipos y las posibilidades de acceso a las herramientas de IA se verificarán antes de asignar actividades que las requieran.
+
+=== Referentes normativos y curriculares
+
+* Ley Orgánica 2/2006, de 3 de mayo, de Educación, en su redacción vigente tras la Ley Orgánica 3/2020.
+* Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la ESO.
+* Decreto 107/2022, de 5 de agosto, del Consell, de ordenación y currículo de ESO, con sus correcciones y modificaciones, incluido el Decreto 66/2024.
+* Orden 19/2023, de 29 de junio, sobre procedimientos derivados de la ordenación de ESO y Bachillerato, en lo que resulte aplicable y en su redacción vigente.
+* Instrucciones de organización y funcionamiento de los centros que imparten ESO y Bachillerato para 2026–2027 y calendario escolar autonómico del mismo curso.
+* Proyecto educativo, concreción curricular, normas de organización y acuerdos de evaluación del centro que resulten aplicables.
+
+El PDF facilitado por la profesora es el documento curricular de la materia, no una orden independiente. Se utiliza su columna de *2.º curso* para seleccionar los criterios. Las referencias para consulta figuran al final del documento. La aplicación definitiva de los procedimientos de calificación y recuperación se contrastará con los acuerdos vigentes del centro.
+
+=== Carga horaria
+
+Las clases se imparten los lunes de 9:50 a 10:40 y los martes de 11:15 a 12:10. Una semana completa supone 105 minutos, no dos horas de 60 minutos.
+
+La secuencia desarrollada comprende 48 periodos: como estimación equilibrada de 24 lunes y 24 martes, representa 42 horas. Es la carga del material ya preparado, no la totalidad del calendario anual. El resto de periodos efectivos se distribuirá entre evaluación inicial, refuerzo, revisión, recuperación y el desarrollo pendiente de robótica, una vez confirmado.
+
+El calendario autonómico sitúa las enseñanzas de ESO entre el 9 de septiembre de 2026 y el 18 de junio de 2027. La asignación de fechas concretas requiere descontar vacaciones, festivos y días no lectivos locales y del centro. No se fijan aquí fechas de entrega ni de cierre de evaluaciones que aún no se han facilitado.
+
+== Relación con los objetivos de etapa y el marco competencial
+
+En ESO no se aplica la relación entre estándares profesionales y módulos de FP que aparece en la plantilla. La materia contribuye a los objetivos de etapa a través del uso crítico de la información, el razonamiento, los hábitos de estudio, la resolución de problemas y el uso responsable de la tecnología.
+
+[cols="1,3,3",options="header"]
+|===
+|Objetivo didáctico interno |Aprendizaje esperado |Evidencias previstas
+|O1 |Organizar archivos y comunicar procedimientos con claridad. |Documentos, entregas y comprobaciones de apertura.
+|O2 |Descomponer un problema en datos, operaciones y resultados. |Algoritmos, diagramas y tablas de seguimiento.
+|O3 |Construir programas sencillos con secuencias, repeticiones, variables y decisiones. |Archivos Scratch y explicaciones del funcionamiento.
+|O4 |Prever resultados, localizar errores y comprobar correcciones. |Tablas de pruebas y registros antes/después.
+|O5 |Explicar usos, funcionamiento básico y límites de la IA. |Análisis de casos, datos etiquetados y uso guiado de una herramienta.
+|O6 |Valorar autoría, sesgos, accesibilidad e impacto social y ambiental. |Respuestas razonadas a situaciones concretas.
+|O7 |Adquirir hábitos de cuidado, respeto, trabajo sostenido y revisión. |Observación continuada con indicadores comunicados.
+|O8 |Comprender y controlar sistemas robóticos sencillos. |Desarrollo y evidencias pendientes de disponibilidad de recursos.
+|===
+
+Los códigos O1–O8 son propios de esta programación; no se presentan como códigos oficiales del currículo.
+
+== Contribución de la materia a las competencias
+
+=== Competencias específicas
+
+Se emplea la denominación resumida siguiente; la redacción oficial y los criterios se consultan en el documento curricular de referencia.
+
+[cols="1,3,3",options="header"]
+|===
+|Competencia |Sentido del aprendizaje |Desarrollo previsto
+|CE1 |Identificar, investigar y emplear técnicas de IA y virtualización con principios éticos e inclusivos. |Unidades 7–9. En 2.º no se incorpora el criterio 1.5 de virtualización, que corresponde a 3.º.
+|CE2 |Aplicar pensamiento computacional para resolver problemas básicos mediante software. |Unidades 2–6; ejercicios guiados, programación y validación.
+|CE3 |Montar sistemas robóticos sencillos y analizar su interacción con el entorno. |Pendiente. Unidades 10–11 reservadas sin desarrollo.
+|CE4 |Afrontar retos tecnológicos sencillos y valorar sus implicaciones éticas y ecosociales. |Problemas acotados, depuración y análisis crítico. El criterio 4.1 de equipos queda pendiente.
+|===
+
+=== Competencias clave
+
+[cols="2,4",options="header"]
+|===
+|Competencia |Contribución concreta
+|Comunicación lingüística |Explicar algoritmos, justificar decisiones y redactar conclusiones comprensibles.
+|Plurilingüe |Comprender vocabulario técnico habitual y apoyarse en glosarios cuando sea necesario.
+|Matemática, ciencia, tecnología e ingeniería |Trabajar con coordenadas, variables, relaciones lógicas, pruebas y porcentajes de acierto.
+|Digital |Crear y revisar programas, gestionar archivos y analizar críticamente herramientas y datos.
+|Personal, social y de aprender a aprender |Planificar una tarea, solicitar ayuda, utilizar retroalimentación y registrar mejoras.
+|Ciudadana |Valorar privacidad, autoría, equidad, convivencia y efectos sociales de las decisiones tecnológicas.
+|Emprendedora |Comparar soluciones y modificar procedimientos cuando una primera opción no funciona.
+|Conciencia y expresión culturales |Reconocer la autoría y utilizar recursos expresivos respetando sus permisos.
+|===
+
+Estas contribuciones no constituyen una calificación independiente de cada competencia clave. El seguimiento se apoya en las evidencias y criterios de evaluación de la materia.
+
+== Esquema general, saberes y secuenciación de unidades
+
+=== Organización de los saberes
+
+La materia se organiza en los tres bloques del currículo: inteligencia artificial, programación y robótica. Se trabajarán de manera conectada mediante explicaciones y ejercicios individuales, sin exigir un proyecto como producto final.
+
+* *Inteligencia artificial:* fundamentos y aplicaciones; datos de entrada y resultados; aproximación guiada a técnicas básicas; entrenamiento y prueba; errores, sesgos, equidad e implicaciones éticas y sociales.
+* *Programación:* pensamiento computacional, abstracción y modelización; algoritmos y diagramas; secuencias y estructuras de control; variables, operaciones y condiciones; programación por bloques; análisis y validación; derechos de autoría y licencias; iniciativa y revisión del propio proceso.
+* *Robótica:* sistemas robóticos, sensores, actuadores y control; montaje, transferencia y ejecución de programas e interacción con el entorno. Su desarrollo práctico permanece pendiente.
+
+Esta relación es una síntesis organizativa. El documento curricular es la referencia para el detalle de los saberes de 2.º. Las explicaciones del libro se completarán, cuando corresponda, con ejemplos breves sobre técnicas básicas de IA, tipos de datos y licencias; no se da por impartido un saber por el mero hecho de citarlo aquí.
+
+=== Distribución inicial
+
+[cols="1,3,1,1,2",options="header"]
+|===
+|Unidad |Título de trabajo |Periodos |Evaluación |Entregas
+|1 |Entorno digital y entregas |4 |1.ª |E01
+|2 |Pensamiento computacional y algoritmos |6 |1.ª |E02
+|3 |Secuencias, eventos y coordenadas |6 |1.ª |E03
+|4 |Repeticiones |6 |1.ª |E04
+|5 |Variables, entradas y decisiones |8 |2.ª |E05, E06
+|6 |Pruebas, errores y autoría |4 |2.ª |E07
+|7 |Comprender aplicaciones de IA |4 |3.ª |E08
+|8 |Datos, entrenamiento y comprobación |6 |3.ª |E09, E10
+|9 |Tecnología, ética e inclusión |4 |3.ª |E11
+|10 |micro:bit | | |
+|11 |mBot2 | | |
+|===
+
+Los 22, 12 y 14 periodos asignados a las evaluaciones representan únicamente las unidades desarrolladas. No equivalen a la duración total de cada trimestre. Se ajustarán al ritmo del grupo, a las fechas del centro y al desarrollo que se acuerde para la parte pendiente, manteniendo la relación entre tareas y evaluación que se ha comunicado.
+
+=== Unidad 1. Entorno digital y entregas
+
+*Justificación y objetivos:* establecer procedimientos básicos para acceder a Aules, guardar, localizar, abrir y entregar archivos; O1 y O7.
+
+*Contenidos y actividades:* carpetas y nombres; formatos ODT, PDF y SB3; título, párrafo, lista y tabla; exportación y comprobación. La profesora modela una entrega, el alumnado practica y realiza E01, «Un documento de comprobación».
+
+*Temporalización y recursos:* cuatro periodos; equipo, procesador de textos, visor PDF y Aules.
+
+*Evaluación:* rúbrica de E01 y observación de hábitos. Es una unidad instrumental; E01 no acredita por sí sola un criterio específico completo de la materia. Su peso deberá revisarse si los acuerdos del departamento exigen que todos los componentes de calificación se vinculen directamente a criterios específicos.
+
+=== Unidad 2. Pensamiento computacional y algoritmos
+
+*Justificación y objetivos:* pasar de un enunciado cotidiano a un procedimiento verificable; O2 y O4. Criterios 2.1 y 2.3.
+
+*Contenidos y actividades:* entradas, salidas, abstracción, secuencia y decisión; diagrama de flujo y seguimiento manual. E02, «Un algoritmo para las sillas», exige comparar personas y sillas y comprobar los casos de sobra, falta e igualdad.
+
+*Temporalización y recursos:* seis periodos; libro, fichas y herramienta de diagramas o papel.
+
+*Evaluación:* algoritmo, diagrama y tabla de pruebas. Se valora la coherencia del razonamiento, no la decoración del documento.
+
+=== Unidad 3. Secuencias, eventos y coordenadas
+
+*Justificación y objetivos:* comprender la ejecución de instrucciones y la necesidad de inicializar el estado; O3 y O4. Criterios 2.2, 2.3 y 2.4.
+
+*Contenidos y actividades:* escenario, objeto, eventos, coordenadas, desplazamientos y reinicio. E03, «Un recorrido con coordenadas», compara posiciones previstas y reales e incluye una tecla de regreso.
+
+*Temporalización y recursos:* seis periodos; Scratch y tabla de seguimiento.
+
+*Evaluación:* archivo SB3, inicialización reproducible y contraste entre previsión y ejecución.
+
+=== Unidad 4. Repeticiones
+
+*Justificación y objetivos:* reconocer patrones y expresar instrucciones repetidas mediante bucles; O2, O3 y O4. Criterios 2.2, 2.3 y 2.4.
+
+*Contenidos y actividades:* número de repeticiones, instrucciones interiores y efectos acumulados. E04, «Dos formas de repetir», compara dos secuencias que recorren la misma distancia con distintas repeticiones y esperas.
+
+*Temporalización y recursos:* seis periodos; Scratch, libro y tablas.
+
+*Evaluación:* funcionamiento, cálculo de posiciones y tiempos, comentarios y comparación razonada.
+
+=== Unidad 5. Variables, entradas y decisiones
+
+*Justificación y objetivos:* almacenar datos y seleccionar respuestas en función de condiciones; O2, O3 y O4. Criterios 2.1, 2.2, 2.3 y 2.4.
+
+*Contenidos y actividades:* fijar y cambiar variables, respuestas de entrada, operadores y decisiones; distinción entre valores variables y valores fijos. E05, «Contador de material», y E06, «Calculadora de sillas».
+
+*Temporalización y recursos:* ocho periodos; Scratch, algoritmo de E02 y tablas de pruebas.
+
+*Evaluación:* almacenamiento de datos, operaciones, condición y comprobación de ambas ramas y del caso límite. Las ampliaciones sobre entradas incorrectas son opcionales y no se exigen para alcanzar la calificación máxima del ejercicio básico.
+
+=== Unidad 6. Pruebas, errores y autoría
+
+*Justificación y objetivos:* corregir un fallo a partir de evidencias y reconocer condiciones de reutilización; O4 y O6. Criterios 2.2, 2.5 y 4.4.
+
+*Contenidos y actividades:* resultado esperado y real, casos límite, modificación controlada, explicación del cambio, derechos y licencias. E07, «Reparar y explicar», corrige una condición y analiza permisos de uso de imágenes. Se incorporan ejemplos breves de software libre y propietario para contextualizar las licencias.
+
+*Temporalización y recursos:* cuatro periodos; programa con error, Scratch y ficha antes/después.
+
+*Evaluación:* identificación del fallo, reparación, pruebas y justificación de la elección de recursos según sus permisos.
+
+=== Unidad 7. Comprender aplicaciones de IA
+
+*Justificación y objetivos:* distinguir datos, modelo, salida y revisión humana; O5 y O6. Criterios 1.1, 1.2 y 1.3.
+
+*Contenidos y actividades:* ejemplos cotidianos, límites y errores; explicación introductoria de técnicas básicas mediante esquemas. E08, «Analizar una aplicación de IA», describe una necesidad, entradas, resultados y posibles errores. Se añade una breve pregunta de seguimiento sobre el funcionamiento básico para recoger evidencia específica del criterio 1.1.
+
+*Temporalización y recursos:* cuatro periodos; casos del libro y fichas, sin necesidad de cuentas personales de IA.
+
+*Evaluación:* análisis del caso, esquema de funcionamiento y respuesta de seguimiento. No se exige crear una aplicación.
+
+=== Unidad 8. Datos, entrenamiento y comprobación
+
+*Justificación y objetivos:* diferenciar datos de entrenamiento y prueba y utilizar una función de IA de forma guiada; O4 y O5. Criterios 1.1 y 1.4.
+
+*Contenidos y actividades:* etiquetas, separación de datos, predicciones, errores y porcentaje de acierto. E09, «Preparar y comprobar datos», utiliza predicciones simuladas. E10 consiste en entrenar y probar realmente un modelo sencillo según el enunciado del libro.
+
+*Temporalización y recursos:* seis periodos previstos; datos ficticios, tablas y herramienta educativa cuyo acceso debe probarse previamente.
+
+*Evaluación:* E09 acredita análisis de datos, pero no sustituye el uso real de IA requerido para E10 y el criterio 1.4. Si no se dispone de herramienta, E10 permanecerá pendiente y se reprogramará; no se asignará un cero por falta de recursos. No se utilizarán imágenes, voces ni datos personales identificables para entrenar el modelo.
+
+=== Unidad 9. Tecnología, ética e inclusión
+
+*Justificación y objetivos:* valorar la pertinencia y consecuencias de una solución tecnológica; O5 y O6. Criterios 1.3, 4.2 y 4.3.
+
+*Contenidos y actividades:* accesibilidad, sesgos, privacidad, impacto ambiental y adecuación a una necesidad. E11, «Revisar una propuesta tecnológica», analiza el caso del libro y propone mejoras justificadas. Para el criterio 4.3 se recogerá expresamente una comparación de características y requisitos de dos opciones, sin limitarse a una opinión general.
+
+*Temporalización y recursos:* cuatro periodos; ficha de caso, libro y opciones de respuesta escrita u oral accesible.
+
+*Evaluación:* argumentos apoyados en características concretas, consecuencias y propuestas viables. No se valora que la opinión coincida con la de la profesora.
+
+=== Unidad 10. micro:bit
+
+[cols="1,3"]
+|===
+|Objetivos |
+|Saberes y criterios |
+|Actividades |
+|Recursos |
+|Temporalización |
+|Evaluación |
+|===
+
+=== Unidad 11. mBot2
+
+[cols="1,3"]
+|===
+|Objetivos |
+|Saberes y criterios |
+|Actividades |
+|Recursos |
+|Temporalización |
+|Evaluación |
+|===
+
+== Metodología del proceso de enseñanza y aprendizaje
+
+El aprendizaje se organiza en una secuencia explícita: explicación breve, ejemplo resuelto, práctica guiada, ejercicio individual, comprobación y mejora. Los ejercicios presentan un problema delimitado y un resultado verificable. No se requieren proyectos abiertos ni productos grupales.
+
+La profesora muestra cómo razona, ejecuta y comprueba una solución. Después retira progresivamente las ayudas, manteniendo disponibles el libro y las fichas. El alumnado anticipa resultados, realiza su propia tarea, compara con las pruebas y explica las modificaciones. Pedir ayuda forma parte del aprendizaje.
+
+Las prácticas identificadas con P sirven para ensayar y recibir información; no tienen calificación numérica. Las tareas E se realizan individualmente con apuntes disponibles, sin condiciones de examen. La observación y las preguntas breves durante el trabajo permiten comprobar la comprensión y la autoría sin introducir pruebas escritas adicionales.
+
+[cols="1,3",options="header"]
+|===
+|Periodo |Distribución orientativa
+|Lunes, 50 minutos |5 de recuperación de ideas; 10 de explicación; 10 de ejemplo guiado; 20 de práctica individual; 5 de guardado y cierre.
+|Martes, 55 minutos |5 de revisión; 5 de aclaración; 35 de trabajo individual y retroalimentación; 10 de comprobación, entrega o revisión.
+|===
+
+Estos tiempos se adaptarán a la actividad y a las necesidades del grupo. Se reservará tiempo lectivo para terminar y mejorar entregas; no se presupone disponibilidad de ordenador o conexión en casa.
+
+== Recursos físicos, digitales y bibliografía
+
+=== Recursos de aula
+
+Se prevén ordenador, pantalla de explicación, teclado y ratón; procesador de textos, visor PDF, Scratch y Aules. La herramienta para E10 se seleccionará tras verificar su acceso y adecuación para el alumnado. El inventario real y las versiones disponibles se anotarán al inicio.
+
+No se presupone la existencia de placas ni robots. Si faltan equipos individuales, se organizarán turnos con ejercicios de análisis en papel, conservando las producciones individuales y ajustando el tiempo de trabajo.
+
+=== Materiales de referencia
+
+* https://aules.edu.gva.es/docent/mod/book/view.php?id=4792607[Libro del alumnado en Aules]. El acceso depende de la matriculación y permisos del aula.
+* `Libro_alumnado_2ESO.md` y su edición PDF: teoría, ejemplos, prácticas y tareas.
+* `Tareas_evaluables_por_evaluacion.md`: enunciados para crear las tareas en Aules.
+* `Libro_Moodle_alumnado_2ESO.zip`: capítulos preparados para el recurso Libro.
+* Documento curricular de Programación, Inteligencia Artificial y Robótica I y II, Generalitat Valenciana.
+
+Los criterios de calificación de esta programación prevalecen sobre propuestas anteriores de ponderación de los materiales iniciales, una vez aprobados y comunicados. Las preguntas de un banco antiguo no se incorporan como exámenes.
+
+== Uso de espacios y equipamientos
+
+El aula de informática será el espacio habitual, sujeto a la asignación del centro. Antes del trabajo se comprobará el puesto; al terminar se guardarán los archivos, se cerrará la sesión y se dejará el material preparado para su siguiente uso.
+
+Cada estudiante utilizará su propia cuenta o el procedimiento autorizado por el centro. No compartirá contraseñas ni modificará archivos de otras personas. Las incidencias se comunicarán a la profesora; no se penalizarán averías o pérdidas ajenas al control del alumnado.
+
+Los archivos se entregarán con el identificador indicado en el enunciado y se comprobará su apertura. Se utilizarán datos ficticios en los ejercicios. La organización y normas específicas de robótica se incorporarán cuando se conozca el equipo disponible.
+
+== Atención a las diferencias individuales
+
+La respuesta educativa se ajustará a los procedimientos de inclusión del centro y a las medidas acordadas con tutoría y orientación. La programación no presupone diagnósticos ni adapta objetivos individuales sin la información y los acuerdos correspondientes.
+
+Se ofrecerán instrucciones por pasos, modelos visuales, vocabulario aclarado, ejemplos resueltos y comprobaciones intermedias. Las tareas podrán dividirse en entregas parciales. Se admitirán respuestas en papel, digitales u orales cuando permitan demostrar el mismo aprendizaje y el formato no sea el objeto de evaluación.
+
+Para dificultades de lectura o expresión se simplificará la presentación del enunciado, se comprobará la comprensión y se facilitarán apoyos. Para dificultades motrices, sensoriales o de acceso se ajustarán dispositivos, tamaño y contraste o forma de respuesta. El tiempo se adaptará cuando proceda, sin reducir la calificación por utilizar una medida de apoyo.
+
+El alumnado que requiera mayor acompañamiento dispondrá de programas parcialmente construidos, listas de comprobación y práctica adicional. Quien avance con mayor rapidez podrá comparar otra solución, añadir casos límite o justificar una mejora. Estas ampliaciones no serán requisitos ocultos para obtener la máxima nota.
+
+Las medidas específicas se recogerán en los documentos individualizados del centro, preservando la confidencialidad. Se revisará su eficacia después de las primeras entregas y al cierre de cada evaluación.
+
+== Evaluación del aprendizaje y criterios de calificación
+
+=== Principios e instrumentos
+
+La evaluación será continua y formativa. Se recogerán evidencias mediante archivos y fichas individuales, tablas de pruebas, explicaciones breves, observación del proceso y versiones corregidas. No habrá exámenes. Se comunicarán el propósito, la rúbrica y la forma de entrega antes de cada tarea.
+
+La calificación propuesta combina los ejercicios evaluables y los hábitos observables. Esta ponderación es una decisión de la programación que debe encajar en los acuerdos del departamento; no se atribuye a una exigencia de la normativa. El registro por criterios permitirá detectar aprendizajes pendientes aunque la media numérica sea suficiente.
+
+=== Correspondencia con los criterios de 2.º
+
+La tabla resume los criterios oficiales para facilitar su seguimiento; no sustituye su redacción normativa. Una entrega puede aportar evidencia a varios criterios, pero se califica una sola vez en la media de tareas.
+
+[cols="1,3,3",options="header"]
+|===
+|Criterio |Aprendizaje a observar |Evidencia o estado
+|1.1 |Identificar fundamentos y funcionamiento de técnicas básicas de IA. |E08 con pregunta de seguimiento; E09 y explicación de E10.
+|1.2 |Investigar situaciones de aplicación de IA básica. |E08.
+|1.3 |Valorar implicaciones éticas y sociales de IA básica. |E08 y E11.
+|1.4 |Emplear funciones de IA de forma guiada en aplicaciones sencillas. |E10; pendiente hasta que se realice el uso real.
+|2.1 |Analizar problemas elementales mediante abstracción y modelización. |E02 y E06.
+|2.2 |Analizar y validar aplicaciones existentes. |E03, E04, E06 y E07, mediante pruebas.
+|2.3 |Resolver problemas guiados con algoritmos y estructuras de datos necesarias. |E02, E04, E05 y E06.
+|2.4 |Programar aplicaciones sencillas guiadas. |E03, E04, E05 y E06.
+|2.5 |Describir y valorar derechos de autoría y licencias. |E07 y explicación de licencias.
+|3.1 |Montar robots sencillos con guía y componentes indicados. |Pendiente de recursos y desarrollo de robótica.
+|3.2 |Conectar, transferir y ejecutar el programa seleccionado en el robot. |Pendiente de recursos y desarrollo de robótica.
+|3.3 |Resolver desafíos modificando un robot disponible. |Pendiente de recursos y desarrollo de robótica.
+|3.4 |Analizar y validar el control del robot en interacción con el entorno. |Pendiente de recursos y desarrollo de robótica.
+|3.5 |Programar instrucciones sencillas guiadas para controlar un robot. |Pendiente de recursos y desarrollo de robótica.
+|4.1 |Participar en equipos respetando roles y aportaciones con empatía. |Sin evidencia suficiente en la propuesta exclusivamente individual.
+|4.2 |Analizar implicaciones éticas y ecosociales de la transformación tecnológica. |E11.
+|4.3 |Valorar la adecuación de tecnologías y componentes según características y especificaciones. |E11 con comparación expresa de opciones.
+|4.4 |Resolver problemas técnicos sencillos reformulando el procedimiento. |E07 y registro de revisión de programas.
+|===
+
+El respeto a los compañeros no acredita por sí solo el criterio 4.1, cuyo texto exige participación en equipos. Tampoco se equiparan ejercicios de Scratch a montaje y control de robots físicos. El departamento deberá resolver estas carencias antes de cerrar la programación anual definitiva. Cualquier incorporación de actividades se comunicará previamente; esta versión no añade trabajo grupal a la propuesta solicitada.
+
+=== Tareas por evaluación y ponderación
+
+[cols="1,3,2,2",options="header"]
+|===
+|Evaluación |Tareas |Peso de cada tarea en la evaluación |Hábitos
+|1.ª |E01, E02, E03 y E04 |22,5 % cada una |10 %
+|2.ª |E05, E06 y E07 |30 % cada una |10 %
+|3.ª |E08, E09, E10 y E11 |22,5 % cada una |10 %
+|===
+
+Cada tarea se puntúa sobre 10 con los apartados de su enunciado. La media de tareas aporta hasta 9 puntos. Los hábitos aportan hasta 1 punto.
+
+[source,text]
+----
+Nota de evaluación = 0,90 × media de las tareas evaluables + H
+H = cuidado + respeto + trabajo en clase + revisión
+0 ≤ H ≤ 1
+----
+
+Ejemplo: una media de tareas de 7,5 y una puntuación de hábitos de 0,75 producen 7,50 puntos: 0,90 × 7,5 + 0,75.
+
+Si una tarea no puede realizarse por falta de recursos, se marcará pendiente y la media disponible será provisional. No se introducirá un cero ni se afirmará que el criterio asociado está superado. La programación deberá actualizarse antes de emitir una calificación definitiva que dependa de esa evidencia.
+
+Como propuesta de cálculo anual, se utilizará la media de las tres evaluaciones actualizadas tras las recuperaciones, con igual peso. Esta regla queda sujeta a los acuerdos de evaluación del centro y se comunicará antes de su aplicación. El redondeo y el registro oficial seguirán dichos acuerdos, evitando redondeos intermedios acumulados.
+
+=== Resumen de rúbricas de las tareas
+
+[cols="1,4",options="header"]
+|===
+|Tarea |Distribución de puntos o referencia
+|E01 |Explicación: 3; formatos y tabla: 2; organización: 2; archivos y exportación: 2; comprobación: 1.
+|E02 |Análisis: 2; algoritmo: 3; diagrama: 2; pruebas: 2; explicación: 1.
+|E03 |Evento e inicio: 2; desplazamientos: 3; regreso: 1; tabla: 3; archivo: 1.
+|E04 |Bucles: 4; inicio y eventos: 2; cálculos y comparación: 3; archivo y comentarios: 1.
+|E05 |Inicio y reinicio: 2; operaciones: 3; pruebas: 3; explicación: 1; archivo: 1.
+|E06 |Entrada y conservación de datos: 2; condición y cálculo: 4; pruebas: 2; explicación: 1; archivo: 1.
+|E07 |Fallo: 2; reparación: 3; pruebas: 2; explicación: 1; autoría y permisos: 2.
+|E08 |Necesidad y entrada: 2; salida y uso: 2; error: 2; revisión: 2; beneficio y límite: 2.
+|E09 |Separación y etiquetas: 3; comparación y porcentaje: 3; ejemplos nuevos: 2; explicación: 2.
+|E10 |Datos y etiquetas: 2; entrenamiento real: 2; uso de predicción: 2; registro y cálculo: 2; explicación de un límite: 2. No se exige un 100 % de aciertos del modelo.
+|E11 |Identificación de cinco problemas: 5; mejoras viables: 4; beneficio explicado: 1. La comparación de opciones completa el registro del criterio 4.3 y se comunica antes de asignar la actividad.
+|===
+
+Las preguntas de seguimiento sirven para completar el registro de criterios y orientar la mejora; no crean porcentajes adicionales ni una prueba de examen. Si se modifica una rúbrica, se publicará su versión completa antes de comenzar la actividad.
+
+=== Hábitos de trabajo: un punto de la nota
+
+Se sustituye la expresión imprecisa «se porta bien» por cuatro conductas observables. Cada indicador aporta hasta 0,25 puntos y se observa en varias sesiones.
+
+[cols="2,3,3,3",options="header"]
+|===
+|Indicador |0 puntos |0,125 puntos |0,25 puntos
+|Cuida el material y el entorno digital |Persiste en usos inadecuados tras recibir indicaciones y apoyos. |Cuida el puesto y los archivos con recordatorios frecuentes. |Cuida el material, guarda correctamente y comunica incidencias de forma habitual.
+|Trata con respeto a los demás |Mantiene conductas que dificultan el trabajo ajeno pese a las intervenciones. |Respeta turnos y trabajo ajeno con recordatorios. |Escucha, se comunica con respeto y permite trabajar a los demás habitualmente.
+|Trabaja durante la clase |No se incorpora a la tarea de forma reiterada pese a disponer de apoyos adecuados. |Trabaja de forma intermitente y necesita recordatorios frecuentes. |Inicia o retoma la tarea, aprovecha el tiempo y pide ayuda cuando la necesita.
+|Revisa y mejora |No realiza las revisiones acordadas pese a recibir orientación y oportunidad. |Aplica parte de las indicaciones con acompañamiento frecuente. |Utiliza las indicaciones, comprueba los cambios y mejora su entrega de manera habitual.
+|===
+
+La profesora realizará registros breves semanales, con fecha y conducta observada. Al cierre valorará la pauta predominante y la mejora sostenida, no una impresión global ni un incidente aislado. Cuando falten observaciones, el indicador quedará pendiente de evidencia.
+
+No se penalizarán el ritmo lento, los errores propios del aprendizaje, pedir ayuda, utilizar adaptaciones ni las ausencias justificadas. La respuesta disciplinaria, cuando corresponda, seguirá los procedimientos del centro y no consistirá en descuentos arbitrarios de la nota. El indicador de revisión valora el hábito observado, sin restar dos veces por el mismo error técnico del producto.
+
+=== Retroalimentación, recuperación y autoría
+
+Tras cada entrega se señalará lo conseguido, el aspecto que debe cambiar y cómo comprobarlo. Se ofrecerá tiempo y una nueva entrega para corregir los apartados pendientes. La evidencia válida de mejora sustituirá la valoración anterior del apartado recuperado, manteniendo los ya superados.
+
+Si falta una entrega, se comprobará primero la causa y se ofrecerá una oportunidad concreta de realización. La falta de acceso o una incidencia técnica no se confundirá con falta de aprendizaje. Los casos de no entrega después de los apoyos y oportunidades se resolverán conforme al procedimiento comunicado y a los acuerdos del centro.
+
+Ante dudas de autoría se solicitará una explicación breve del archivo o una modificación guiada equivalente, sin convertirla en examen. Si no permite acreditar el aprendizaje, se recogerá una nueva evidencia individual. No se aplicarán sanciones numéricas automáticas ajenas a los criterios publicados.
+
+Para alumnado con aprendizajes pendientes se elaborará un plan breve que indique criterio, ejercicio de refuerzo, evidencia requerida y plazo. No se importan de la plantilla de FP convocatorias extraordinarias, formación en empresa ni reglas de promoción de módulos. La evaluación final y la promoción en ESO corresponden a los procedimientos y órganos establecidos para la etapa.
+
+== Actividades complementarias y extraescolares
+
+No se establece ninguna salida ni actividad externa obligatoria en esta versión. Podrán incorporarse demostraciones o actividades de divulgación autorizadas por el centro si aportan valor a los objetivos de la materia.
+
+Antes de programarlas se concretarán objetivos, fecha, accesibilidad, recursos y alternativa para quien no pueda participar. No se condicionará una calificación a pagos, desplazamientos o disponibilidad de recursos personales. Su incorporación no sustituirá sin justificación las evidencias curriculares pendientes.
+
+== Evaluación de la programación y de la práctica docente
+
+La profesora revisará el desarrollo después de cada unidad y al cierre de cada evaluación. Se contrastarán la planificación, las entregas, las observaciones y las dificultades expresadas por el alumnado.
+
+[cols="2,3,2",options="header"]
+|===
+|Aspecto |Indicadores y evidencias |Decisiones posibles
+|Comprensión de las instrucciones |Errores repetidos de interpretación y preguntas habituales. |Reescribir enunciados, añadir ejemplo o dividir pasos.
+|Tiempo de aprendizaje |Periodos previstos y empleados; tareas terminadas dentro del aula. |Ajustar extensión, apoyos y secuencia.
+|Progreso |Criterios con evidencia suficiente y evolución tras revisiones. |Refuerzo concreto o nueva oportunidad de evidencia.
+|Accesibilidad |Barreras de lectura, formato, dispositivo o herramienta. |Cambiar presentación o medio de respuesta.
+|Evaluación |Coherencia entre rúbrica, tarea y criterio; discrepancias detectadas. |Revisar instrumentos antes de nuevas asignaciones.
+|Recursos |Incidencias, acceso a IA e inventario de robótica. |Reprogramar y comunicar cambios.
+|Hábitos |Registros distribuidos y comprensión de los indicadores. |Ajustar apoyos y evitar valoraciones subjetivas.
+|Cobertura curricular |Criterios sin evidencias, especialmente CE3 y 4.1. |Trasladar al departamento y completar la planificación.
+|===
+
+Se recogerá una breve opinión del alumnado sobre claridad, dificultad y utilidad de los materiales. La memoria final incluirá cambios realizados y propuestas concretas para el curso siguiente, sin atribuir las dificultades únicamente al alumnado.
+
+== Acuerdos departamentales, seguimiento y referencias
+
+=== Decisiones pendientes para cerrar la versión definitiva
+
+[cols="2,3,2",options="header"]
+|===
+|Cuestión |Actuación necesaria |Momento de revisión
+|Robótica |Confirmar equipos y desarrollar las unidades y evidencias de CE3; si no existen, acordar una respuesta curricular viable. |Antes de asignar el bloque y antes del cierre anual.
+|Criterio 4.1 |Resolver con el departamento su evaluación, dado que la propuesta solicitada es individual. No se considera cubierto por respeto o conducta. |Revisión departamental de esta versión.
+|Calificación |Validar 90/10, el carácter instrumental de E01, el cálculo anual y los procedimientos de recuperación y redondeo. |Antes de aprobar y publicar los criterios definitivos.
+|IA |Seleccionar y probar la herramienta de E10; concretar fechas y condiciones de acceso. |Antes de iniciar la unidad 8.
+|Calendario |Incorporar fechas de evaluación, días locales no lectivos y periodos realmente disponibles. |Al contrastar el calendario del centro.
+|Contexto y apoyos |Completar grupos, inventario y medidas educativas necesarias. |Evaluación inicial y seguimiento.
+|===
+
+La ausencia de estos datos no impide comenzar las unidades desarrolladas, pero exige actualizar el documento para afirmar que la planificación anual atiende todos los criterios. Las unidades de robótica se mantienen deliberadamente sin contenido, conforme a la decisión actual de la profesora.
+
+=== Referencias para consulta
+
+* https://www.boe.es/eli/es/lo/2006/05/03/2/con[Ley Orgánica 2/2006, texto consolidado].
+* https://www.boe.es/eli/es/rd/2022/03/29/217/con[Real Decreto 217/2022, texto consolidado].
+* https://dogv.gva.es/es/eli/es-vc/d/2022/08/05/107/[Decreto 107/2022, currículo de ESO de la Comunitat Valenciana].
+* https://dogv.gva.es/datos/2024/06/24/pdf/2024_6134.pdf[Decreto 66/2024, modificación curricular].
+* https://dogv.gva.es/datos/2023/07/04/pdf/2023_7514.pdf[Orden 19/2023].
+* https://ceice.gva.es/documents/162640733/364069413/Programaci%C3%B3n%2C+Inteligencia+Artificial+y+Rob%C3%B3tica+I+y+II.pdf/48556c46-1eb4-2fa0-8a89-04d1d805b370[Currículo de Programación, Inteligencia Artificial y Robótica I y II]. Criterios de evaluación de 2.º: páginas 12–14 del PDF.
+* https://dogv.gva.es/es/resultat-dogv?signatura=2026%2F20810[Calendario escolar 2026–2027, resolución de 15 de junio de 2026].
+* https://dogv.gva.es/es/resultat-dogv?signatura=2026%2F24443[Instrucciones de organización y funcionamiento de ESO y Bachillerato 2026–2027].
+
+Documento de partida: `Plantilla_Programación_curso_módulo_2025_2026_Anotaciones.docx`, aportado por la profesora. Se conserva su estructura general, adaptando las categorías de FP a ESO. Las anotaciones internas de la plantilla se han tratado como observaciones del documento de origen.
+
+=== Registro de revisión
+
+[cols="1,2,3",options="header"]
+|===
+|Versión |Fecha |Estado
+|1.0 |30/09/2026 |Propuesta adaptada a ESO y a las decisiones de la profesora. Pendiente de revisión departamental en los puntos indicados.
+|===

@@ -1,0 +1,15 @@
+Departamento de Informática · IES Font · València
+
+*Ciclo:* Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR). +
+*Módulo:* 0374 Administración de Sistemas Operativos (ASO). +
+*Nivel y modalidad:* segundo curso, presencial. +
+*Curso académico:* {curso}. +
+*Docente:* María Bañuls Ribes.
+
+[IMPORTANT]
+====
+Documento de trabajo para revisión y aprobación del departamento. Adapta la estructura de la plantilla facilitada, que correspondía a Programación de DAW en 2025-2026, al módulo de ASO en 2026-2027.
+
+Las decisiones didácticas que siguen son propuestas para el grupo. Los campos marcados *PENDIENTE DE VALIDACIÓN* requieren los acuerdos del PCCF (Proyecto Curricular de Ciclo Formativo), la distribución horaria vigente y el plan de formación en empresa. No se presentan como decisiones ya aprobadas.
+====
+

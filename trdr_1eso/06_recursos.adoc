@@ -1,0 +1,15 @@
+== Recursos, espacios y equipamientos
+
+=== Recursos didácticos
+
+* Microsoft Teams como punto de acceso a la materia.
+* OneNote Class Notebook como libreta digital individual y repositorio de evidencias.
+* Microsoft 365 y OneDrive.
+* Navegador web y buscadores.
+* TypingClub para mecanografía.
+* Scratch en las actividades de iniciación a la programación.
+* Materiales elaborados por la profesora: apuntes breves, fichas digitales, casos, imágenes y actividades guiadas.
+
+=== Espacios y equipamientos
+
+La materia se desarrolla preferentemente en aula de informática con un equipo por alumno o alumna, conexión a Internet, proyector/pantalla y equipo docente. Se aplicarán las normas de uso y cuidado del equipamiento del centro.

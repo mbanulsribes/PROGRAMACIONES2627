@@ -1,0 +1,32 @@
+== Evaluación de la programación y de la práctica docente
+
+La programación será objeto de seguimiento durante el curso con el fin de comprobar su adecuación al grupo y adoptar ajustes cuando sean necesarios.
+
+=== Indicadores de logro de la programación
+
+[cols="4,1,1,1,4",options="header"]
+|===
+|Indicador |Sí |Parcial |No |Observaciones
+|La temporalización se ajusta al ritmo real del grupo. | | | |
+|Las actividades permiten obtener evidencias de los criterios previstos. | | | |
+|El alumnado utiliza Teams y OneNote con autonomía progresiva. | | | |
+|Las instrucciones y materiales resultan comprensibles. | | | |
+|Las medidas de inclusión permiten la participación del alumnado. | | | |
+|La carga de trabajo es adecuada al tiempo disponible. | | | |
+|La retroalimentación facilita la revisión y mejora. | | | |
+|La secuencia de unidades favorece la transferencia a situaciones cotidianas. | | | |
+|===
+
+=== Evaluación de la práctica docente
+
+Al finalizar cada evaluación se revisarán, al menos, el grado de desarrollo de la programación, dificultades detectadas, resultados de aprendizaje observados, funcionamiento de las rutinas, adecuación de recursos y herramientas, medidas de atención a la diversidad y propuestas de modificación para el siguiente periodo.
+
+=== Registro de modificaciones
+
+[cols="1,2,3",options="header"]
+|===
+|Fecha |Apartado afectado |Modificación y justificación
+| | |
+| | |
+| | |
+|===

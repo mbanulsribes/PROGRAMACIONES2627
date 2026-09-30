@@ -1,0 +1,31 @@
+= Programaciones didácticas 2026–2027
+
+== Editar y compilar
+
+Edite los datos en `src/atributos/ao.adoc` o `src/atributos/aso.adoc` y el contenido en `src/capitulos/ao/` o `src/capitulos/aso/`. El maestro es `src/programacion.adoc`; las composiciones independientes están en `src/modulos/`. Los anexos de ASO están en `src/anexos/aso/`.
+
+Desde PowerShell, en esta carpeta:
+
+[source,powershell]
+----
+./build.ps1                            # HTML y PDF de todos los módulos
+./build.ps1 -Modulo ao -Formato html
+./build-pdf.ps1 -Modulo aso
+./new-module.ps1 -Id nuevo
+----
+
+El nuevo módulo utiliza la plantilla vacía `templates/modulo/`. Complete sus atributos y capítulos y ejecute `./build.ps1 -Modulo nuevo`. No copie los contenidos de otro módulo para crear una programación vacía.
+
+Los resultados se guardan en `output/html/` y `output/pdf/`. El HTML depende de `theme/` y `assets/`: conserve la estructura al compartirlo. Para un documento independiente, comparta el PDF.
+
+== Compilador
+
+Se incluye en `.tools/` un compilador local JRuby 9.4.12.1, Asciidoctor 2.0.26 y Asciidoctor PDF 2.3.27, que usa Java instalado en este equipo. No requiere instalación global. Alternativamente, con Ruby instalado, ejecute `gem install asciidoctor asciidoctor-pdf`; los scripts dan prioridad a estos comandos si están disponibles.
+
+El tema PDF está en `theme/font-programacion-theme.yml`; los estilos HTML en `theme/programacion.css`. La portada compartida está en `templates/portada.adoc`. Las fuentes de Windows se guardan localmente en `assets/fonts/` y no deben redistribuirse sin la licencia correspondiente. `.tools/`, fuentes y archivos generados quedan excluidos de Git.
+
+== Conservación y referencia
+
+`archivo/originales/` conserva los cuatro archivos iniciales sin cambios. `archivo/manifiesto-originales.json` registra sus hashes. El DOCX con sus anotaciones se conserva en `referencias/`; sus tres imágenes se han extraído a `assets/images/`. Consulte `MIGRACION.adoc` para el mapa completo de apartados y las decisiones de organización.
+
+La estructura tiene 13 apartados principales; objetivos generales se integra como subapartado de estándares sin cambiar su texto. Los dos apartados adicionales de ASO se incluyen al final desde anexos. Se conservan todas las advertencias de validación y el contenido didáctico; esta reorganización no constituye una revisión normativa.

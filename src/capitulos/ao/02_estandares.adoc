@@ -1,0 +1,19 @@
+== Relación entre los estándares de competencia y los módulos del ciclo formativo
+
+El anexo V del Real Decreto 1691/2007 relaciona el módulo 0223 con las antiguas unidades UC0221_2 y UC0222_2. El catálogo actual de INCUAL recoge los estándares ECP0221_2 y ECP0222_2. La tabla diferencia la correspondencia normativa de la relación didáctica con los RA, que es una concreción de esta programación.
+
+[cols="2,3,4",options="header"]
+|===
+|Estándar actual |Referencia anterior en el título |Módulo y relación didáctica
+|ECP0221_2 · Gestionar aplicaciones en sistemas microinformáticos
+|UC0221_2 · Instalar, configurar y mantener paquetes informáticos de propósito general y aplicaciones específicas.
+|0223 Aplicaciones ofimáticas. RA1: instalación y actualización; RA2–RA8: explotación de aplicaciones; RA9: resolución de incidencias.
+|ECP0222_2 · Dar soporte al usuario de equipos microinformáticos
+|UC0222_2 · Facilitar al usuario la utilización de paquetes informáticos de propósito general y aplicaciones específicas.
+|0223 Aplicaciones ofimáticas. RA9 como eje del soporte; RA2–RA8 mediante demostraciones, manuales y atención a necesidades de uso.
+|===
+
+Referencia de consulta: https://incual.educacion.gob.es/en/instrumentos/nivel2/informatica[INCUAL, estándares de nivel 2 de Informática y Comunicaciones]. Esta tabla no establece convalidaciones nuevas ni sustituye el procedimiento administrativo de acreditación.
+
+La coordinación con Montaje y mantenimiento de equipos, Sistemas operativos monopuesto y Redes locales se centra en requisitos, permisos, dispositivos y conectividad. Cada módulo evalúa sus propios RA y evita duplicar pruebas sin finalidad formativa.
+

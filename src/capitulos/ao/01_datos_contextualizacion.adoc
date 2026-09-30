@@ -1,0 +1,57 @@
+== Datos identificativos, marco normativo y contextualización del módulo
+
+=== Datos identificativos
+
+[cols="2,5",options="header"]
+|===
+|Dato |Concreción
+|Centro
+|IES Font de Sant Lluís
+|Departamento
+|Informática
+|Docente
+|María Bañuls Ribes
+|Familia profesional
+|Informática y Comunicaciones
+|Ciclo y nivel
+|Técnico en Sistemas Microinformáticos y Redes · Grado medio
+|Código y denominación
+|0223 · Aplicaciones ofimáticas
+|Curso académico y nivel
+|2026–2027 · 1.º SMR
+|Duración del ciclo
+|2.000 horas
+|Duración del módulo
+|233 horas; 7 horas semanales según el anexo I del Decreto 114/2025, tabla de SMR, página 34 del PDF oficial.
+|Organización semanal comunicada
+|Martes: 2 periodos lectivos; jueves: 3; viernes: 2.
+|Entorno de trabajo
+|Aula informática con LliureX 23 y LibreOffice.
+|Formación en empresa
+|Horas, periodos, RA/CE compartidos y porcentaje del módulo: pendientes de concreción en el plan formativo.
+|Documentos de referencia del centro
+|PCCF de SMR, proyecto educativo, normas de organización y calendario aprobado: completar referencia y versión antes de aprobar este documento.
+|===
+
+=== Marco normativo
+
+El marco general del ciclo, la organización del centro y los procedimientos comunes de evaluación se desarrollan en el PCCF. Para este módulo se toman como referencias específicas:
+
+* https://www.boe.es/eli/es/rd/2007/12/14/1691[Real Decreto 1691/2007, de 14 de diciembre]: identificación del título, competencia general, objetivos generales, correspondencias profesionales y RA/CE del módulo 0223 en su anexo I.
+* https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10684[Real Decreto 499/2024, de 21 de mayo]: adaptación de títulos de grado medio a la nueva ordenación. Se utiliza la denominación «competencias profesionales y para la empleabilidad» y se distingue el carácter orientativo de los contenidos del carácter prescriptivo de los RA y CE.
+* https://dogv.gva.es/datos/2025/08/04/pdf/2025_29742_es.pdf[Decreto 114/2025, de 29 de julio, del Consell]: currículo valenciano; artículos 3, 5, 7, 8 y 9 sobre currículo, proyecto intermodular, formación en empresa, PCCF y programación didáctica; anexo I para la carga horaria.
+* https://www.boe.es/eli/es/rd/2023/07/18/659/con[Real Decreto 659/2023, de 18 de julio, texto consolidado]: desarrollo de la ordenación del Sistema de Formación Profesional, evaluación referida a RA/CE y colaboración en la formación en empresa.
+* https://www.boe.es/buscar/doc.php?id=BOE-A-2025-13147[Real Decreto 532/2025, de 24 de junio]: integración de estándares de competencias profesionales derivados de las anteriores unidades de competencia.
+
+La aplicación de las instrucciones autonómicas de organización y evaluación de 2026–2027, las medidas de inclusión y las normas de protección de datos se concretará mediante la referencia vigente recogida en el PCCF. *Pendiente de validación documental:* incorporar las instrucciones de curso y los acuerdos del centro antes de aprobar la programación; no se trasladan automáticamente las instrucciones de 2025–2026 de la plantilla.
+
+=== Contextualización del módulo
+
+Aplicaciones Ofimáticas prepara al alumnado para instalar y utilizar aplicaciones de propósito general, producir documentación profesional y prestar soporte a usuarios. En SMR, estas tareas conectan el manejo cotidiano del equipo con su mantenimiento y con la asistencia técnica: no basta con obtener un documento, también hay que elegir formatos, conservar los originales, justificar decisiones y resolver incidencias.
+
+Se parte de una posible diversidad de experiencias previas: el uso habitual de un teléfono o de aplicaciones en línea no acredita por sí mismo autonomía en archivos, aplicaciones de escritorio, hojas de cálculo o documentación técnica. La evaluación inicial permitirá concretar las necesidades reales del grupo, sin atribuirle características no comprobadas.
+
+El contexto didáctico común es *CAOS, S.L.*, una empresa ficticia con archivos desordenados, documentos inconsistentes, cálculos erróneos y problemas de comunicación. El alumnado asume progresivamente tareas de apoyo ofimático y soporte. Se emplean datos ficticios y situaciones comprensibles para un grupo de primer curso.
+
+La web del módulo reúne teoría, ejemplos, ejercicios y materiales descargables. Aules contiene las evaluables, condiciones de realización, fechas, entregas, retroalimentación y calificaciones. Esta organización reduce la duplicación y facilita que el alumnado sepa dónde consultar y dónde entregar.
+

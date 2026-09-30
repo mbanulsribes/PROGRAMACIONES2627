@@ -1,0 +1,2258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="author" content="María Bañuls Ribes">
+<title>Programación didáctica: Administración de Sistemas Operativos</title>
+<link rel="stylesheet" href="./font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/styles/github.min.css">
+</head>
+<body class="book toc2 toc-left">
+<div id="header">
+<h1>Programación didáctica: Administración de Sistemas Operativos</h1>
+<div class="details">
+<span id="author" class="author">María Bañuls Ribes</span><br>
+<span id="revnumber">version 1.1,</span>
+<span id="revdate">30 de septiembre de 2026</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Sumario</div>
+<ul class="sectlevel1">
+<li><a href="#_propuestas_de_mejora_y_modificaciones_respecto_a_la_versión_anterior">1. Propuestas de mejora y modificaciones respecto a la versión anterior</a></li>
+<li><a href="#_datos_identificativos_marco_normativo_y_contextualización">2. Datos identificativos, marco normativo y contextualización</a>
+<ul class="sectlevel2">
+<li><a href="#_datos_identificativos">2.1. Datos identificativos</a></li>
+<li><a href="#_marco_normativo">2.2. Marco normativo</a></li>
+<li><a href="#_contextualización_del_módulo">2.3. Contextualización del módulo</a></li>
+</ul>
+</li>
+<li><a href="#_relación_entre_los_estándares_de_competencia_y_el_módulo">3. Relación entre los estándares de competencia y el módulo</a></li>
+<li><a href="#_contribución_a_los_objetivos_generales_del_ciclo">4. Contribución a los objetivos generales del ciclo</a></li>
+<li><a href="#_contribución_de_los_ra_a_las_competencias">5. Contribución de los RA a las competencias</a>
+<ul class="sectlevel2">
+<li><a href="#_competencia_general">5.1. Competencia general</a></li>
+<li><a href="#_competencias_profesionales_y_para_la_empleabilidad">5.2. Competencias profesionales y para la empleabilidad</a></li>
+<li><a href="#_competencias_transversales">5.3. Competencias transversales</a></li>
+<li><a href="#_resultados_de_aprendizaje">5.4. Resultados de aprendizaje</a></li>
+</ul>
+</li>
+<li><a href="#_esquema_general_y_secuenciación_de_las_unidades">6. Esquema general y secuenciación de las unidades</a>
+<ul class="sectlevel2">
+<li><a href="#_contenidos_básicos_y_adaptación_didáctica">6.1. Contenidos básicos y adaptación didáctica</a></li>
+<li><a href="#_temporalización_presencial">6.2. Temporalización presencial</a></li>
+<li><a href="#_reparto_centro_empresa">6.3. Reparto centro-empresa</a></li>
+<li><a href="#_desarrollo_de_las_unidades_de_programación">6.4. Desarrollo de las unidades de programación</a>
+<ul class="sectlevel3">
+<li><a href="#_up01_instalación_y_virtualización">6.4.1. UP01. Instalación y virtualización</a></li>
+<li><a href="#_up02_linux">6.4.2. UP02. Linux</a></li>
+<li><a href="#_up03_procesos_y_servicios">6.4.3. UP03. Procesos y servicios</a></li>
+<li><a href="#_up04_scripting_y_automatización">6.4.4. UP04. Scripting y automatización</a></li>
+<li><a href="#_up05_docker_y_despliegue">6.4.5. UP05. Docker y despliegue</a></li>
+<li><a href="#_up06_gestión_de_contenedores">6.4.6. UP06. Gestión de contenedores</a></li>
+<li><a href="#_up07_servicios_de_directorio">6.4.7. UP07. Servicios de directorio</a></li>
+<li><a href="#_up08_administración_remota">6.4.8. UP08. Administración remota</a></li>
+<li><a href="#_up09_servidores_de_impresión">6.4.9. UP09. Servidores de impresión</a></li>
+<li><a href="#_up10_integración_de_sistemas_y_cierre_de_criterios">6.4.10. UP10. Integración de sistemas y cierre de criterios</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_metodología_del_proceso_de_enseñanza_aprendizaje">7. Metodología del proceso de enseñanza-aprendizaje</a>
+<ul class="sectlevel2">
+<li><a href="#_enfoque_y_principios">7.1. Enfoque y principios</a></li>
+<li><a href="#_estrategias_y_papel_de_los_participantes">7.2. Estrategias y papel de los participantes</a></li>
+<li><a href="#_plan_de_contingencia">7.3. Plan de contingencia</a></li>
+<li><a href="#_refuerzo_ampliación_y_uso_de_ia">7.4. Refuerzo, ampliación y uso de IA</a></li>
+</ul>
+</li>
+<li><a href="#_recursos_didácticos_y_referencias">8. Recursos didácticos y referencias</a>
+<ul class="sectlevel2">
+<li><a href="#_recursos_físicos_y_lógicos">8.1. Recursos físicos y lógicos</a></li>
+<li><a href="#_materiales_y_bibliografía">8.2. Materiales y bibliografía</a></li>
+</ul>
+</li>
+<li><a href="#_uso_de_espacios_y_equipamientos">9. Uso de espacios y equipamientos</a></li>
+<li><a href="#_medidas_de_atención_a_la_diversidad">10. Medidas de atención a la diversidad</a></li>
+<li><a href="#_evaluación_del_aprendizaje">11. Evaluación del aprendizaje</a>
+<ul class="sectlevel2">
+<li><a href="#_principios">11.1. Principios</a></li>
+<li><a href="#_instrumentos">11.2. Instrumentos</a></li>
+<li><a href="#_distribución_de_la_evaluación_por_ra">11.3. Distribución de la evaluación por RA</a></li>
+<li><a href="#_criterios_de_calificación">11.4. Criterios de calificación</a></li>
+<li><a href="#_recuperación_segunda_convocatoria_y_evaluación_extraordinaria">11.5. Recuperación, segunda convocatoria y evaluación extraordinaria</a></li>
+<li><a href="#_formación_en_empresa_u_organismo_equiparado">11.6. Formación en empresa u organismo equiparado</a></li>
+<li><a href="#_proyecto_intermodular">11.7. Proyecto intermodular</a></li>
+<li><a href="#_superación_y_promoción">11.8. Superación y promoción</a></li>
+</ul>
+</li>
+<li><a href="#_actividades_complementarias_y_extraescolares">12. Actividades complementarias y extraescolares</a></li>
+<li><a href="#_evaluación_de_la_programación_y_de_la_práctica_docente">13. Evaluación de la programación y de la práctica docente</a></li>
+<li><a href="#_otros_apartados_y_cierre_de_la_versión_aprobada">14. Otros apartados y cierre de la versión aprobada</a></li>
+<li><a href="#_matriz_de_criterios_de_evaluación_y_evidencias">Appendix A: Matriz de criterios de evaluación y evidencias</a>
+<ul class="sectlevel2">
+<li><a href="#_ra1">A.1. RA1</a></li>
+<li><a href="#_ra2">A.2. RA2</a></li>
+<li><a href="#_ra3">A.3. RA3</a></li>
+<li><a href="#_ra4">A.4. RA4</a></li>
+<li><a href="#_ra5">A.5. RA5</a></li>
+<li><a href="#_ra6">A.6. RA6</a></li>
+<li><a href="#_ra7">A.7. RA7</a></li>
+</ul>
+</li>
+<li><a href="#_registro_de_seguimiento_propuesto">Appendix B: Registro de seguimiento propuesto</a></li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Departamento de Informática · IES Font · València</p>
+</div>
+<div class="paragraph">
+<p><strong>Ciclo:</strong> Técnico Superior en Administración de Sistemas Informáticos en Red (ASIR).<br>
+<strong>Módulo:</strong> 0374 Administración de Sistemas Operativos (ASO).<br>
+<strong>Nivel y modalidad:</strong> segundo curso, presencial.<br>
+<strong>Curso académico:</strong> 2026-2027.<br>
+<strong>Docente:</strong> María Bañuls Ribes.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Documento de trabajo para revisión y aprobación del departamento. Adapta la estructura de la plantilla facilitada, que correspondía a Programación de DAW en 2025-2026, al módulo de ASO en 2026-2027.</p>
+</div>
+<div class="paragraph">
+<p>Las decisiones didácticas que siguen son propuestas para el grupo. Los campos marcados <strong>PENDIENTE DE VALIDACIÓN</strong> requieren los acuerdos del PCCF (Proyecto Curricular de Ciclo Formativo), la distribución horaria vigente y el plan de formación en empresa. No se presentan como decisiones ya aprobadas.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_propuestas_de_mejora_y_modificaciones_respecto_a_la_versión_anterior">1. Propuestas de mejora y modificaciones respecto a la versión anterior</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>No se ha aportado una programación presencial anterior aprobada del módulo. El registro recoge las adaptaciones de los materiales disponibles y del desarrollo comunicado por la docente.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Fecha</th>
+<th class="tableblock halign-left valign-top">Modificación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Revisión 1.1: incorporación del Decreto 114/2025, artículo 9 y anexo II; corrección de la carga a 133 horas y actualización del marco autonómico.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adaptación de la plantilla a ASIR, módulo 0374 y curso 2026-2027.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sustitución de la temporalización a distancia por una propuesta presencial de lunes y martes, dos horas cada día.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inicio con instalación, Linux, procesos, automatización y contenedores; desarrollo de directorio, administración remota, impresión e integración después del 22 de enero.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso inicial de LliureX 21 y VirtualBox; Ubuntu Server como invitado. Acceso al servidor departamental sujeto a conectividad y permisos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Incorporación de Plan B teórico y registro de operaciones prácticas pendientes de ejecutar.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Trazabilidad entre criterios de evaluación, unidades e instrumentos. Diferenciación entre tareas preparatorias y evidencias propias de ASO.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_datos_identificativos_marco_normativo_y_contextualización">2. Datos identificativos, marco normativo y contextualización</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_datos_identificativos">2.1. Datos identificativos</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Dato</th>
+<th class="tableblock halign-left valign-top">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Familia profesional</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Informática y Comunicaciones.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Título</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Técnico Superior en Administración de Sistemas Informáticos en Red.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Módulo y código</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administración de Sistemas Operativos, 0374.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Créditos ECTS de referencia</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8, según el título estatal.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Centro y localidad</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">IES Font, València capital. Denominación administrativa y código de centro: PENDIENTES DE VALIDACIÓN.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Curso y modalidad</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.º ASIR, presencial, 2026-2027.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Horario comunicado</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lunes y martes, dos horas cada día: cuatro horas semanales.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Carga anual</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">133 horas; cuatro horas semanales en segundo curso, según el anexo II del Decreto 114/2025 (página 72). Reparto centro-empresa pendiente del plan aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Grupo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Número de estudiantes, características de acceso y necesidades específicas: completar tras evaluación inicial.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Docente</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">María Bañuls Ribes.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Canales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aules para avisos, tareas y calificaciones; web de ASO para teoría y prácticas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_marco_normativo">2.2. Marco normativo</h3>
+<div class="paragraph">
+<p>El marco general del centro se remite al PCCF. Para este módulo se consideran las siguientes referencias, que deberán contrastarse con sus textos vigentes y las instrucciones autonómicas de 2026-2027 antes de la aprobación:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2009-18355">Real Decreto 1629/2009, de 30 de octubre</a>: título de ASIR, módulo 0374, resultados de aprendizaje, criterios y orientaciones pedagógicas.</p>
+</li>
+<li>
+<p><a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10685">Real Decreto 500/2024, de 21 de mayo</a>: modificación de títulos de grado superior en el nuevo marco de FP.</p>
+</li>
+<li>
+<p><a href="https://www.boe.es/eli/es/lo/2022/03/31/3/con">Ley Orgánica 3/2022, de ordenación e integración de la Formación Profesional</a>.</p>
+</li>
+<li>
+<p><a href="https://www.boe.es/eli/es/rd/2023/07/18/659/con">Real Decreto 659/2023, de ordenación del Sistema de Formación Profesional</a>.</p>
+</li>
+<li>
+<p><a href="https://dogv.gva.es/datos/2025/08/04/pdf/2025_29742_va.pdf">Decreto 114/2025, de 29 de julio, del Consell</a> (DOGV 10165, 04/08/2025): currículo autonómico en el nuevo sistema de FP. Artículo 3: referencia de RA y criterios; artículo 7: formación en empresa; artículo 9: estructura de la programación; anexo II, página 72: ASO, código 0374, segundo curso, cuatro horas semanales y 133 horas.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>La Orden 36/2012, de 22 de junio, queda como antecedente histórico: la disposición derogatoria primera, apartado 56, del Decreto 114/2025 la deroga expresamente. Las disposiciones transitorias mantienen el régimen anterior para los planes en extinción en los términos allí previstos; no se utiliza como base horaria del grupo ordinario de 2026-2027.</p>
+</div>
+<div class="paragraph">
+<p>Conforme al artículo 3.2 del Decreto 114/2025, los RA y criterios se remiten al real decreto del título, con las concreciones que correspondan. La estructura de esta programación se alinea con el artículo 9. El reparto de las 133 horas entre unidades es una propuesta docente, no una distribución impuesta por el decreto. Queda por contrastar el calendario y las instrucciones específicas de 2026-2027, junto con los acuerdos del PCCF.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_contextualización_del_módulo">2.3. Contextualización del módulo</h3>
+<div class="paragraph">
+<p>El grupo trabaja presencialmente en un aula de informática con LliureX 21. Se dispone de VirtualBox para las primeras instalaciones de Ubuntu Server. Se parte de conocimientos de primer curso sobre sistemas, redes y hardware, que se comprobarán mediante una actividad inicial de inventario y una ficha de planificación de VM.</p>
+</div>
+<div class="paragraph">
+<p>La VLAN del aula ha dificultado el acceso SSH y web al servidor del departamento. No se da por resuelta esa incidencia. Las prácticas se realizarán localmente cuando sea posible y migrarán al servidor cuando se confirme la disponibilidad. La contextualización general del centro corresponde al PCCF.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_relación_entre_los_estándares_de_competencia_y_el_módulo">3. Relación entre los estándares de competencia y el módulo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ASO desarrolla tareas profesionales de administración de sistemas, servicios, cuentas, automatización y soporte. La relación siguiente es funcional; no constituye una equivalencia normativa de acreditación.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 40%;">
+<col style="width: 20%;">
+<col style="width: 40%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Ámbito profesional</th>
+<th class="tableblock halign-left valign-top">RA</th>
+<th class="tableblock halign-left valign-top">Evidencia formativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administración de servicios e identidades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1, RA2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Directorio operativo, gestión de procesos y servicios.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Automatización de la administración</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3, RA7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tareas programadas y guiones probados.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Explotación y soporte remoto</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Accesos protegidos y diagnóstico documentado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Servicios compartidos e interoperabilidad</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5, RA6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Impresión y recursos compartidos entre sistemas.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>PENDIENTE DE VALIDACIÓN:</strong> incorporar desde el PCCF y el anexo de correspondencias vigente la denominación y el código oficial de cada estándar asociado al módulo. No se asignan códigos de unidades de competencia sin verificar su correspondencia actual.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contribución_a_los_objetivos_generales_del_ciclo">4. Contribución a los objetivos generales del ciclo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Las orientaciones del módulo en el RD 1629/2009 relacionan ASO con los objetivos a), b), n), ñ), o) y q). Se conserva esa identificación de referencia; las descripciones siguientes son una síntesis didáctica y deberán cotejarse con la versión del título que utilice el PCCF.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Referencia</th>
+<th class="tableblock halign-left valign-top">Contribución del módulo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a), b)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar software de base e instalar y configurar sistemas y servicios siguiendo documentación técnica.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">n), ñ)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Asignar recursos, analizar disfunciones y restablecer el servicio mediante un diagnóstico ordenado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">o)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar herramientas y procedimientos de administración valorando cambios tecnológicos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">q)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Resolver incidencias y tomar decisiones contrastando información y alternativas.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>La instalación inicial recupera aprendizajes previos y prepara el laboratorio. Su realización, por sí sola, no acredita un RA independiente de ASO.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contribución_de_los_ra_a_las_competencias">5. Contribución de los RA a las competencias</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_competencia_general">5.1. Competencia general</h3>
+<div class="paragraph">
+<p>El módulo contribuye a configurar, administrar y mantener sistemas informáticos, atendiendo a su funcionamiento, disponibilidad y seguridad. Se concreta en servicios verificables y documentación que permita repetir y mantener las configuraciones.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_competencias_profesionales_y_para_la_empleabilidad">5.2. Competencias profesionales y para la empleabilidad</h3>
+<div class="paragraph">
+<p>La referencia pedagógica del título vincula el módulo con las competencias a), l), m), n), ñ), o), q), r) y s). En esta programación se desarrollan mediante administración de servidores, mantenimiento, diagnóstico, documentación, colaboración, responsabilidad y adaptación. La nomenclatura CPPE y su correspondencia con la formulación del título se armonizarán con el PCCF; no se renumeran las competencias oficiales.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_competencias_transversales">5.3. Competencias transversales</h3>
+<div class="paragraph">
+<p>Se emplean identificadores internos: CT1, comunicación técnica; CT2, autonomía y diagnóstico; CT3, cooperación y reparto de tareas; CT4, seguridad y tratamiento responsable de información; CT5, accesibilidad, uso responsable de recursos y aprendizaje continuo. No son códigos oficiales ni añaden porcentajes de nota independientes.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_resultados_de_aprendizaje">5.4. Resultados de aprendizaje</h3>
+<div class="paragraph">
+<p>Los siguientes títulos son una síntesis del currículo; el anexo de criterios conserva las letras de identificación para facilitar su cotejo.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 50%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">RA</th>
+<th class="tableblock halign-left valign-top">Desempeño</th>
+<th class="tableblock halign-left valign-top">Competencias movilizadas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administrar directorios e integrarlos en una red.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administración, seguridad, CT1-CT4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administrar procesos con seguridad y eficiencia.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mantenimiento y diagnóstico, CT1-CT2-CT4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Automatizar tareas del sistema.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Eficiencia y autonomía, CT1-CT2-CT4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administrar remotamente sistemas en red.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Soporte y seguridad, CT1-CT2-CT4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administrar servidores de impresión.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestión de servicios, CT1-CT3-CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Integrar sistemas libres y propietarios.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interoperabilidad y cooperación, CT1-CT3-CT4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar guiones para administrar sistemas y servicios.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Automatización y adaptación, CT1-CT2-CT4-CT5.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_esquema_general_y_secuenciación_de_las_unidades">6. Esquema general y secuenciación de las unidades</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_contenidos_básicos_y_adaptación_didáctica">6.1. Contenidos básicos y adaptación didáctica</h3>
+<div class="paragraph">
+<p>Se desarrollan directorios y autenticación centralizada; procesos, hilos, interrupciones, estados y arranque; planificación de tareas; información y sistemas de archivos virtuales; administración remota; impresión; interoperabilidad y recursos compartidos; guiones, depuración y bibliotecas de funciones en sistemas libres y propietarios.</p>
+</div>
+<div class="paragraph">
+<p>Linux proporciona el entorno inicial. Docker y Compose se utilizan como contexto aplicado para procesos, servicios, automatización y administración remota. Se programan además las actividades específicas de directorio, impresión e integración que requieren sus propios criterios.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_temporalización_presencial">6.2. Temporalización presencial</h3>
+<div class="paragraph">
+<p>La carga curricular es de <strong>133 horas</strong>, según el anexo II del Decreto 114/2025. Se propone la siguiente distribución didáctica. Las sesiones indicadas son equivalencias de dos horas para planificar, no un calendario cerrado ni una atribución íntegra al centro. Incluye demostraciones, actividades, evaluación, realimentación y recuperación integrada.</p>
+</div>
+<div class="paragraph">
+<p>El calendario definitivo se calculará con lunes y martes lectivos reales, descontando festivos de València, vacaciones y días no lectivos del centro. No se ha aportado el calendario aprobado ni el periodo de empresa. Si disminuye el tiempo disponible se ajustará la extensión de los ejercicios y se coordinarán evidencias, manteniendo la cobertura de los criterios.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 12.5%;">
+<col style="width: 37.5%;">
+<col style="width: 12.5%;">
+<col style="width: 12.5%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Título</th>
+<th class="tableblock halign-left valign-top">Horas</th>
+<th class="tableblock halign-left valign-top">Sesiones</th>
+<th class="tableblock halign-left valign-top">Ventana orientativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">01</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instalación y virtualización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Septiembre-inicio de octubre</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">02</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Linux</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Septiembre-octubre</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Procesos y servicios</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Octubre-noviembre</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Scripting y automatización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Noviembre; ampliación posterior</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Docker y despliegue</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diciembre</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestión de contenedores</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Enero, antes del hito</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Servicios de directorio</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Después del 22 de enero</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administración remota</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Después del 22 de enero</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Servidores de impresión</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Después del 22 de enero</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Integración de sistemas y cierre de criterios</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11 + 1 hora</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Después del 22 de enero</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Total</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Carga curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">133</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">66 + 1 hora</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pendiente de calendario definitivo</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Las UP01-06 suman 64 horas; las UP07-10, 69. No se supone que la secuencia agote todas las sesiones hasta enero: el margen real, si existe, se destinará a refuerzo, incidencias y evidencias pendientes. Las UP pueden solaparse para retomar Linux o guiones en casos posteriores.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 33.3333%;">
+<col style="width: 50.0001%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Hito orientativo</th>
+<th class="tableblock halign-left valign-top">Producto</th>
+<th class="tableblock halign-left valign-top">Organización</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08/10/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sistema instalado y comprobado</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recoger evidencias en sesiones previas; el jueves no añade una clase al horario.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21/12/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Servicio desplegado en contenedor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prueba de funcionamiento y documentación del acceso y la persistencia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22/01/2027</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestión de contenedores</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Programar la evidencia antes del viernes 22; este día no añade sesión.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_reparto_centro_empresa">6.3. Reparto centro-empresa</h3>
+<div class="paragraph">
+<p>H_total = 133 horas. H_centro y H_empresa quedan pendientes de la distribución aprobada. Según el artículo 7, la formación en empresa contribuye a los RA de los módulos y no tiene un currículo separado. Se verificará H_total = H_centro + H_empresa; porcentaje de centro = 100 × H_centro/H_total y porcentaje de empresa = 100 × H_empresa/H_total. Las 133 horas de la tabla no se suman a unas horas adicionales de empresa. Antes de aprobar, se reasignarán las actividades según el plan individual y la capacidad real de cada empresa.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_desarrollo_de_las_unidades_de_programación">6.4. Desarrollo de las unidades de programación</h3>
+<div class="paragraph">
+<p>Las vinculaciones RA/CE que siguen son didácticas. La correspondencia oficial completa se encuentra en el anexo A. En todas las UP, CT1 y CT4 se observan en la documentación y en el tratamiento de cuentas, permisos y datos.</p>
+</div>
+<div class="sect3">
+<h4 id="_up01_instalación_y_virtualización">6.4.1. UP01. Instalación y virtualización</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparar un entorno de práctica recuperando conocimientos previos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12 horas; equivalencia de 6 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Base instrumental para RA2, RA4 y RA7; no constituye un RA nuevo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a), b); administración de servidores; CT2, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distinguir anfitrión e invitado; elegir recursos; instalar y verificar el sistema.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Hipervisores, ISO, vCPU, RAM, VDI, NAT, DHCP, particionado guiado, usuario y apagado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ficha previa, instalación de Ubuntu Server y comprobaciones con hostnamectl, ip, lsblk, df y free.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VirtualBox en LliureX 21, ISO oficial, espacio local suficiente.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lista de comprobación diagnóstica y memoria de instalación. No asignar nota a CE no evidenciados. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar capturas del instalador, diseñar recursos y justificar decisiones. Registrar la instalación real como pendiente.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up02_linux">6.4.2. UP02. Linux</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adquirir fluidez de terminal antes de automatizar.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10 horas; equivalencia de 5 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparación RA2.e-f y RA7.a-c; consolidación en UP03 y UP04.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a), b), o); administración y aprendizaje autónomo; CT2, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Navegar y gestionar archivos; interpretar permisos; combinar comandos y consultar recursos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Rutas, usuarios y grupos, permisos, tuberías, redirecciones, ayuda, paquetes e información del sistema.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear un espacio de trabajo, configurar permisos de prueba y producir un informe explicado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM Linux local; terminal y documentación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Práctica observada y preguntas individuales; evidencias vinculadas solo a los CE realmente trabajados. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interpretar un árbol de directorios, permisos y salidas proporcionadas; elaborar comandos razonados.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up03_procesos_y_servicios">6.4.3. UP03. Procesos y servicios</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comprender ejecución, arranque y diagnóstico.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10 horas; equivalencia de 5 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.a-i.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a), n), ñ), q); mantenimiento y resolución de incidencias; CT2.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distinguir proceso, hilo y trabajo; controlar procesos propios; analizar arranque y servicios.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Estados, interrupciones y excepciones, prioridades, /proc, ps, top, señales, systemd y registros.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Seguir un proceso propio; modificar su prioridad; detenerlo; analizar un servicio y documentar un arranque.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM Linux, monitor gráfico disponible y registros preparados.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prueba práctica RA2 y explicación de interrupciones, hilos y seguridad; informe de diagnóstico. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reconstruir estados, relaciones y secuencia de arranque a partir de registros y capturas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up04_scripting_y_automatización">6.4.4. UP04. Scripting y automatización</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Automatizar operaciones repetitivas de forma controlada.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">16 horas; equivalencia de 8 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.a-h y RA7.a-f,h-i; RA7.g se completa en UP10.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">b), n), o), q); automatización; CT2, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear y depurar guiones; programar tareas puntuales y periódicas; aplicar permisos mínimos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bash, variables, parámetros, condiciones, bucles, funciones, códigos de salida, cron/at o temporizadores; planificador gráfico; introducción a PowerShell.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Informe automático, tarea programada, gestión de cuentas ficticias y adaptación de un guion.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM Linux; entorno propietario autorizado para ampliación; biblioteca de funciones propia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Código comentado, pruebas y ejecución individual; actividad específica de planificador gráfico. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Trazar guiones, localizar errores y diseñar horarios; la ejecución y las herramientas gráficas se comprobarán después.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up05_docker_y_despliegue">6.4.5. UP05. Docker y despliegue</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar administración a un servicio en contenedor.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8 horas; equivalencia de 4 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación parcial RA2.d,f,i y RA4.c,e,h-i si se administra remotamente.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">b), n), ñ); servicios y diagnóstico; CT2.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distinguir imagen y contenedor; desplegar un servicio; verificar puertos y persistencia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Imágenes, ciclo de vida, publicación de puertos, volúmenes, variables y registros.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Desplegar un servicio web y demostrar acceso y conservación de datos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM Linux con Docker disponible; navegador; SSH si procede.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Demostración del servicio y memoria; usar Docker localmente no acredita administración remota. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Explicar la petición web con esquema de puertos, analizar configuración y salidas dadas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up06_gestión_de_contenedores">6.4.6. UP06. Gestión de contenedores</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mantener y recuperar un despliegue.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8 horas; equivalencia de 4 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación RA2.f,h-i, RA3.b-d,h y RA7.e-f,i según actividad.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">n), ñ), o), q); mantenimiento; CT2, CT3.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diagnosticar fallos; describir despliegues; comprobar copias y recuperación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Compose, redes, volúmenes, logs, actualización, recreación, copia y restauración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Resolver incidencias de puerto, permisos y persistencia; automatizar una comprobación; restaurar datos de prueba.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM con Docker/Compose o servidor accesible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Práctica individual de recuperación, guion y registro de pruebas antes del hito. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Revisar Compose y registros, proponer hipótesis y ordenar una restauración sin atribuir ejecución real.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up07_servicios_de_directorio">6.4.7. UP07. Servicios de directorio</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administrar identidades y autenticación centralizada.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22 horas; equivalencia de 11 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.a-j; extensión RA7.e,g.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a), b), n), q); administración y seguridad; CT2, CT3.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diseñar estructura; instalar directorio; administrar objetos; integrar cliente y probar autenticación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LDAP, esquema, dominio, objetos, filtros, autenticación, herramientas gráficas y terminal, integración de servicios.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear estructura de aula, usuarios y grupos, aplicar filtros, integrar un cliente y documentar pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Servidor y cliente virtuales aislados; software libre y/o propietario con licencia disponible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Práctica de directorio con lista de pruebas positivas y negativas y memoria de estructura. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diseñar árbol y esquema, interpretar consultas y resolver casos de autenticación. Instalación e integración quedan pendientes.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up08_administración_remota">6.4.8. UP08. Administración remota</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Consolidar acceso remoto seguro y diagnóstico entre sistemas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12 horas; equivalencia de 6 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.a-i; refuerzo RA3.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a), n), ñ), q); soporte remoto; CT2, CT4.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comparar métodos; instalar servicios; gestionar cuentas; probar sesiones y transferencia cifrada.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SSH, claves, sesiones y servicios no orientados a sesión, escritorio remoto, herramientas nativas y gráficas, puertos y registros.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Acceder entre sistemas heterogéneos, transferir un archivo y diagnosticar una conexión fallida.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM de cliente y servidor; SSH/escritorio remoto autorizado; red local aislada.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Demostración individual, contraste de métodos y documentación de acceso. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar rutas, puertos y mensajes de error; diseñar accesos y explicar cifrado con registros de ejemplo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up09_servidores_de_impresión">6.4.9. UP09. Servidores de impresión</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestionar un servicio compartido con colas y permisos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12 horas; equivalencia de 6 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.a-i.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">b), n), ñ); gestión de servicios; CT3, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Configurar servidor web de impresión; administrar impresoras lógicas, grupos y trabajos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CUPS y herramientas del entorno propietario, puertos, protocolos, colas, grupos/clases y permisos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Compartir una impresora de prueba, generar trabajos desde clientes diferentes y resolver una cola detenida.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM, CUPS, cliente libre y propietario; impresora virtual o dispositivo de laboratorio.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Práctica con evidencia de grupos, cola, administración web y acceso heterogéneo. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interpretar una cola, diseñar permisos y secuenciar el diagnóstico con capturas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up10_integración_de_sistemas_y_cierre_de_criterios">6.4.10. UP10. Integración de sistemas y cierre de criterios</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 80%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Integrar servicios y completar evidencias de sistemas libres y propietarios.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">23 horas; equivalencia de 11 sesiones de dos horas y una hora adicional. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA y CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.a-h; RA7.g y criterios pendientes de RA1-RA7.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">OG, competencias y CT</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a), b), n), ñ), o), q); interoperabilidad y trabajo en equipo; CT2, CT3, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Compartir recursos entre sistemas; verificar permisos; ejecutar guiones en ambos entornos; cerrar evidencias pendientes.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SMB/Samba, conectividad, permisos, clientes heterogéneos, guiones Bash y PowerShell, documentación y pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recurso compartido con usuarios autorizados y denegados, acceso en equipo, guiones equivalentes y defensa individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">VM Linux y sistema propietario autorizado; red aislada; plantillas de prueba.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluación y calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Práctica integradora, matriz de acceso y demostración individual por CE; recuperación focalizada. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plan B</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diseñar matriz de permisos, analizar configuraciones y trazar guiones; programar pruebas prácticas pendientes.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_metodología_del_proceso_de_enseñanza_aprendizaje">7. Metodología del proceso de enseñanza-aprendizaje</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_enfoque_y_principios">7.1. Enfoque y principios</h3>
+<div class="paragraph">
+<p>Se parte de un problema de administración y de conocimientos previos. La docente demuestra el procedimiento explicando decisiones; el alumnado lo practica con apoyo y después resuelve una variación individual. Cada actividad termina con comprobación y explicación del resultado.</p>
+</div>
+<div class="paragraph">
+<p>Se priorizan procedimientos reproducibles, consulta de documentación, mínimos privilegios, diagnóstico basado en evidencias y reversibilidad. Las configuraciones se realizan sobre el laboratorio asignado y con datos ficticios. Las actividades no alterarán el sistema anfitrión sin autorización.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_estrategias_y_papel_de_los_participantes">7.2. Estrategias y papel de los participantes</h3>
+<div class="paragraph">
+<p>La docente prepara entornos y fallos controlados, verifica requisitos, ofrece andamiaje y recoge evidencias. El alumnado planifica, ejecuta, contrasta resultados y registra incidencias. En parejas se alternarán ejecución y revisión; la evaluación del desempeño será individual.</p>
+</div>
+<div class="paragraph">
+<p>Cada entrega incluirá objetivo, entorno, procedimiento justificado, comprobaciones, incidencias y conclusión. Las capturas se acompañarán de explicación. Los guiones se entregarán como archivos editables y con casos de prueba. La docente podrá solicitar una repetición breve para verificar la autoría.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_plan_de_contingencia">7.3. Plan de contingencia</h3>
+<div class="paragraph">
+<p>Si una práctica depende de SSH o web al departamento, se aplicará el Plan B de su UP. Se utilizará primero la VM local si permite realizar la misma operación. Si tampoco es posible, se trabajará con configuraciones, trazas y casos en papel o editor.</p>
+</div>
+<div class="paragraph">
+<p>El registro distinguirá: evidencia ejecutada, evidencia de análisis y operación pendiente. Un análisis teórico puede acreditar comprensión, pero no sustituye automáticamente un criterio que exige instalar, configurar o probar. Se reservará una comprobación posterior en entorno funcional. Las incidencias de infraestructura no se imputarán como falta de competencia del alumnado.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_refuerzo_ampliación_y_uso_de_ia">7.4. Refuerzo, ampliación y uso de IA</h3>
+<div class="paragraph">
+<p>El refuerzo utilizará procedimientos fragmentados, glosario, ejemplos comentados y prácticas de recuperación. La ampliación incorporará fallos adicionales, validación de entradas, bibliotecas de funciones y comparación de soluciones.</p>
+</div>
+<div class="paragraph">
+<p>Cada tarea indicará si admite IA y para qué. Cuando se permita, el alumnado declarará el uso y verificará las propuestas antes de ejecutarlas. No se introducirán contraseñas, datos personales ni configuraciones confidenciales. La evaluación requerirá comprensión y ejecución individual cuando corresponda; no se establecerán sanciones automáticas ajenas al PCCF.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_recursos_didácticos_y_referencias">8. Recursos didácticos y referencias</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_recursos_físicos_y_lógicos">8.1. Recursos físicos y lógicos</h3>
+<div class="paragraph">
+<p>Ordenadores de aula con LliureX 21, VirtualBox, Ubuntu Server desde ISO oficial, terminal, editor, proyector y almacenamiento para evidencias. Servidor departamental con acceso condicionado a red, cuentas y permisos. Para RA6 y RA7.g se necesita además un entorno propietario autorizado: su disponibilidad y licencias deberán confirmarse antes de esas unidades.</p>
+</div>
+<div class="paragraph">
+<p>Herramientas previstas: Bash, PowerShell, systemd, utilidades de procesos, planificadores de tareas en terminal y gráficos, Docker/Compose, SSH, herramientas de directorio, CUPS y Samba. Versiones y recursos se comprobarán antes de cada práctica; no se fija una versión de Ubuntu diferente de la ISO realmente utilizada.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_materiales_y_bibliografía">8.2. Materiales y bibliografía</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://mbanulsribes.github.io/ASO/">Web del módulo</a>, mantenida en AsciiDoc; publicación gradual de unidades.</p>
+</li>
+<li>
+<p>Aules: enunciados, rúbricas, comunicaciones, entregas y calificaciones.</p>
+</li>
+<li>
+<p>Archivo ASO CEED.zip: referencia de teoría y ejercicios, adaptada a presencial. Conservar autoría y licencia de cada recurso reutilizado; los solucionarios docentes no se publican como material del alumnado.</p>
+</li>
+<li>
+<p><a href="https://documentation.ubuntu.com/server/">Documentación de Ubuntu Server</a>.</p>
+</li>
+<li>
+<p><a href="https://www.virtualbox.org/manual/">Manual de VirtualBox</a>.</p>
+</li>
+<li>
+<p><a href="https://www.gnu.org/software/bash/manual/">Manual de Bash</a>.</p>
+</li>
+<li>
+<p><a href="https://learn.microsoft.com/powershell/">Documentación de PowerShell</a>.</p>
+</li>
+<li>
+<p><a href="https://docs.docker.com/">Documentación de Docker y Compose</a>.</p>
+</li>
+<li>
+<p><a href="https://www.samba.org/samba/docs/">Documentación de Samba</a>.</p>
+</li>
+<li>
+<p><a href="https://openprinting.github.io/cups/">Documentación de CUPS</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_uso_de_espacios_y_equipamientos">9. Uso de espacios y equipamientos</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Se combinarán trabajo individual y parejas, manteniendo cuentas y evidencias identificables. Los equipos físicos conservarán su configuración de aula. Cada VM tendrá un nombre, recursos, red y usuario previstos en la ficha previa. Las redes de práctica se aislarán y solo se publicarán los puertos necesarios y autorizados.</p>
+</div>
+<div class="paragraph">
+<p>Se distribuirán las ISO por copia local o mecanismo acordado, se comprobará espacio libre y se evitarán descargas simultáneas innecesarias. Se organizarán copias de trabajos y, cuando proceda, instantáneas; estas no sustituyen una copia independiente. Al terminar se apagarán ordenadamente las VM.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_medidas_de_atención_a_la_diversidad">10. Medidas de atención a la diversidad</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>El marco y los procedimientos de adopción de medidas se remiten al PCCF y al departamento de orientación. Las medidas se registrarán de forma individual sin incluir datos sensibles en esta programación.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Medidas ordinarias: instrucciones por pasos, demostración pausada, glosario, formatos de texto accesibles y esquemas; anticipación de rúbricas y ejemplos de evidencia.</p>
+</li>
+<li>
+<p>Medidas específicas: adaptación de tiempos, medios de acceso y forma de presentación conforme a los informes y acuerdos autorizados, conservando la competencia que debe demostrarse.</p>
+</li>
+<li>
+<p>Altas capacidades o avance rápido: diagnóstico abierto, scripts más robustos y comparación de alternativas, evitando que la ampliación sustituya el aprendizaje del resto del grupo.</p>
+</li>
+<li>
+<p>Organización: parejas flexibles con roles alternos, seguimiento individual y tutorías de recuperación. Se ofrecerá acceso al entorno necesario sin presuponer disponibilidad de equipos en casa.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evaluación_del_aprendizaje">11. Evaluación del aprendizaje</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_principios">11.1. Principios</h3>
+<div class="paragraph">
+<p>La evaluación será inicial, continua, formativa y referida a RA y CE. Se registrará la evidencia individual, el contexto y las adaptaciones aplicadas. Los errores detectados y corregidos formarán parte del aprendizaje. La asistencia o una actitud genérica no sustituirán la demostración de criterios profesionales.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_instrumentos">11.2. Instrumentos</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>D: diagnóstico inicial y preguntas de comprensión; sin peso independiente propuesto.</p>
+</li>
+<li>
+<p>P: práctica observada o prueba individual de desempeño con lista de comprobación.</p>
+</li>
+<li>
+<p>M: memoria técnica y evidencias comentadas.</p>
+</li>
+<li>
+<p>G: guion, configuración editable y pruebas de ejecución.</p>
+</li>
+<li>
+<p>C: caso escrito, interpretación de trazas o explicación oral.</p>
+</li>
+<li>
+<p>E: informe de empresa, cuando el plan formativo asigne criterios a ese contexto.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Una evidencia podrá informar varios criterios si la rúbrica distingue cada uno. No se duplicará su valor por aparecer en una UP y en el proyecto. El anexo A recoge todos los CE de referencia y sus instrumentos propuestos.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_distribución_de_la_evaluación_por_ra">11.3. Distribución de la evaluación por RA</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 16.6666%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3335%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">RA</th>
+<th class="tableblock halign-left valign-top">Peso definitivo</th>
+<th class="tableblock halign-left valign-top">Unidades principales</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PENDIENTE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, M, C</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PENDIENTE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03; aplicación 05-06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, M, C</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PENDIENTE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04; aplicación 06 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, G, M, C</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PENDIENTE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08; aplicación 05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, M, C</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PENDIENTE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, M, C</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PENDIENTE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, M, C</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PENDIENTE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10; aplicación 06-07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G, P, M, C</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Los siete pesos deberán sumar 100 %. Los pesos de CE dentro de cada RA deberán sumar 100 %. No se trasladan los porcentajes de la programación a distancia. El departamento deberá aprobar y comunicar esta distribución antes de aplicarla a las calificaciones.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_criterios_de_calificación">11.4. Criterios de calificación</h3>
+<div class="paragraph">
+<p>Propuesta de procedimiento pendiente de aprobación: valorar cada CE con una rúbrica de 0 a 10 sobre corrección técnica, adecuación de decisiones, verificación y documentación cuando el propio criterio la requiera. Cada tarea especificará qué criterios observa y el peso interno aprobado; no se fijan aquí porcentajes no comunicados por el centro.</p>
+</div>
+<div class="paragraph">
+<p>La nota de un RA se obtendrá como suma ponderada de las notas de sus CE. La nota del módulo se calculará con los pesos de RA aprobados. Si se repite una evidencia, la docente documentará cómo actualiza la valoración del criterio para reflejar el aprendizaje demostrado, conforme al PCCF. Las notas de unidades no se promediarán automáticamente como si todos los RA pesaran igual.</p>
+</div>
+<div class="paragraph">
+<p><strong>PENDIENTE DE VALIDACIÓN:</strong> mínimos por RA o por criterios esenciales, regla de redondeo, requisitos de superación, tratamiento de entregas fuera de plazo, pérdida de evaluación continua y calificaciones de evaluaciones parciales. No se aplicarán reglas retrospectivas ni umbrales no aprobados.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_recuperación_segunda_convocatoria_y_evaluación_extraordinaria">11.5. Recuperación, segunda convocatoria y evaluación extraordinaria</h3>
+<div class="paragraph">
+<p>Tras cada actividad se facilitará información sobre CE alcanzados y pendientes. La recuperación propondrá una tarea equivalente centrada en los pendientes y una comprobación individual. Se mantendrán las evidencias válidas conforme a los acuerdos del departamento.</p>
+</div>
+<div class="paragraph">
+<p>La segunda convocatoria o evaluación extraordinaria, con la denominación y condiciones del PCCF, incluirá práctica y/o prueba de análisis según la naturaleza de los criterios. Fechas, condiciones y criterios de calificación se comunicarán con antelación. Las operaciones bloqueadas por infraestructura se reprogramarán en un entorno funcional.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_formación_en_empresa_u_organismo_equiparado">11.6. Formación en empresa u organismo equiparado</h3>
+<div class="paragraph">
+<p>El plan individual recogerá RA/CE asignados, actividades, horas, tutores, evidencias y seguimiento. Posibles actuaciones: seguimiento de procesos, automatización autorizada, soporte remoto y documentación. La elección depende de las funciones reales y permisos de la empresa; no se asume que cualquier puesto cubra todos los RA.</p>
+</div>
+<div class="paragraph">
+<p>La docente y la tutoría de empresa contrastarán el informe y las evidencias conforme a la normativa y al PCCF. No se fija un porcentaje automático de nota de empresa. Si una actividad no permite acreditar un criterio, se coordinará una evidencia complementaria en el centro.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_proyecto_intermodular">11.7. Proyecto intermodular</h3>
+<div class="paragraph">
+<p>Los hitos de octubre, diciembre y enero aportarán productos técnicos al proyecto: sistema comprobado, despliegue y mantenimiento. La coordinación concretará requisitos, rúbricas y responsabilidad de cada módulo. ASO evaluará los criterios propios efectivamente demostrados; no asignará una nota automática por la simple entrega del proyecto.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_superación_y_promoción">11.8. Superación y promoción</h3>
+<div class="paragraph">
+<p>Los criterios oficiales y acuerdos comunes se remiten al PCCF. Esta programación no establece condiciones nuevas de promoción. La versión aprobada incorporará las reglas aplicables y su comunicación al alumnado.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_actividades_complementarias_y_extraescolares">12. Actividades complementarias y extraescolares</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>No hay salidas confirmadas. Se propone una sesión con personal técnico sobre operación de sistemas o visita a una infraestructura autorizada, condicionada a aprobación, disponibilidad y accesibilidad. Se concretarán fecha, duración, organización, responsables y alternativa antes de incluirla en el calendario.</p>
+</div>
+<div class="paragraph">
+<p>Sus objetivos serán reconocer servicios, procedimientos de mantenimiento y documentación profesional. Se vinculará a UP03, UP08 o UP10 mediante una breve ficha de observación; no se solicitarán datos ni configuraciones confidenciales. La alternativa en aula permitirá trabajar los mismos objetivos.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evaluación_de_la_programación_y_de_la_práctica_docente">13. Evaluación de la programación y de la práctica docente</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Al cierre de cada unidad se revisarán ejecución del calendario, dificultades y disponibilidad del laboratorio. En cada evaluación se elaborará un balance por RA, con medidas y fecha de seguimiento.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Indicador</th>
+<th class="tableblock halign-left valign-top">Procedimiento</th>
+<th class="tableblock halign-left valign-top">Decisión asociada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cobertura de criterios</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CE con evidencia válida frente al total planificado</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reprogramar criterios no observados.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Progreso individual</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Rúbricas y recuperaciones por RA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ajustar apoyos y complejidad.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Viabilidad temporal</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Horas previstas y reales por UP</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reducir repetición y coordinar evidencias sin eliminar CE.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Acceso a recursos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sesiones bloqueadas y alternativas realizadas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Priorizar laboratorio local y elevar incidencias de acceso.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comprensión de consignas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preguntas de salida y errores recurrentes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reescribir ejemplos y fragmentar procedimientos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adecuación de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Revisión de rúbricas y correspondencia con CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Corregir instrumentos antes de nuevas actividades.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Práctica docente</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Autoevaluación, observación y encuesta breve al alumnado</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Registrar mejoras concretas para la siguiente unidad.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Las modificaciones relevantes se anotarán en el registro inicial, se coordinarán con el departamento y se comunicarán cuando afecten al alumnado. No se cambiarán retroactivamente los criterios de calificación.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_otros_apartados_y_cierre_de_la_versión_aprobada">14. Otros apartados y cierre de la versión aprobada</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La gestión de reclamaciones, convivencia, protección de datos, absentismo y medidas institucionales seguirá el PCCF y las normas del centro. Los materiales publicados respetarán autoría y licencias; las evidencias no incluirán credenciales reales.</p>
+</div>
+<div class="paragraph">
+<p>Antes de aprobar deben completarse: identificación administrativa del centro; caracterización del grupo; referencias autonómicas vigentes; carga total y calendario efectivo; distribución centro-empresa; códigos de estándares verificados; pesos de RA y CE; reglas de superación y recuperación; disponibilidad del entorno propietario y actividades complementarias confirmadas.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_matriz_de_criterios_de_evaluación_y_evidencias">Appendix A: Matriz de criterios de evaluación y evidencias</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Síntesis operativa de los criterios del módulo 0374 en el RD 1629/2009. Se mantienen las letras oficiales. Para el texto normativo literal, consultar el anexo I de la norma citada. La matriz orienta el diseño de las rúbricas y no modifica el alcance de los criterios.</p>
+</div>
+<div class="paragraph">
+<p>En las columnas de porcentaje, <strong>PV</strong> significa pendiente de validación. La ponderación de cada RA se recoge en el apartado de evaluación. La propuesta cubre 62 criterios: 10 + 9 + 8 + 9 + 9 + 8 + 9.</p>
+</div>
+<div class="sect2">
+<h3 id="_ra1">A.1. RA1</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 44.4444%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Síntesis del desempeño</th>
+<th class="tableblock halign-left valign-top">% CE/RA</th>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Instrumento y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Función, elementos y estructuras del directorio.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Determinar y crear el esquema.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instalar el servicio de directorio.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Configurar y personalizar el directorio.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Integrar el directorio con otros servicios.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar filtros de búsqueda.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Usar autenticación centralizada.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Integrar y configurar un cliente.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Administrar con herramientas gráficas y comandos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.j</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar estructura e implantación.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M: documentación técnica verificable.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_ra2">A.2. RA2</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 44.4444%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Síntesis del desempeño</th>
+<th class="tableblock halign-left valign-top">% CE/RA</th>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Instrumento y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Concepto, tipos, estados y ciclo de vida de procesos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interrupciones y excepciones en eventos del procesador.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diferenciar proceso, hilo y trabajo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear, manipular y terminar procesos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar el sistema de archivos para identificar y registrar procesos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Controlar procesos con herramientas gráficas y comandos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comprobar arranque y relación de procesos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar seguridad ante procesos no identificados.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar procesos, funciones y relaciones.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M: documentación técnica verificable.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_ra3">A.3. RA3</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 44.4444%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Síntesis del desempeño</th>
+<th class="tableblock halign-left valign-top">% CE/RA</th>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Instrumento y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ventajas de automatizar tareas repetitivas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Usar comandos de planificación.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Establecer restricciones de seguridad.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Planificar tareas periódicas y puntuales.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Automatizar administración de cuentas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instalar y configurar planificadores gráficos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Usar planificadores gráficos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar las tareas automáticas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M: documentación técnica verificable.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_ra4">A.4. RA4</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 44.4444%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Síntesis del desempeño</th>
+<th class="tableblock halign-left valign-top">% CE/RA</th>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Instrumento y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Describir métodos de administración remota.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distinguir servicios orientados y no orientados a sesión.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Usar herramientas remotas del sistema operativo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instalar servicios de acceso remoto.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestionar acceso remoto con comandos y herramientas gráficas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear cuentas para acceso remoto.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Probar acceso entre sistemas heterogéneos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cifrar información transferida.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar procesos y servicios administrados remotamente.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M: documentación técnica verificable.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_ra5">A.5. RA5</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 44.4444%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Síntesis del desempeño</th>
+<th class="tableblock halign-left valign-top">% CE/RA</th>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Instrumento y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Funciones de sistemas y servidores de impresión.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Puertos y protocolos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Herramientas de gestión integradas en el sistema.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instalar y configurar servidor de impresión web.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear y clasificar impresoras lógicas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear grupos de impresión.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestionar impresoras y trabajos con comandos y herramientas gráficas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Compartir impresoras entre sistemas diferentes.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar servidor e impresoras.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M: documentación técnica verificable.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_ra6">A.6. RA6</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 44.4444%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Síntesis del desempeño</th>
+<th class="tableblock halign-left valign-top">% CE/RA</th>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Instrumento y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Necesidad de compartir recursos entre sistemas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Niveles de seguridad de acceso a recursos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comprobar conectividad heterogénea.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Función de servicios de compartición.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">C: explicación o caso razonado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instalar y configurar servicios de recursos compartidos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comprobar funcionamiento de los servicios.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: ejecución observada y registro de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Trabajar en grupo accediendo a archivos e impresoras desde sistemas diferentes.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P + M: trabajo cooperativo y verificación individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar servicios instalados.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M: documentación técnica verificable.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_ra7">A.7. RA7</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 44.4444%;">
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Síntesis del desempeño</th>
+<th class="tableblock halign-left valign-top">% CE/RA</th>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Instrumento y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Combinar estructuras del lenguaje en guiones.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Depurar errores de sintaxis y ejecución.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interpretar guiones de configuración.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adaptar guiones del sistema.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear y probar guiones de administración de servicios.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear y probar guiones de automatización.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Implantar guiones en sistemas libres y propietarios.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Consultar y utilizar bibliotecas de funciones.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">G + P: guion, pruebas y demostración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar los guiones.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PV</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">04 y 10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">M: documentación técnica verificable.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_registro_de_seguimiento_propuesto">Appendix B: Registro de seguimiento propuesto</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 11.1111%;">
+<col style="width: 22.2222%;">
+<col style="width: 22.2222%;">
+<col style="width: 22.2222%;">
+<col style="width: 11.1112%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Fecha</th>
+<th class="tableblock halign-left valign-top">RA/CE</th>
+<th class="tableblock halign-left valign-top">Actividad</th>
+<th class="tableblock halign-left valign-top">Evidencia individual</th>
+<th class="tableblock halign-left valign-top">Estado y medida</th>
+<th class="tableblock halign-left valign-top">Revisión</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Por completar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Por completar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Por completar</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Archivo, observación o prueba</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Logrado / en progreso / pendiente de ejecución</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fecha</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Conservar este registro en el entorno docente autorizado. Una práctica resuelta mediante Plan B debe indicar qué parte se analizó y qué parte queda pendiente de ejecutar.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.1<br>
+Last updated 2026-09-30 17:20:37 +0200
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
+<script>
+if (!hljs.initHighlighting.called) {
+  hljs.initHighlighting.called = true
+  ;[].slice.call(document.querySelectorAll('pre.highlight > code[data-lang]')).forEach(function (el) { hljs.highlightBlock(el) })
+}
+</script>
+</body>
+</html>

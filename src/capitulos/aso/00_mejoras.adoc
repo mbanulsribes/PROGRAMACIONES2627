@@ -1,0 +1,16 @@
+== Propuestas de mejora y modificaciones respecto a la versión anterior
+
+No se ha aportado una programación presencial anterior aprobada del módulo. El registro recoge las adaptaciones de los materiales disponibles y del desarrollo comunicado por la docente.
+
+[cols="1,4",options="header"]
+|===
+|Fecha |Modificación
+|30/09/2026 |Revisión 1.1: incorporación del Decreto 114/2025, artículo 9 y anexo II; corrección de la carga a 133 horas y actualización del marco autonómico.
+|30/09/2026 |Adaptación de la plantilla a ASIR, módulo 0374 y curso 2026-2027.
+|30/09/2026 |Sustitución de la temporalización a distancia por una propuesta presencial de lunes y martes, dos horas cada día.
+|30/09/2026 |Inicio con instalación, Linux, procesos, automatización y contenedores; desarrollo de directorio, administración remota, impresión e integración después del 22 de enero.
+|30/09/2026 |Uso inicial de LliureX 21 y VirtualBox; Ubuntu Server como invitado. Acceso al servidor departamental sujeto a conectividad y permisos.
+|30/09/2026 |Incorporación de Plan B teórico y registro de operaciones prácticas pendientes de ejecutar.
+|30/09/2026 |Trazabilidad entre criterios de evaluación, unidades e instrumentos. Diferenciación entre tareas preparatorias y evidencias propias de ASO.
+|===
+

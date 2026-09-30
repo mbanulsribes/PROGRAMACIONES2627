@@ -1,0 +1,157 @@
+== Unidades de programación
+
+=== UD0. Empezamos con Teams y OneNote
+
+[cols="1,3"]
+|===
+|Justificación |Establecer las rutinas y destrezas instrumentales necesarias para trabajar durante el curso.
+|Temporalización |Septiembre. Aproximadamente 4 sesiones.
+|CE y criterios |CE2: 2.5 y, de forma inicial, 2.6.
+|Saberes |Organización de la información, entorno personal de aprendizaje, operaciones digitales básicas y creación elemental de contenido.
+|Actividades |Acceso a Teams; apertura del Bloc de notas de clase; escritura y formato; listas; copia y pegado; inserción de imagen; revisión; primera toma de contacto con TypingClub.
+|Evidencias |Páginas iniciales de OneNote y ejecución autónoma de la rutina de acceso.
+|===
+
+=== UD1. Mi ordenador y mis archivos
+
+[cols="1,3"]
+|===
+|Justificación |Consolidar una base funcional para el uso autónomo del equipo y la gestión de información digital.
+|Temporalización |Septiembre-Octubre. 5-6 sesiones.
+|CE y criterios |CE1: 1.1, 1.2; CE2: 2.5.
+|Saberes |Dispositivos, funcionamiento básico, sistemas operativos y aplicaciones; archivos, carpetas y organización de la información.
+|Actividades |Hardware/software; periféricos; creación de carpetas; descarga, renombrado, movimiento y localización de archivos; extensiones; almacenamiento local y OneDrive.
+|Evidencias |Actividades y prácticas documentadas en OneNote.
+|===
+
+=== UD2. Internet y la Web
+
+[cols="1,3"]
+|===
+|Justificación |Comprender conceptos básicos que el alumnado utiliza diariamente pero suele confundir.
+|Temporalización |Octubre. 4-5 sesiones.
+|CE y criterios |CE1: 1.2, 1.3.
+|Saberes |Redes de dispositivos, fundamentos y modos de acceso a Internet, sistemas y aplicaciones.
+|Actividades |Diferenciar Internet y Web; navegador y buscador; URL y enlaces; Wi-Fi, router y servicios en Internet; casos de elección de conexión.
+|Evidencias |Actividades de clasificación, explicación y navegación guiada en OneNote.
+|===
+
+=== UD3. Seguridad digital
+
+[cols="1,3"]
+|===
+|Justificación |Adquirir hábitos básicos de protección de dispositivos, cuentas y datos personales.
+|Temporalización |Noviembre. Aproximadamente 6 sesiones.
+|CE y criterios |CE1: 1.3, 1.5; CE3: 3.3, 3.4.
+|Saberes |Seguridad de dispositivos, privacidad, protección de datos y conductas para cuidar la identidad digital.
+|Actividades |Contraseñas seguras sin usar claves reales; verificación en dos pasos; malware; phishing; actualizaciones y copias; resolución de situaciones ficticias.
+|Evidencias |Análisis razonado de riesgos y decisiones seguras recogidas en OneNote.
+|===
+
+=== UD4. Buscar información
+
+[cols="1,3"]
+|===
+|Justificación |Introducir estrategias de búsqueda y los primeros criterios de fiabilidad.
+|Temporalización |Noviembre-Diciembre. 4 sesiones.
+|CE y criterios |CE2: 2.1, 2.4.
+|Saberes |Buscadores, filtrado, selección, lectura e interpretación de información digital.
+|Actividades |Palabras clave; comparación de búsquedas; lectura de resultados; resultados patrocinados; autor, fecha y fuente.
+|Evidencias |Búsquedas guiadas y justificación de la selección de resultados.
+|===
+
+=== Experiencia de aprendizaje. Scratch y visita a la UPV
+
+[cols="1,3"]
+|===
+|Justificación |Acercar al alumnado a la programación y conectar el aprendizaje escolar con un entorno universitario y tecnológico.
+|Temporalización |Semana previa a Navidad y sesiones inmediatamente anteriores/posteriores.
+|CE y criterios |Principalmente CE2: 2.5 y 2.6.
+|Saberes |Creación básica de contenidos con herramientas digitales; organización secuencial de instrucciones.
+|Actividades |Concepto de programa, algoritmo e instrucción; «Programa a tu profesora»; introducción a bloques Scratch; taller en la UPV; reflexión «Mi visita a la UPV».
+|Evidencias |Actividad de algoritmo, producción inicial en Scratch y reflexión posterior en OneNote.
+|===
+
+=== UD5. Buscar mejor en Internet
+
+[cols="1,3"]
+|===
+|Justificación |Profundizar en la alfabetización informacional y la búsqueda crítica.
+|Temporalización |Enero. 5-6 sesiones.
+|CE y criterios |CE2: 2.1, 2.4, 2.5.
+|Saberes |Buscadores y filtrado; contraste de veracidad; lectura e interpretación; organización de información.
+|Actividades |Búsquedas progresivamente autónomas; palabras clave; identificación de autoría y fecha; comparación de varias fuentes.
+|Evidencias |Registro de búsquedas, selección justificada y contraste de fuentes.
+|===
+
+=== UD6. ¿Verdad o mentira?
+
+[cols="1,3"]
+|===
+|Justificación |Desarrollar pensamiento crítico frente a desinformación, manipulación y discursos nocivos.
+|Temporalización |Enero-Febrero. 6-7 sesiones.
+|CE y criterios |CE2: 2.1, 2.2, 2.3, 2.4; CE4: 4.2.
+|Saberes |Noticias falsas, bulos, discursos de odio, implicaciones sociales y estrategias de difusión y consumo de contenidos.
+|Actividades |Análisis de titulares; clickbait; casos ficticios; protocolo de verificación: quién, cuándo, dónde, evidencias y contraste.
+|Evidencias |Fichas de detective digital y explicaciones razonadas en OneNote.
+|===
+
+=== UD7. Crear contenidos digitales
+
+[cols="1,3"]
+|===
+|Justificación |Aprender a comunicar información digital con claridad, creatividad y respeto a la autoría.
+|Temporalización |Febrero-Marzo. 6 sesiones.
+|CE y criterios |CE2: 2.5, 2.6.
+|Saberes |Creación, integración y edición de contenidos; estética y lenguaje audiovisual; propiedad intelectual y derechos de autoría.
+|Actividades |Formato de documentos, imágenes, enlaces, pequeñas presentaciones y creación de un contenido digital propio.
+|Evidencias |Producto digital incorporado a la libreta y proceso de revisión.
+|===
+
+=== UD8. Mi identidad y mi huella digital
+
+[cols="1,3"]
+|===
+|Justificación |Favorecer una construcción consciente y protegida de la identidad digital.
+|Temporalización |Abril. 5-6 sesiones.
+|CE y criterios |CE3: 3.1, 3.2, 3.3, 3.4.
+|Saberes |Identidad, alias y avatares; autoconcepto; percepción externa; exposición y huella; privacidad y protección de datos.
+|Actividades |Clasificación de datos personales; análisis de publicaciones ficticias; «El perfil de Alex»; decisiones sobre qué publicar y con quién.
+|Evidencias |Análisis de casos y recomendaciones justificadas en OneNote.
+|===
+
+=== UD9. Redes sociales y convivencia digital
+
+[cols="1,3"]
+|===
+|Justificación |Desarrollar pautas de interacción respetuosa, segura e inclusiva en redes y juegos en línea.
+|Temporalización |Abril-Mayo. 6-7 sesiones.
+|CE y criterios |CE3: 3.2-3.4; CE4: 4.1-4.4 y 4.6.
+|Saberes |Interacción social, juegos en línea, amistad virtual/física, ciberconvivencia, etiqueta digital, prevención y respuesta ante comportamientos abusivos.
+|Actividades |Configuraciones ficticias de privacidad; netiqueta; análisis de chats y conflictos simulados; bloquear, guardar evidencias, pedir ayuda y denunciar.
+|Evidencias |Resolución razonada de casos ficticios y pautas de convivencia.
+|===
+
+=== UD10. Bienestar digital
+
+[cols="1,3"]
+|===
+|Justificación |Promover un uso equilibrado de los dispositivos y hábitos de prevención.
+|Temporalización |Mayo. 4 sesiones.
+|CE y criterios |CE1: 1.4; CE4: 4.5.
+|Saberes |Implicaciones del uso tecnológico para la salud; uso continuado de dispositivos; equilibrio de actividades; ergonomía y hábitos saludables.
+|Actividades |Análisis de rutinas ficticias, postura y ergonomía, notificaciones, descansos y propuestas de mejora.
+|Evidencias |Diagnóstico de situaciones y plan razonado de hábitos saludables.
+|===
+
+=== UD11. Mi vida digital
+
+[cols="1,3"]
+|===
+|Justificación |Integrar los aprendizajes del curso y favorecer la transferencia a la vida cotidiana.
+|Temporalización |Junio. 4 sesiones.
+|CE y criterios |CE1, CE2, CE3 y CE4 mediante selección de criterios ya trabajados.
+|Saberes |Integración de los cuatro bloques.
+|Actividades |«Un día digital de Alex»; resolución integral de riesgos y decisiones; «Mis 10 reglas digitales»; revisión final de la libreta; reflexión sobre progreso en mecanografía.
+|Evidencias |Decálogo digital, resolución del caso integrador y libreta final revisada.
+|===

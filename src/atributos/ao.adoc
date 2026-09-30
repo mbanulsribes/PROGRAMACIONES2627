@@ -1,0 +1,9 @@
+:modulo: Aplicaciones Ofimáticas
+:codigo: 0223
+:ciclo: Sistemas Microinformáticos y Redes
+:grado: Grado Medio
+:grupo: 1.º SMR
+:docente: María Bañuls Ribes
+:curso: 2026-2027
+:revnumber: 1.0
+:revdate: 30 de septiembre de 2026

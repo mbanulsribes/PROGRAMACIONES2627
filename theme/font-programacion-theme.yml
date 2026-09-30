@@ -1,0 +1,90 @@
+extends: default
+running-content:
+  start-at: 2
+page-numbering:
+  start-at: 1
+page:
+  size: A4
+  margin: [25.4mm, 25.4mm, 25.4mm, 25.4mm]
+base:
+  font-family: Arial
+  font-size: 11
+  line-height: 1.15
+  font-color: '000000'
+font:
+  catalog:
+    merge: true
+    Arial:
+      normal: arial.ttf
+      bold: arialbd.ttf
+      italic: ariali.ttf
+      bold_italic: arialbi.ttf
+    Times:
+      normal: times.ttf
+      bold: timesbd.ttf
+      italic: timesi.ttf
+      bold_italic: timesbi.ttf
+heading:
+  font-family: Arial
+  font-color: '000000'
+  h1-font-size: 16
+  h2-font-size: 14
+  h3-font-size: 12
+  h4-font-size: 11
+  margin-top: 12
+  margin-bottom: 8
+role:
+  departamento:
+    font-size: 14
+  ciclo:
+    font-family: Times
+    font-size: 14
+  titulo-modulo:
+    font-family: Times
+    font-size: 20
+  curso:
+    font-family: Times
+    font-size: 14
+  profesor:
+    font-size: 14
+table:
+  font-size: 10
+  border-color: '808080'
+  border-width: 0.5
+  cell-padding: 5
+  head:
+    background-color: 'DFDFDF'
+    font-color: '000000'
+  body:
+    stripe-background-color: 'FFFFFF'
+header:
+  height: 12mm
+  font-size: 9
+  border-width: 0.5
+  border-color: '808080'
+  recto:
+    left:
+      content: '{grupo}: {codigo} {modulo}'
+    right:
+      content: 'Curso: {curso}'
+  verso:
+    left:
+      content: '{grupo}: {codigo} {modulo}'
+    right:
+      content: 'Curso: {curso}'
+footer:
+  height: 12mm
+  font-size: 9
+  recto:
+    left:
+      content: '{centro}'
+    right:
+      content: 'Página {page-number}'
+  verso:
+    left:
+      content: '{centro}'
+    right:
+      content: 'Página {page-number}'
+toc:
+  font-size: 10
+  line-height: 1.2

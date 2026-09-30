@@ -1,0 +1,10 @@
+== Uso de espacios y equipamientos
+
+El aula informática combina explicaciones con proyección, trabajo individual y agrupamientos puntuales. Se procurará un puesto por estudiante en las evaluables y acceso individual por turnos a los periféricos compartidos. Las grabaciones se organizan evitando capturar voces, pantallas o datos de otros estudiantes.
+
+El puesto se ajustará para facilitar la lectura y una postura adecuada, con pausas y alternancia de tareas conforme a la organización del centro. Se mantendrán despejadas las zonas de paso y se comunicarán los problemas de funcionamiento sin intervenir en cableado o instalaciones no autorizadas.
+
+Las instalaciones y pruebas con privilegios se realizarán en equipos de laboratorio o máquinas virtuales preparadas. No se modificará indiscriminadamente la configuración del aula. Se comprobarán copias y puntos de retorno antes de cambios que puedan afectar a los datos.
+
+El alumnado conservará un archivo editable y una copia de seguridad de los productos relevantes. Al terminar cerrará las sesiones y comprobará que no deja datos o credenciales expuestos. Se utilizará la impresión solo cuando el objetivo lo requiera, priorizando la revisión digital previa.
+

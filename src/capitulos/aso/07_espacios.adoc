@@ -1,0 +1,6 @@
+== Uso de espacios y equipamientos
+
+Se combinarán trabajo individual y parejas, manteniendo cuentas y evidencias identificables. Los equipos físicos conservarán su configuración de aula. Cada VM tendrá un nombre, recursos, red y usuario previstos en la ficha previa. Las redes de práctica se aislarán y solo se publicarán los puertos necesarios y autorizados.
+
+Se distribuirán las ISO por copia local o mecanismo acordado, se comprobará espacio libre y se evitarán descargas simultáneas innecesarias. Se organizarán copias de trabajos y, cuando proceda, instantáneas; estas no sustituyen una copia independiente. Al terminar se apagarán ordenadamente las VM.
+

@@ -1,0 +1,3 @@
+= Fuentes locales
+
+Fuentes copiadas de Windows para compilar en este equipo. Su redistribución está sujeta a la licencia de Microsoft; no incluirlas en una publicación del repositorio.

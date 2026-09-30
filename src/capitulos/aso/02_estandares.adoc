@@ -1,0 +1,15 @@
+== Relación entre los estándares de competencia y el módulo
+
+ASO desarrolla tareas profesionales de administración de sistemas, servicios, cuentas, automatización y soporte. La relación siguiente es funcional; no constituye una equivalencia normativa de acreditación.
+
+[cols="2,1,2",options="header"]
+|===
+|Ámbito profesional |RA |Evidencia formativa
+|Administración de servicios e identidades |RA1, RA2 |Directorio operativo, gestión de procesos y servicios.
+|Automatización de la administración |RA3, RA7 |Tareas programadas y guiones probados.
+|Explotación y soporte remoto |RA4 |Accesos protegidos y diagnóstico documentado.
+|Servicios compartidos e interoperabilidad |RA5, RA6 |Impresión y recursos compartidos entre sistemas.
+|===
+
+*PENDIENTE DE VALIDACIÓN:* incorporar desde el PCCF y el anexo de correspondencias vigente la denominación y el código oficial de cada estándar asociado al módulo. No se asignan códigos de unidades de competencia sin verificar su correspondencia actual.
+

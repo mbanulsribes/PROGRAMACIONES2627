@@ -1,0 +1,47 @@
+== Otros acuerdos relevantes del PCCF y cierre del documento
+
+=== Coordinación, comunicación y conservación de evidencias
+
+La profesora coordinará requisitos de software, permisos, fechas y tareas compartidas con el equipo de SMR. Los cambios de fechas y condiciones se comunicarán por Aules. La web puede mostrar contenidos progresivamente, pero el alumnado dispondrá a tiempo de los materiales necesarios para cada evaluable.
+
+Las evidencias y calificaciones se conservarán en los sistemas autorizados y durante el plazo establecido por el centro. Los vídeos de entrega no se publicarán en la web de teoría. Los materiales públicos utilizarán datos ficticios y recursos con licencia compatible; una licencia de los materiales propios no se extiende automáticamente a obras de terceros.
+
+=== Aspectos pendientes para la aprobación
+
+[cols="2,6,3",options="header"]
+|===
+|Aspecto |Acción necesaria |Responsables
+|PCCF y normativa de curso
+|Incorporar versión del PCCF e instrucciones vigentes de 2026–2027; contrastar la programación con los acuerdos del departamento.
+|Departamento y jefatura de estudios
+|Formación en empresa
+|Confirmar HFE, régimen, periodos, RA/CE compartidos y evidencias; completar el desglose de cada UP sin duplicar horas.
+|Tutoría dual, profesora y empresas
+|Calendario de sesiones
+|Aplicar calendario real del centro, festivos, evaluaciones y FE; fijar fechas en Aules.
+|Profesora y jefatura de estudios
+|Ponderación y superación
+|Validar los pesos propuestos, tratamiento de CE compartidos, mínimos si proceden, recuperación, redondeo y reglas de cierre.
+|Departamento y equipo docente
+|Medios específicos
+|Confirmar acceso a periféricos, dispositivo móvil de pruebas, laboratorio de instalación y dependencias de Base.
+|Departamento y coordinación TIC
+|Caracterización del grupo y apoyos
+|Incorporar conclusiones de evaluación inicial y medidas acordadas por cauces internos, sin datos personales en la versión pública.
+|Profesora, tutoría y orientación
+|Aprobación
+|Registrar fecha, órgano de aprobación y versión definitiva.
+|Departamento
+|===
+
+El documento se revisará al completar estos acuerdos. Hasta entonces se mantiene identificado como versión de trabajo; las propuestas nuevas no alteran las condiciones de evaluables ya realizadas o comunicadas.
+
+=== Registro de aprobación
+
+* Fecha de aprobación: *pendiente*.
+* Órgano y referencia del acta: *pendiente*.
+* Versión del PCCF: *pendiente*.
+* Docente responsable: *María Bañuls Ribes*.
+
+// Documento autónomo en AsciiDoc. Las ponderaciones son una propuesta, no acuerdos ya aprobados.
+// No publicar datos personales ni informes individuales en esta programación.

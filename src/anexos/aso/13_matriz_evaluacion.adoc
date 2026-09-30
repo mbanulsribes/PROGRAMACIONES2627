@@ -1,0 +1,118 @@
+== Matriz de criterios de evaluación y evidencias
+
+Síntesis operativa de los criterios del módulo 0374 en el RD 1629/2009. Se mantienen las letras oficiales. Para el texto normativo literal, consultar el anexo I de la norma citada. La matriz orienta el diseño de las rúbricas y no modifica el alcance de los criterios.
+
+En las columnas de porcentaje, *PV* significa pendiente de validación. La ponderación de cada RA se recoge en el apartado de evaluación. La propuesta cubre 62 criterios: 10 + 9 + 8 + 9 + 9 + 8 + 9.
+
+=== RA1
+
+[cols="1,4,1,1,2",options="header"]
+|===
+|CE |Síntesis del desempeño |% CE/RA |UP |Instrumento y evidencia
+|RA1.a |Función, elementos y estructuras del directorio. |PV |07 |C: explicación o caso razonado.
+|RA1.b |Determinar y crear el esquema. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.c |Instalar el servicio de directorio. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.d |Configurar y personalizar el directorio. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.e |Integrar el directorio con otros servicios. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.f |Aplicar filtros de búsqueda. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.g |Usar autenticación centralizada. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.h |Integrar y configurar un cliente. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.i |Administrar con herramientas gráficas y comandos. |PV |07 |P + M: ejecución observada y registro de pruebas.
+|RA1.j |Documentar estructura e implantación. |PV |07 |M: documentación técnica verificable.
+|===
+
+=== RA2
+
+[cols="1,4,1,1,2",options="header"]
+|===
+|CE |Síntesis del desempeño |% CE/RA |UP |Instrumento y evidencia
+|RA2.a |Concepto, tipos, estados y ciclo de vida de procesos. |PV |03 |C: explicación o caso razonado.
+|RA2.b |Interrupciones y excepciones en eventos del procesador. |PV |03 |C: explicación o caso razonado.
+|RA2.c |Diferenciar proceso, hilo y trabajo. |PV |03 |C: explicación o caso razonado.
+|RA2.d |Crear, manipular y terminar procesos. |PV |03 |P + M: ejecución observada y registro de pruebas.
+|RA2.e |Utilizar el sistema de archivos para identificar y registrar procesos. |PV |03 |P + M: ejecución observada y registro de pruebas.
+|RA2.f |Controlar procesos con herramientas gráficas y comandos. |PV |03 |P + M: ejecución observada y registro de pruebas.
+|RA2.g |Comprobar arranque y relación de procesos. |PV |03 |P + M: ejecución observada y registro de pruebas.
+|RA2.h |Aplicar seguridad ante procesos no identificados. |PV |03 |P + M: ejecución observada y registro de pruebas.
+|RA2.i |Documentar procesos, funciones y relaciones. |PV |03 |M: documentación técnica verificable.
+|===
+
+=== RA3
+
+[cols="1,4,1,1,2",options="header"]
+|===
+|CE |Síntesis del desempeño |% CE/RA |UP |Instrumento y evidencia
+|RA3.a |Ventajas de automatizar tareas repetitivas. |PV |04 |C: explicación o caso razonado.
+|RA3.b |Usar comandos de planificación. |PV |04 |P + M: ejecución observada y registro de pruebas.
+|RA3.c |Establecer restricciones de seguridad. |PV |04 |P + M: ejecución observada y registro de pruebas.
+|RA3.d |Planificar tareas periódicas y puntuales. |PV |04 |P + M: ejecución observada y registro de pruebas.
+|RA3.e |Automatizar administración de cuentas. |PV |04 |P + M: ejecución observada y registro de pruebas.
+|RA3.f |Instalar y configurar planificadores gráficos. |PV |04 |P + M: ejecución observada y registro de pruebas.
+|RA3.g |Usar planificadores gráficos. |PV |04 |P + M: ejecución observada y registro de pruebas.
+|RA3.h |Documentar las tareas automáticas. |PV |04 |M: documentación técnica verificable.
+|===
+
+=== RA4
+
+[cols="1,4,1,1,2",options="header"]
+|===
+|CE |Síntesis del desempeño |% CE/RA |UP |Instrumento y evidencia
+|RA4.a |Describir métodos de administración remota. |PV |08 |C: explicación o caso razonado.
+|RA4.b |Distinguir servicios orientados y no orientados a sesión. |PV |08 |C: explicación o caso razonado.
+|RA4.c |Usar herramientas remotas del sistema operativo. |PV |08 |P + M: ejecución observada y registro de pruebas.
+|RA4.d |Instalar servicios de acceso remoto. |PV |08 |P + M: ejecución observada y registro de pruebas.
+|RA4.e |Gestionar acceso remoto con comandos y herramientas gráficas. |PV |08 |P + M: ejecución observada y registro de pruebas.
+|RA4.f |Crear cuentas para acceso remoto. |PV |08 |P + M: ejecución observada y registro de pruebas.
+|RA4.g |Probar acceso entre sistemas heterogéneos. |PV |08 |P + M: ejecución observada y registro de pruebas.
+|RA4.h |Cifrar información transferida. |PV |08 |P + M: ejecución observada y registro de pruebas.
+|RA4.i |Documentar procesos y servicios administrados remotamente. |PV |08 |M: documentación técnica verificable.
+|===
+
+=== RA5
+
+[cols="1,4,1,1,2",options="header"]
+|===
+|CE |Síntesis del desempeño |% CE/RA |UP |Instrumento y evidencia
+|RA5.a |Funciones de sistemas y servidores de impresión. |PV |09 |C: explicación o caso razonado.
+|RA5.b |Puertos y protocolos. |PV |09 |C: explicación o caso razonado.
+|RA5.c |Herramientas de gestión integradas en el sistema. |PV |09 |P + M: ejecución observada y registro de pruebas.
+|RA5.d |Instalar y configurar servidor de impresión web. |PV |09 |P + M: ejecución observada y registro de pruebas.
+|RA5.e |Crear y clasificar impresoras lógicas. |PV |09 |P + M: ejecución observada y registro de pruebas.
+|RA5.f |Crear grupos de impresión. |PV |09 |P + M: ejecución observada y registro de pruebas.
+|RA5.g |Gestionar impresoras y trabajos con comandos y herramientas gráficas. |PV |09 |P + M: ejecución observada y registro de pruebas.
+|RA5.h |Compartir impresoras entre sistemas diferentes. |PV |09 |P + M: ejecución observada y registro de pruebas.
+|RA5.i |Documentar servidor e impresoras. |PV |09 |M: documentación técnica verificable.
+|===
+
+=== RA6
+
+[cols="1,4,1,1,2",options="header"]
+|===
+|CE |Síntesis del desempeño |% CE/RA |UP |Instrumento y evidencia
+|RA6.a |Necesidad de compartir recursos entre sistemas. |PV |10 |C: explicación o caso razonado.
+|RA6.b |Niveles de seguridad de acceso a recursos. |PV |10 |P + M: ejecución observada y registro de pruebas.
+|RA6.c |Comprobar conectividad heterogénea. |PV |10 |P + M: ejecución observada y registro de pruebas.
+|RA6.d |Función de servicios de compartición. |PV |10 |C: explicación o caso razonado.
+|RA6.e |Instalar y configurar servicios de recursos compartidos. |PV |10 |P + M: ejecución observada y registro de pruebas.
+|RA6.f |Comprobar funcionamiento de los servicios. |PV |10 |P + M: ejecución observada y registro de pruebas.
+|RA6.g |Trabajar en grupo accediendo a archivos e impresoras desde sistemas diferentes. |PV |10 |P + M: trabajo cooperativo y verificación individual.
+|RA6.h |Documentar servicios instalados. |PV |10 |M: documentación técnica verificable.
+|===
+
+=== RA7
+
+[cols="1,4,1,1,2",options="header"]
+|===
+|CE |Síntesis del desempeño |% CE/RA |UP |Instrumento y evidencia
+|RA7.a |Combinar estructuras del lenguaje en guiones. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.b |Depurar errores de sintaxis y ejecución. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.c |Interpretar guiones de configuración. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.d |Adaptar guiones del sistema. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.e |Crear y probar guiones de administración de servicios. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.f |Crear y probar guiones de automatización. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.g |Implantar guiones en sistemas libres y propietarios. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.h |Consultar y utilizar bibliotecas de funciones. |PV |04 y 10 |G + P: guion, pruebas y demostración.
+|RA7.i |Documentar los guiones. |PV |04 y 10 |M: documentación técnica verificable.
+|===
+
+[appendix]

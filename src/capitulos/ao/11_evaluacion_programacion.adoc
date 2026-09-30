@@ -1,0 +1,39 @@
+== Evaluación del desarrollo de la programación y de la práctica docente
+
+=== Indicadores de seguimiento
+
+[cols="3,4,5",options="header"]
+|===
+|Indicador |Registro y momento |Decisión de mejora
+|Cobertura de los 62 CE
+|Matriz de CE y evidencias revisada al finalizar cada UP y cada evaluación.
+|Programar evidencia específica para los criterios aún no observados; no darlos por cubiertos por mera asistencia.
+|Progreso por RA
+|Distribución de logro y criterios pendientes en cada evaluación, sin publicar datos individuales.
+|Reenseñar dificultades comunes y ajustar apoyos y recuperación.
+|Adecuación de tiempos
+|Horas previstas y efectivas, incidencias y avance del grupo.
+|Redistribuir dentro del total curricular y coordinar cambios con FE.
+|Claridad de instrucciones
+|Dudas repetidas, entregas incompletas y breve consulta al alumnado.
+|Reescribir consignas, añadir modelos y verificar comprensión.
+|Utilidad de vídeos y demostraciones
+|Tiempo empleado, información obtenida y barreras detectadas.
+|Solicitar solo evidencias útiles y ofrecer alternativas equivalentes.
+|Accesibilidad y participación
+|Registro interno de medidas y revisión con tutoría/orientación.
+|Mantener, retirar o ajustar apoyos según resultados observados.
+|Funcionamiento de herramientas
+|Fallos de acceso, archivos, Base, captura y entrega.
+|Preparar recursos alternativos y revisar el entorno antes de la siguiente unidad.
+|Coherencia de la evaluación
+|Revisión de rúbricas, cálculo y muestras de corrección con el departamento.
+|Evitar dobles cómputos, mejorar indicadores y alinear criterios comunicados.
+|===
+
+=== Procedimiento de revisión
+
+La profesora anota al finalizar cada unidad los contenidos impartidos, evidencias obtenidas, dificultades y ajustes. En cada evaluación se contrasta el avance con el equipo docente y se revisa la coordinación con FE. Se recaba una valoración breve del alumnado sobre claridad, carga de trabajo, ayuda recibida y utilidad de las actividades.
+
+La memoria final sintetiza el grado de cumplimiento, los CE con mayores dificultades, los cambios metodológicos útiles y las propuestas para el curso siguiente. Los resultados no se convierten en una calificación de la profesora: son indicadores para mejorar la enseñanza. Las modificaciones sustanciales se documentan con fecha, motivo, aprobación cuando corresponda y comunicación al alumnado.
+

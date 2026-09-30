@@ -1,0 +1,61 @@
+== Evaluación del aprendizaje
+
+=== Principios
+
+La evaluación será inicial, continua, formativa y referida a RA y CE. Se registrará la evidencia individual, el contexto y las adaptaciones aplicadas. Los errores detectados y corregidos formarán parte del aprendizaje. La asistencia o una actitud genérica no sustituirán la demostración de criterios profesionales.
+
+=== Instrumentos
+
+* D: diagnóstico inicial y preguntas de comprensión; sin peso independiente propuesto.
+* P: práctica observada o prueba individual de desempeño con lista de comprobación.
+* M: memoria técnica y evidencias comentadas.
+* G: guion, configuración editable y pruebas de ejecución.
+* C: caso escrito, interpretación de trazas o explicación oral.
+* E: informe de empresa, cuando el plan formativo asigne criterios a ese contexto.
+
+Una evidencia podrá informar varios criterios si la rúbrica distingue cada uno. No se duplicará su valor por aparecer en una UP y en el proyecto. El anexo A recoge todos los CE de referencia y sus instrumentos propuestos.
+
+=== Distribución de la evaluación por RA
+
+[cols="1,1,2,2",options="header"]
+|===
+|RA |Peso definitivo |Unidades principales |Instrumentos
+|RA1 |PENDIENTE |07 |P, M, C
+|RA2 |PENDIENTE |03; aplicación 05-06 |P, M, C
+|RA3 |PENDIENTE |04; aplicación 06 y 10 |P, G, M, C
+|RA4 |PENDIENTE |08; aplicación 05 |P, M, C
+|RA5 |PENDIENTE |09 |P, M, C
+|RA6 |PENDIENTE |10 |P, M, C
+|RA7 |PENDIENTE |04 y 10; aplicación 06-07 |G, P, M, C
+|===
+
+Los siete pesos deberán sumar 100 %. Los pesos de CE dentro de cada RA deberán sumar 100 %. No se trasladan los porcentajes de la programación a distancia. El departamento deberá aprobar y comunicar esta distribución antes de aplicarla a las calificaciones.
+
+=== Criterios de calificación
+
+Propuesta de procedimiento pendiente de aprobación: valorar cada CE con una rúbrica de 0 a 10 sobre corrección técnica, adecuación de decisiones, verificación y documentación cuando el propio criterio la requiera. Cada tarea especificará qué criterios observa y el peso interno aprobado; no se fijan aquí porcentajes no comunicados por el centro.
+
+La nota de un RA se obtendrá como suma ponderada de las notas de sus CE. La nota del módulo se calculará con los pesos de RA aprobados. Si se repite una evidencia, la docente documentará cómo actualiza la valoración del criterio para reflejar el aprendizaje demostrado, conforme al PCCF. Las notas de unidades no se promediarán automáticamente como si todos los RA pesaran igual.
+
+*PENDIENTE DE VALIDACIÓN:* mínimos por RA o por criterios esenciales, regla de redondeo, requisitos de superación, tratamiento de entregas fuera de plazo, pérdida de evaluación continua y calificaciones de evaluaciones parciales. No se aplicarán reglas retrospectivas ni umbrales no aprobados.
+
+=== Recuperación, segunda convocatoria y evaluación extraordinaria
+
+Tras cada actividad se facilitará información sobre CE alcanzados y pendientes. La recuperación propondrá una tarea equivalente centrada en los pendientes y una comprobación individual. Se mantendrán las evidencias válidas conforme a los acuerdos del departamento.
+
+La segunda convocatoria o evaluación extraordinaria, con la denominación y condiciones del PCCF, incluirá práctica y/o prueba de análisis según la naturaleza de los criterios. Fechas, condiciones y criterios de calificación se comunicarán con antelación. Las operaciones bloqueadas por infraestructura se reprogramarán en un entorno funcional.
+
+=== Formación en empresa u organismo equiparado
+
+El plan individual recogerá RA/CE asignados, actividades, horas, tutores, evidencias y seguimiento. Posibles actuaciones: seguimiento de procesos, automatización autorizada, soporte remoto y documentación. La elección depende de las funciones reales y permisos de la empresa; no se asume que cualquier puesto cubra todos los RA.
+
+La docente y la tutoría de empresa contrastarán el informe y las evidencias conforme a la normativa y al PCCF. No se fija un porcentaje automático de nota de empresa. Si una actividad no permite acreditar un criterio, se coordinará una evidencia complementaria en el centro.
+
+=== Proyecto intermodular
+
+Los hitos de octubre, diciembre y enero aportarán productos técnicos al proyecto: sistema comprobado, despliegue y mantenimiento. La coordinación concretará requisitos, rúbricas y responsabilidad de cada módulo. ASO evaluará los criterios propios efectivamente demostrados; no asignará una nota automática por la simple entrega del proyecto.
+
+=== Superación y promoción
+
+Los criterios oficiales y acuerdos comunes se remiten al PCCF. Esta programación no establece condiciones nuevas de promoción. La versión aprobada incorporará las reglas aplicables y su comunicación al alumnado.
+

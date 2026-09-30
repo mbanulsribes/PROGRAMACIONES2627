@@ -1,0 +1,36 @@
+[.portada]
+--
+[cols="2,3,2",frame=none,grid=none,role="logos",valign=middle]
+|===
+a|image::logo-gva.png[Generalitat Valenciana,pdfwidth=38mm,width=150]
+^a|INSTITUT D’EDUCACIÓ SECUNDÀRIA +
+*IES FONT DE SANT LLUÍS*
+a|image::logo-ue.png[Unión Europea,pdfwidth=38mm,width=150]
+|===
+
+[.departamento.text-center]
+*Departamento de {departamento}*
+
+image::logo-ies-font.jpeg[IES Font,pdfwidth=45mm,width=180,align=center]
+
+[.ciclo.text-center]
+Ciclo Formativo de {grado}: +
+*{ciclo}*
+
+:cellbgcolor: #DFDFDF
+
+[cols="1",frame=all,grid=none,role="modulo",halign=center]
+|===
+^a|
+[.titulo-modulo]
+Programación didáctica del Módulo: +
+*{codigo} {modulo}*
+
+[.curso]
+*(Curso {curso})*
+|===
+:cellbgcolor!:
+
+[.profesor.text-right]
+*Profesor/a: {docente}*
+--

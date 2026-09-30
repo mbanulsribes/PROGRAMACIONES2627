@@ -1,0 +1,228 @@
+== Esquema general y secuenciación de las unidades
+
+=== Contenidos básicos y adaptación didáctica
+
+Se desarrollan directorios y autenticación centralizada; procesos, hilos, interrupciones, estados y arranque; planificación de tareas; información y sistemas de archivos virtuales; administración remota; impresión; interoperabilidad y recursos compartidos; guiones, depuración y bibliotecas de funciones en sistemas libres y propietarios.
+
+Linux proporciona el entorno inicial. Docker y Compose se utilizan como contexto aplicado para procesos, servicios, automatización y administración remota. Se programan además las actividades específicas de directorio, impresión e integración que requieren sus propios criterios.
+
+=== Temporalización presencial
+
+La carga curricular es de *133 horas*, según el anexo II del Decreto 114/2025. Se propone la siguiente distribución didáctica. Las sesiones indicadas son equivalencias de dos horas para planificar, no un calendario cerrado ni una atribución íntegra al centro. Incluye demostraciones, actividades, evaluación, realimentación y recuperación integrada.
+
+El calendario definitivo se calculará con lunes y martes lectivos reales, descontando festivos de València, vacaciones y días no lectivos del centro. No se ha aportado el calendario aprobado ni el periodo de empresa. Si disminuye el tiempo disponible se ajustará la extensión de los ejercicios y se coordinarán evidencias, manteniendo la cobertura de los criterios.
+
+[cols="1,3,1,1,2",options="header"]
+|===
+|UP |Título |Horas |Sesiones |Ventana orientativa
+|01 |Instalación y virtualización |12 |6 |Septiembre-inicio de octubre
+|02 |Linux |10 |5 |Septiembre-octubre
+|03 |Procesos y servicios |10 |5 |Octubre-noviembre
+|04 |Scripting y automatización |16 |8 |Noviembre; ampliación posterior
+|05 |Docker y despliegue |8 |4 |Diciembre
+|06 |Gestión de contenedores |8 |4 |Enero, antes del hito
+|07 |Servicios de directorio |22 |11 |Después del 22 de enero
+|08 |Administración remota |12 |6 |Después del 22 de enero
+|09 |Servidores de impresión |12 |6 |Después del 22 de enero
+|10 |Integración de sistemas y cierre de criterios |23 |11 + 1 hora |Después del 22 de enero
+|Total |Carga curricular |133 |66 + 1 hora |Pendiente de calendario definitivo
+|===
+
+Las UP01-06 suman 64 horas; las UP07-10, 69. No se supone que la secuencia agote todas las sesiones hasta enero: el margen real, si existe, se destinará a refuerzo, incidencias y evidencias pendientes. Las UP pueden solaparse para retomar Linux o guiones en casos posteriores.
+
+[cols="1,2,3",options="header"]
+|===
+|Hito orientativo |Producto |Organización
+|08/10/2026 |Sistema instalado y comprobado |Recoger evidencias en sesiones previas; el jueves no añade una clase al horario.
+|21/12/2026 |Servicio desplegado en contenedor |Prueba de funcionamiento y documentación del acceso y la persistencia.
+|22/01/2027 |Gestión de contenedores |Programar la evidencia antes del viernes 22; este día no añade sesión.
+|===
+
+=== Reparto centro-empresa
+
+H_total = 133 horas. H_centro y H_empresa quedan pendientes de la distribución aprobada. Según el artículo 7, la formación en empresa contribuye a los RA de los módulos y no tiene un currículo separado. Se verificará H_total = H_centro + H_empresa; porcentaje de centro = 100 × H_centro/H_total y porcentaje de empresa = 100 × H_empresa/H_total. Las 133 horas de la tabla no se suman a unas horas adicionales de empresa. Antes de aprobar, se reasignarán las actividades según el plan individual y la capacidad real de cada empresa.
+
+=== Desarrollo de las unidades de programación
+
+Las vinculaciones RA/CE que siguen son didácticas. La correspondencia oficial completa se encuentra en el anexo A. En todas las UP, CT1 y CT4 se observan en la documentación y en el tratamiento de cuentas, permisos y datos.
+
+==== UP01. Instalación y virtualización
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Preparar un entorno de práctica recuperando conocimientos previos.
+|Temporalización |12 horas; equivalencia de 6 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |Base instrumental para RA2, RA4 y RA7; no constituye un RA nuevo.
+|OG, competencias y CT |a), b); administración de servidores; CT2, CT5.
+|Objetivos didácticos |Distinguir anfitrión e invitado; elegir recursos; instalar y verificar el sistema.
+|Contenidos |Hipervisores, ISO, vCPU, RAM, VDI, NAT, DHCP, particionado guiado, usuario y apagado.
+|Actividades |Ficha previa, instalación de Ubuntu Server y comprobaciones con hostnamectl, ip, lsblk, df y free.
+|Recursos |VirtualBox en LliureX 21, ISO oficial, espacio local suficiente.
+|Evaluación y calificación |Lista de comprobación diagnóstica y memoria de instalación. No asignar nota a CE no evidenciados. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Analizar capturas del instalador, diseñar recursos y justificar decisiones. Registrar la instalación real como pendiente.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP02. Linux
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Adquirir fluidez de terminal antes de automatizar.
+|Temporalización |10 horas; equivalencia de 5 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |Preparación RA2.e-f y RA7.a-c; consolidación en UP03 y UP04.
+|OG, competencias y CT |a), b), o); administración y aprendizaje autónomo; CT2, CT5.
+|Objetivos didácticos |Navegar y gestionar archivos; interpretar permisos; combinar comandos y consultar recursos.
+|Contenidos |Rutas, usuarios y grupos, permisos, tuberías, redirecciones, ayuda, paquetes e información del sistema.
+|Actividades |Crear un espacio de trabajo, configurar permisos de prueba y producir un informe explicado.
+|Recursos |VM Linux local; terminal y documentación.
+|Evaluación y calificación |Práctica observada y preguntas individuales; evidencias vinculadas solo a los CE realmente trabajados. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Interpretar un árbol de directorios, permisos y salidas proporcionadas; elaborar comandos razonados.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP03. Procesos y servicios
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Comprender ejecución, arranque y diagnóstico.
+|Temporalización |10 horas; equivalencia de 5 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |RA2.a-i.
+|OG, competencias y CT |a), n), ñ), q); mantenimiento y resolución de incidencias; CT2.
+|Objetivos didácticos |Distinguir proceso, hilo y trabajo; controlar procesos propios; analizar arranque y servicios.
+|Contenidos |Estados, interrupciones y excepciones, prioridades, /proc, ps, top, señales, systemd y registros.
+|Actividades |Seguir un proceso propio; modificar su prioridad; detenerlo; analizar un servicio y documentar un arranque.
+|Recursos |VM Linux, monitor gráfico disponible y registros preparados.
+|Evaluación y calificación |Prueba práctica RA2 y explicación de interrupciones, hilos y seguridad; informe de diagnóstico. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Reconstruir estados, relaciones y secuencia de arranque a partir de registros y capturas.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP04. Scripting y automatización
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Automatizar operaciones repetitivas de forma controlada.
+|Temporalización |16 horas; equivalencia de 8 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |RA3.a-h y RA7.a-f,h-i; RA7.g se completa en UP10.
+|OG, competencias y CT |b), n), o), q); automatización; CT2, CT5.
+|Objetivos didácticos |Crear y depurar guiones; programar tareas puntuales y periódicas; aplicar permisos mínimos.
+|Contenidos |Bash, variables, parámetros, condiciones, bucles, funciones, códigos de salida, cron/at o temporizadores; planificador gráfico; introducción a PowerShell.
+|Actividades |Informe automático, tarea programada, gestión de cuentas ficticias y adaptación de un guion.
+|Recursos |VM Linux; entorno propietario autorizado para ampliación; biblioteca de funciones propia.
+|Evaluación y calificación |Código comentado, pruebas y ejecución individual; actividad específica de planificador gráfico. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Trazar guiones, localizar errores y diseñar horarios; la ejecución y las herramientas gráficas se comprobarán después.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP05. Docker y despliegue
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Aplicar administración a un servicio en contenedor.
+|Temporalización |8 horas; equivalencia de 4 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |Aplicación parcial RA2.d,f,i y RA4.c,e,h-i si se administra remotamente.
+|OG, competencias y CT |b), n), ñ); servicios y diagnóstico; CT2.
+|Objetivos didácticos |Distinguir imagen y contenedor; desplegar un servicio; verificar puertos y persistencia.
+|Contenidos |Imágenes, ciclo de vida, publicación de puertos, volúmenes, variables y registros.
+|Actividades |Desplegar un servicio web y demostrar acceso y conservación de datos.
+|Recursos |VM Linux con Docker disponible; navegador; SSH si procede.
+|Evaluación y calificación |Demostración del servicio y memoria; usar Docker localmente no acredita administración remota. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Explicar la petición web con esquema de puertos, analizar configuración y salidas dadas.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP06. Gestión de contenedores
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Mantener y recuperar un despliegue.
+|Temporalización |8 horas; equivalencia de 4 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |Aplicación RA2.f,h-i, RA3.b-d,h y RA7.e-f,i según actividad.
+|OG, competencias y CT |n), ñ), o), q); mantenimiento; CT2, CT3.
+|Objetivos didácticos |Diagnosticar fallos; describir despliegues; comprobar copias y recuperación.
+|Contenidos |Compose, redes, volúmenes, logs, actualización, recreación, copia y restauración.
+|Actividades |Resolver incidencias de puerto, permisos y persistencia; automatizar una comprobación; restaurar datos de prueba.
+|Recursos |VM con Docker/Compose o servidor accesible.
+|Evaluación y calificación |Práctica individual de recuperación, guion y registro de pruebas antes del hito. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Revisar Compose y registros, proponer hipótesis y ordenar una restauración sin atribuir ejecución real.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP07. Servicios de directorio
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Administrar identidades y autenticación centralizada.
+|Temporalización |22 horas; equivalencia de 11 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |RA1.a-j; extensión RA7.e,g.
+|OG, competencias y CT |a), b), n), q); administración y seguridad; CT2, CT3.
+|Objetivos didácticos |Diseñar estructura; instalar directorio; administrar objetos; integrar cliente y probar autenticación.
+|Contenidos |LDAP, esquema, dominio, objetos, filtros, autenticación, herramientas gráficas y terminal, integración de servicios.
+|Actividades |Crear estructura de aula, usuarios y grupos, aplicar filtros, integrar un cliente y documentar pruebas.
+|Recursos |Servidor y cliente virtuales aislados; software libre y/o propietario con licencia disponible.
+|Evaluación y calificación |Práctica de directorio con lista de pruebas positivas y negativas y memoria de estructura. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Diseñar árbol y esquema, interpretar consultas y resolver casos de autenticación. Instalación e integración quedan pendientes.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP08. Administración remota
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Consolidar acceso remoto seguro y diagnóstico entre sistemas.
+|Temporalización |12 horas; equivalencia de 6 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |RA4.a-i; refuerzo RA3.
+|OG, competencias y CT |a), n), ñ), q); soporte remoto; CT2, CT4.
+|Objetivos didácticos |Comparar métodos; instalar servicios; gestionar cuentas; probar sesiones y transferencia cifrada.
+|Contenidos |SSH, claves, sesiones y servicios no orientados a sesión, escritorio remoto, herramientas nativas y gráficas, puertos y registros.
+|Actividades |Acceder entre sistemas heterogéneos, transferir un archivo y diagnosticar una conexión fallida.
+|Recursos |VM de cliente y servidor; SSH/escritorio remoto autorizado; red local aislada.
+|Evaluación y calificación |Demostración individual, contraste de métodos y documentación de acceso. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Analizar rutas, puertos y mensajes de error; diseñar accesos y explicar cifrado con registros de ejemplo.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP09. Servidores de impresión
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Gestionar un servicio compartido con colas y permisos.
+|Temporalización |12 horas; equivalencia de 6 sesiones de dos horas. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |RA5.a-i.
+|OG, competencias y CT |b), n), ñ); gestión de servicios; CT3, CT5.
+|Objetivos didácticos |Configurar servidor web de impresión; administrar impresoras lógicas, grupos y trabajos.
+|Contenidos |CUPS y herramientas del entorno propietario, puertos, protocolos, colas, grupos/clases y permisos.
+|Actividades |Compartir una impresora de prueba, generar trabajos desde clientes diferentes y resolver una cola detenida.
+|Recursos |VM, CUPS, cliente libre y propietario; impresora virtual o dispositivo de laboratorio.
+|Evaluación y calificación |Práctica con evidencia de grupos, cola, administración web y acceso heterogéneo. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Interpretar una cola, diseñar permisos y secuenciar el diagnóstico con capturas.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+
+==== UP10. Integración de sistemas y cierre de criterios
+
+[cols="1,4",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación |Integrar servicios y completar evidencias de sistemas libres y propietarios.
+|Temporalización |23 horas; equivalencia de 11 sesiones de dos horas y una hora adicional. Distribución didáctica propuesta, pendiente de calendario y reparto centro-empresa.
+|RA y CE |RA6.a-h; RA7.g y criterios pendientes de RA1-RA7.
+|OG, competencias y CT |a), b), n), ñ), o), q); interoperabilidad y trabajo en equipo; CT2, CT3, CT5.
+|Objetivos didácticos |Compartir recursos entre sistemas; verificar permisos; ejecutar guiones en ambos entornos; cerrar evidencias pendientes.
+|Contenidos |SMB/Samba, conectividad, permisos, clientes heterogéneos, guiones Bash y PowerShell, documentación y pruebas.
+|Actividades |Recurso compartido con usuarios autorizados y denegados, acceso en equipo, guiones equivalentes y defensa individual.
+|Recursos |VM Linux y sistema propietario autorizado; red aislada; plantillas de prueba.
+|Evaluación y calificación |Práctica integradora, matriz de acceso y demostración individual por CE; recuperación focalizada. Aplicar la matriz de CE del apartado de evaluación; pesos pendientes de aprobación.
+|Plan B |Diseñar matriz de permisos, analizar configuraciones y trazar guiones; programar pruebas prácticas pendientes.
+|Actividades complementarias |Sin visita confirmada; posibles actuaciones del apartado específico, sin horas añadidas no autorizadas.
+|===
+

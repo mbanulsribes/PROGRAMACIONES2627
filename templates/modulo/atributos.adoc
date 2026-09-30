@@ -1,0 +1,9 @@
+:modulo: NOMBRE DEL MÓDULO
+:codigo: CÓDIGO
+:ciclo: NOMBRE DEL CICLO
+:grado: GRADO
+:grupo: GRUPO
+:docente: NOMBRE DEL PROFESORADO
+:curso: 2026-2027
+:revnumber: 1.0
+:revdate: 30 de septiembre de 2026

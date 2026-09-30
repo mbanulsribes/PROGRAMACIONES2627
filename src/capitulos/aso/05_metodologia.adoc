@@ -1,0 +1,26 @@
+== Metodología del proceso de enseñanza-aprendizaje
+
+=== Enfoque y principios
+
+Se parte de un problema de administración y de conocimientos previos. La docente demuestra el procedimiento explicando decisiones; el alumnado lo practica con apoyo y después resuelve una variación individual. Cada actividad termina con comprobación y explicación del resultado.
+
+Se priorizan procedimientos reproducibles, consulta de documentación, mínimos privilegios, diagnóstico basado en evidencias y reversibilidad. Las configuraciones se realizan sobre el laboratorio asignado y con datos ficticios. Las actividades no alterarán el sistema anfitrión sin autorización.
+
+=== Estrategias y papel de los participantes
+
+La docente prepara entornos y fallos controlados, verifica requisitos, ofrece andamiaje y recoge evidencias. El alumnado planifica, ejecuta, contrasta resultados y registra incidencias. En parejas se alternarán ejecución y revisión; la evaluación del desempeño será individual.
+
+Cada entrega incluirá objetivo, entorno, procedimiento justificado, comprobaciones, incidencias y conclusión. Las capturas se acompañarán de explicación. Los guiones se entregarán como archivos editables y con casos de prueba. La docente podrá solicitar una repetición breve para verificar la autoría.
+
+=== Plan de contingencia
+
+Si una práctica depende de SSH o web al departamento, se aplicará el Plan B de su UP. Se utilizará primero la VM local si permite realizar la misma operación. Si tampoco es posible, se trabajará con configuraciones, trazas y casos en papel o editor.
+
+El registro distinguirá: evidencia ejecutada, evidencia de análisis y operación pendiente. Un análisis teórico puede acreditar comprensión, pero no sustituye automáticamente un criterio que exige instalar, configurar o probar. Se reservará una comprobación posterior en entorno funcional. Las incidencias de infraestructura no se imputarán como falta de competencia del alumnado.
+
+=== Refuerzo, ampliación y uso de IA
+
+El refuerzo utilizará procedimientos fragmentados, glosario, ejemplos comentados y prácticas de recuperación. La ampliación incorporará fallos adicionales, validación de entradas, bibliotecas de funciones y comparación de soluciones.
+
+Cada tarea indicará si admite IA y para qué. Cuando se permita, el alumnado declarará el uso y verificará las propuestas antes de ejecutarlas. No se introducirán contraseñas, datos personales ni configuraciones confidenciales. La evaluación requerirá comprensión y ejecución individual cuando corresponda; no se establecerán sanciones automáticas ajenas al PCCF.
+

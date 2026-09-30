@@ -1,0 +1,465 @@
+== Esquema general y secuenciación de las unidades de programación
+
+=== Contenidos básicos y concreción didáctica
+
+Los contenidos orientativos del título se actualizan al entorno disponible, manteniendo íntegramente los RA y CE. Se trabajan instalación y licencias; documentos, estilos, plantillas y macros; cálculos, gráficos, análisis y automatización; bases de datos relacionales; captura y edición de imágenes y vídeo; presentaciones; correo y agenda; documentación y soporte.
+
+Se priorizan formatos abiertos (ODT, ODS, ODB y ODP) y la exportación a formatos de intercambio, especialmente PDF, CSV y formatos multimedia. Se ensaya la interoperabilidad cuando forma parte del encargo. La mecanografía, los nombres de archivo y la gestión de carpetas se refuerzan como destrezas instrumentales, sin convertirlos en una calificación independiente ajena a los CE.
+
+=== Secuenciación y temporalización
+
+La distribución siguiente es una *propuesta curricular de 233 horas*, incluida la parte que se acuerde realizar en empresa. No representa 233 horas adicionales de presencia en el centro. Una vez conocido el plan de FE se desglosarán las horas y actividades de cada unidad sin duplicarlas.
+
+Se distinguen las horas curriculares de los periodos lectivos del horario. Las equivalencias semanales son orientativas a 7 periodos por semana; no constituyen una conversión a sesiones de 60 minutos. El calendario de sesiones efectivo se cerrará con jefatura de estudios, teniendo en cuenta descansos, festivos, evaluaciones y FE.
+
+[cols="1,5,1,2,3",options="header"]
+|===
+|UP |Título |Horas |Periodo orientativo |RA principal
+|1
+|SOS: supervivencia digital
+|14
+|1.ª
+|1 y 9; introducción a 2, 5 y 8
+|2
+|Documento FINAL
+|25
+|1.ª
+|2
+|3
+|Documentos que trabajan solos
+|21
+|1.ª
+|2 y 9
+|4
+|#¡VALOR!: las cuentas no cuadran
+|32
+|1.ª
+|3
+|5
+|Datos sin significado
+|25
+|2.ª
+|3
+|6
+|847 clientes
+|28
+|2.ª
+|4
+|7
+|Marketing ha vuelto
+|18
+|2.ª
+|5
+|8
+|Vídeo para ayer
+|21
+|3.ª
+|6
+|9
+|Mañana viene dirección
+|14
+|3.ª
+|7
+|10
+|243 correos
+|14
+|3.ª
+|8
+|11
+|Incidente crítico
+|14
+|3.ª
+|1 y 9; transferencia de 2–8
+|—
+|Refuerzo, recuperación, ajuste de calendario y cierre
+|7
+|Distribución flexible
+|RA pendientes
+|TOTAL
+|Módulo completo
+|233
+|Centro + FE
+|1–9
+|===
+
+La primera evaluación concentra inicialmente las UP1–UP4 (92 horas); la segunda, UP5–UP7 (71 horas); la tercera, UP8–UP11 (63 horas), más una reserva flexible de 7 horas. Son bloques orientativos que se redistribuirán si la FE o el calendario del centro lo requieren. La reserva no sustituye los apoyos y recuperaciones que se ofrecen durante todo el curso.
+
+El arranque comunicado del módulo es el viernes 11 de septiembre de 2026. La planificación específica del tema 1 sitúa su primer caso evaluable el viernes 25 de septiembre. Son referencias de planificación, no afirmaciones de que todas las actividades se hayan ejecutado. El resto de fechas se publicará en Aules tras ajustar el calendario real.
+
+El patrón semanal será: martes, incidencia y modelado; jueves, práctica guiada y autónoma; viernes, consolidación, retroalimentación o evaluable. *No todos los viernes tienen una evaluable.* Las pruebas se programarán preferentemente en viernes y con antelación suficiente.
+
+=== Reparto entre centro y empresa
+
+Sea *HFE* el número de horas de este módulo atribuido a FE en el plan aprobado: horas en el centro = *233 − HFE*; porcentaje en empresa = *100 × HFE / 233*; porcentaje en el centro = *100 × (233 − HFE) / 233*. No se aplica automáticamente a este módulo el porcentaje global de FE del ciclo.
+
+Antes de cerrar el calendario, la profesora y la tutoría dual concretarán horas, actividades, RA/CE y evidencias en ambos entornos. Las propuestas de tareas en empresa del apartado de evaluación no constituyen una asignación definitiva.
+
+=== Unidades de programación
+
+En las fichas, las cuatro cantidades de distribución temporal corresponden a *inicio y modelado / práctica guiada / aplicación autónoma / evaluación y devolución*. Son horas curriculares de planificación, no cuatro sesiones. Los bloques semanales de 2/3/2 periodos se desglosarán en el calendario efectivo una vez fijada la FE.
+
+La calificación de cada evaluable se registra por CE según <<matriz-ce,la matriz común>>. El número de unidad no determina un porcentaje independiente de nota. Las competencias transversales se observan mediante los indicadores definidos en su apartado y los CE correspondientes.
+
+==== UP01 · SOS: supervivencia digital
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Recuperar el control de un puesto de trabajo y establecer una rutina común de archivos, ayuda y entrega.
+|Temporalización
+|14 horas curriculares. Distribución: 3 / 4 / 4 / 3. Evaluación orientativa: 1.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 1 y 9; introducción a 2, 5 y 8. OG: a, c, g, h, i, k, l, m, n. CPPE: a, c, g, h, j, l, m, ñ, r. CT: CT1–CT5.
+|Contenidos
+|Archivos y extensiones; estructura de carpetas; compresión y copias; editable y PDF; licencias libres y propietarias, modelos comerciales y de distribución; requisitos, instalación, componentes y actualización; mensajes profesionales; registro de incidencias.
+|Objetivos didácticos
+|Elegir una aplicación justificando licencia y requisitos; instalar y actualizar en un entorno autorizado; recuperar y organizar archivos; dejar un ticket reproducible.
+|Criterios de evaluación
+|RA1.a–i y RA9.b/e/f/g/h, mediante evidencias distribuidas entre E01 y E11
+|Actividades propuestas
+|Diagnóstico de acceso y archivos; rescate guiado de una carpeta de CAOS; práctica «Ahora tú»; caso «Nueva incidencia»; laboratorio de instalación y actualización; ticket individual.
+|Evaluable y evidencias
+|E01: carpeta organizada, originales y exportaciones solicitadas, archivo ZIP e informe de incidencia; demostración breve del procedimiento cuando lo indique el enunciado. El laboratorio de instalación se registra con lista de cotejo y se completa o reevalúa en E11 si es necesario.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|Gestor de archivos de LliureX, LibreOffice, compresor, ayuda oficial, equipo de pruebas o máquina virtual preparada por el centro.
+|Refuerzo y ampliación
+|Pasos literales con casillas, ejemplo de carpeta y nombres; ampliación mediante comparación de alternativas y recuperación de una copia.
+|Uso de IA
+|Evaluable individual sin IA, incluido el guion del vídeo. Durante el aprendizaje se podrán analizar explicaciones de IA previamente seleccionadas por la profesora.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP02 · Documento FINAL
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Transformar un documento inconsistente en un informe profesional que pueda modificarse sin rehacer su formato.
+|Temporalización
+|25 horas curriculares. Distribución: 4 / 8 / 9 / 4. Evaluación orientativa: 1.ª. Equivalencia de referencia: 3.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 2. OG: i, k, n. CPPE: j, l, m, p, r. CT: CT1, CT2, CT3, CT5.
+|Contenidos
+|Writer: interfaz, estilos de párrafo y página, saltos, encabezados, pies, numeración, tablas, imágenes, índice automático, revisión, plantillas y exportación.
+|Objetivos didácticos
+|Estructurar con estilos; controlar cambios de página y numeración; introducir texto e imágenes; crear una plantilla y verificar ODT y PDF.
+|Criterios de evaluación
+|RA2.a/b/c/d/f
+|Actividades propuestas
+|Comparar versiones defectuosas; modelado de estilos; práctica sobre un informe; nueva incidencia de maquetación; elaboración individual de una plantilla y un manual breve.
+|Evaluable y evidencias
+|E02: informe ODT, PDF comprobado, plantilla OTT y guía breve. Demostración de actualización del índice y cambio de estilo sin formato manual repetitivo.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|LibreOffice Writer, originales desordenados, imágenes ficticias, escáner o captura de un periférico del centro para introducir contenido.
+|Refuerzo y ampliación
+|Modelo final visible, checklist de páginas y estilos; ampliación con referencias cruzadas y opciones de accesibilidad.
+|Uso de IA
+|En práctica, revisión de claridad de un texto ficticio y contraste con el original. No se admite que la IA sustituya la estructuración del documento o la explicación de sus estilos.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP03 · Documentos que trabajan solos
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Reutilizar documentos y reducir tareas repetitivas sin perder el control de los datos y del resultado.
+|Temporalización
+|21 horas curriculares. Distribución: 3 / 6 / 8 / 4. Evaluación orientativa: 1.ª. Equivalencia de referencia: 3.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 2 y 9. OG: i, k, l, m. CPPE: j, l, m, n, ñ, p, r. CT: CT1–CT5.
+|Contenidos
+|Plantillas, campos, combinación de correspondencia, fuentes de datos, creación y uso de macros de Writer, seguridad de macros, instrucciones de uso.
+|Objetivos didácticos
+|Generar documentos personalizados desde datos ficticios; crear y usar una macro sencilla; comprobar resultados y enseñar su utilización a otra persona.
+|Criterios de evaluación
+|RA2.b/d/e/f; RA9.a/c/d
+|Actividades propuestas
+|Detectar repetición en cartas de CAOS; construir plantilla y fuente; ensayar una macro en entorno controlado; intercambiar instrucciones durante la práctica; evaluable individual.
+|Evaluable y evidencias
+|E03: plantilla, fuente de datos, documentos generados, macro creada y probada y manual visual. Demostración de cambio de un dato y regeneración.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|Writer, Calc como origen de datos, archivos de prueba y perfil de laboratorio para macros autorizadas.
+|Refuerzo y ampliación
+|Fuente pequeña y modelo de combinación; ampliación con campos condicionales y validación de destinatarios.
+|Uso de IA
+|Ayuda conceptual autorizada durante la práctica, con comprobación. Las macros se comprenden y se prueban; no se ejecuta código externo sin revisión.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP04 · #¡VALOR!: las cuentas no cuadran
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Corregir presupuestos y cálculos para que se actualicen al cambiar los datos.
+|Temporalización
+|32 horas curriculares. Distribución: 5 / 10 / 12 / 5. Evaluación orientativa: 1.ª. Equivalencia de referencia: 4.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 3. OG: g, i, k, m, n. CPPE: g, j, k, l, m, ñ, r. CT: CT1–CT5.
+|Contenidos
+|Calc: datos y formatos, referencias relativas, absolutas y mixtas; fórmulas, funciones, errores, hojas y rangos; gráficos; importación y exportación; impresión.
+|Objetivos didácticos
+|Distinguir dato, formato y fórmula; construir cálculos reutilizables; comprobar resultados con casos conocidos; presentar un presupuesto comprensible.
+|Criterios de evaluación
+|RA3.a/b/c/d/f/h
+|Actividades propuestas
+|Auditoría de una hoja errónea; ejercicios graduados de referencias; presupuesto con cambios de cantidades; gráfico razonado; caso individual con datos diferentes.
+|Evaluable y evidencias
+|E04: libro ODS con fórmulas verificables, gráfico y exportación solicitada. Demostración de cambio de datos y explicación de referencias.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|Calc, tarifas y cantidades ficticias, archivos CSV e imágenes o códigos capturados con recursos del aula.
+|Refuerzo y ampliación
+|Tabla pequeña, referencias coloreadas y ejemplos resueltos parciales; ampliación con escenarios y validaciones.
+|Uso de IA
+|Se puede pedir una explicación de un error durante el entrenamiento y contrastarla. El alumnado debe escribir, probar y explicar las fórmulas de la evaluable.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP05 · Datos sin significado
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Convertir datos desordenados en información útil y automatizar una operación repetitiva.
+|Temporalización
+|25 horas curriculares. Distribución: 4 / 7 / 10 / 4. Evaluación orientativa: 2.ª. Equivalencia de referencia: 3.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 3. OG: i, k, l, m, n. CPPE: j, k, l, m, n, ñ, r. CT: CT1–CT5.
+|Contenidos
+|Limpieza e importación, listas, formularios, filtros, ordenación, protección, tablas dinámicas, gráficos, funciones y macros de Calc.
+|Objetivos didácticos
+|Preparar datos coherentes; filtrar y resumir información; proteger celdas; utilizar una macro y verificar que no altera los datos de partida.
+|Criterios de evaluación
+|RA3.b/c/d/e/f/g/h
+|Actividades propuestas
+|Inspeccionar un CSV; limpiar tipos y duplicados; crear formulario y filtros; obtener resumen y gráfico; usar una macro controlada; encargo individual.
+|Evaluable y evidencias
+|E05: ODS con lista, formulario, filtros, protección, resumen, gráfico y macro empleada; breve explicación de decisiones y archivo de intercambio.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|Calc, conjuntos sintéticos de ventas o incidencias, ayuda de funciones y macros de laboratorio.
+|Refuerzo y ampliación
+|Diccionario de campos y secuencia de limpieza; ampliación mediante tablas dinámicas y análisis de datos ausentes.
+|Uso de IA
+|Contrastar interpretaciones de gráficos y detectar conclusiones falsas con datos ficticios. No aceptar resultados sin verificar filtros, fórmulas y procedencia.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP06 · 847 clientes
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Organizar información relacionada y evitar la duplicación de datos en la gestión de clientes y pedidos.
+|Temporalización
+|28 horas curriculares. Distribución: 4 / 8 / 11 / 5. Evaluación orientativa: 2.ª. Equivalencia de referencia: 4.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 4. OG: g, i, k, m, n. CPPE: g, j, l, m, ñ, r. CT: CT1–CT5.
+|Contenidos
+|Base: tablas, campos, tipos, claves, relaciones e integridad; altas, bajas y modificaciones; consultas, formularios e informes con asistentes; búsqueda, filtros y macros.
+|Objetivos didácticos
+|Diseñar una base sencilla; manejar registros sin romper relaciones; construir consultas y salidas con asistentes; crear y utilizar una macro sencilla de la aplicación.
+|Criterios de evaluación
+|RA4.a–h
+|Actividades propuestas
+|Diferenciar hoja de cálculo y base relacional; diseñar clientes-pedidos; crear tablas y relaciones; generar consultas, formulario e informe; automatizar una acción controlada; evaluable.
+|Evaluable y evidencias
+|E06: base ODB, esquema de relaciones, consultas, formulario, informe y macro creada y utilizada. Comprobación individual con un registro nuevo.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|LibreOffice Base y dependencias comprobadas previamente en el aula; datos ficticios; plantilla de pruebas.
+|Refuerzo y ampliación
+|Esquema visual de relaciones y pocos registros iniciales; ampliación con consultas de varias condiciones y control de integridad.
+|Uso de IA
+|En práctica se podrá contrastar un diseño de tablas, señalando errores de la propuesta. No se sustituye la creación y prueba individual de la base.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP07 · Marketing ha vuelto
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Preparar imágenes adecuadas al medio de destino y respetar su procedencia y licencia.
+|Temporalización
+|18 horas curriculares. Distribución: 3 / 5 / 7 / 3. Evaluación orientativa: 2.ª. Equivalencia de referencia: 2.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 5. OG: i, k, l, n. CPPE: j, l, m, n, ñ, r. CT: CT1, CT2, CT4, CT5.
+|Contenidos
+|Imagen raster y vectorial; formatos; resolución, tamaño y compresión; adquisición mediante periféricos; recorte, color, capas y exportación.
+|Objetivos didácticos
+|Capturar una imagen con un periférico; editarla sin perder el original; elegir resolución y formato para web e impresión; documentar la licencia.
+|Criterios de evaluación
+|RA5.a–e
+|Actividades propuestas
+|Comparar imágenes pixeladas y sobredimensionadas; adquirir imagen de un objeto neutro con periférico del centro; editar; producir versiones para dos usos; evaluable.
+|Evaluable y evidencias
+|E07: imagen original, archivo editable, exportaciones y ficha de formato, resolución y derechos; demostración de una modificación.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|GIMP o editor libre disponible; cámara o escáner del centro; banco de imágenes con licencia identificada.
+|Refuerzo y ampliación
+|Guía visual de herramientas y objetivo final; ampliación con máscaras y optimización justificada.
+|Uso de IA
+|Analizar procedencia y límites de imágenes generadas cuando el encargo lo permita. La generación no sustituye el CE de adquisición con periféricos ni las técnicas de edición.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP08 · Vídeo para ayer
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Producir un videotutorial claro que permita repetir un procedimiento.
+|Temporalización
+|21 horas curriculares. Distribución: 3 / 6 / 8 / 4. Evaluación orientativa: 3.ª. Equivalencia de referencia: 3.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 6. OG: i, k, l, n. CPPE: j, l, m, n, ñ, r. CT: CT1–CT5.
+|Contenidos
+|Planificación de secuencias; captura; vídeo, audio, formatos, contenedores y códecs; importación, edición básica, títulos, exportación y revisión.
+|Objetivos didácticos
+|Planificar un tutorial breve; capturar pantalla y sonido; editar lo necesario; exportar y comprobar legibilidad, duración, sonido y tamaño.
+|Criterios de evaluación
+|RA6.a–e
+|Actividades propuestas
+|Analizar un tutorial confuso; escribir un guion; grabar con SimpleScreenRecorder; editar con la herramienta del aula; probar reproducción; producir tutorial individual.
+|Evaluable y evidencias
+|E08: proyecto o materiales editables, vídeo exportado y ficha técnica. Se valora el procedimiento de captura y edición y la utilidad del tutorial.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|SimpleScreenRecorder; editor de vídeo libre disponible, por ejemplo Kdenlive si está instalado; auriculares y micrófono.
+|Refuerzo y ampliación
+|Guion por pasos y grabaciones cortas; ampliación con subtítulos y comparación de exportaciones.
+|Uso de IA
+|En práctica, revisar la claridad de un guion propio si está autorizado y declarar los cambios. No generar una demostración que suplante el trabajo realizado.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP09 · Mañana viene dirección
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Comunicar información técnica o resultados de gestión de forma breve y comprensible.
+|Temporalización
+|14 horas curriculares. Distribución: 2 / 4 / 5 / 3. Evaluación orientativa: 3.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 7. OG: i, k, n. CPPE: j, l, m, p, r. CT: CT1, CT2, CT3, CT5.
+|Contenidos
+|Impress: opciones, vistas, patrones, plantillas, composición, tipografía, contraste, color, inserción multimedia, notas y proyección.
+|Objetivos didácticos
+|Seleccionar información; diseñar una plantilla coherente; crear una presentación legible; ejecutar la exposición con periféricos.
+|Criterios de evaluación
+|RA7.a–f
+|Actividades propuestas
+|Reducir una diapositiva sobrecargada; crear patrón; organizar resultados de CAOS; ensayo con proyector; presentación individual y comprobación del equipo.
+|Evaluable y evidencias
+|E09: ODP y exportación, plantilla o patrón y presentación ejecutada con proyector u otro periférico disponible.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|Impress, proyector o pantalla del aula, resultados ficticios de unidades anteriores.
+|Refuerzo y ampliación
+|Estructura de diapositivas y ensayo anticipado; alternativa de exposición accesible acordada manteniendo los CE.
+|Uso de IA
+|Revisión autorizada de la estructura durante la práctica. El alumnado selecciona, comprueba y explica la información, sin inventar datos.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP10 · 243 correos
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Configurar y organizar correo y agenda para atender necesidades profesionales sin perder información.
+|Temporalización
+|14 horas curriculares. Distribución: 2 / 4 / 5 / 3. Evaluación orientativa: 3.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 8. OG: i, k, l, m, n. CPPE: f, j, l, m, ñ, r. CT: CT1–CT5.
+|Contenidos
+|Elementos del correo, protocolos y tipos de cuenta, configuración, firma, contactos, carpetas, etiquetas, filtros, búsqueda, eventos, invitaciones y sincronización móvil.
+|Objetivos didácticos
+|Configurar cuentas de prueba de distinto tipo; organizar mensajes y contactos; gestionar citas; conectar y sincronizar una agenda con un dispositivo móvil autorizado.
+|Criterios de evaluación
+|RA8.a–g
+|Actividades propuestas
+|Clasificar una bandeja de prueba; configurar cuentas en entorno controlado; crear contactos y filtros; resolver conflicto de agenda; comprobar sincronización; evaluable.
+|Evaluable y evidencias
+|E10: demostración de configuración, gestión del correo, contactos y agenda; evidencia de sincronización real en dispositivo del centro. Sin contraseñas en capturas.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|Cliente de correo y agenda disponible, cuentas institucionales de prueba y dispositivo móvil de préstamo del centro.
+|Refuerzo y ampliación
+|Mensajes modelo, tarjetas de acciones y lista de comprobación; ampliación con filtros combinados.
+|Uso de IA
+|Revisión de tono de mensajes ficticios durante la práctica. Nunca introducir mensajes reales, direcciones personales, credenciales o datos del alumnado.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+
+==== UP11 · Incidente crítico
+
+[cols="2,7",options="header"]
+|===
+|Elemento |Desarrollo
+|Justificación
+|Integrar diagnóstico, corrección, protección de datos y comunicación al usuario en una incidencia nueva.
+|Temporalización
+|14 horas curriculares. Distribución: 2 / 4 / 5 / 3. Evaluación orientativa: 3.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.
+|Relación curricular
+|RA: 1 y 9; transferencia de 2–8. OG: a, c, g, h, i, k, l, m, n, o. CPPE: a, c, f, g, h, j, k, l, m, n, ñ, p, r. CT: CT1–CT5.
+|Contenidos
+|Análisis de requisitos, instalación, actualización, componentes, conflictos de aplicación, copias y restauración; manuales, guías visuales, asesoramiento y cierre de tickets.
+|Objetivos didácticos
+|Diagnosticar antes de actuar; salvaguardar información; intervenir y probar; elaborar una guía útil; explicar al usuario la solución y las medidas de prevención.
+|Criterios de evaluación
+|RA1.a–i; RA9.a–h. Otros CE únicamente si se anuncian y registran expresamente.
+|Actividades propuestas
+|Simulación de atención a un usuario; consulta de ayuda; laboratorio de instalación y actualización pendiente; ensayo de recuperación; ticket crítico individual.
+|Evaluable y evidencias
+|E11: registro de diagnóstico, copia y prueba de recuperación, actuación verificable, guía visual e informe de cierre; demostración y preguntas de comprobación.
+|Criterios de calificación
+|Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.
+|Recursos y materiales
+|Puesto de pruebas o máquina virtual preparada, versiones y componentes autorizados, copias sintéticas y documentación oficial.
+|Refuerzo y ampliación
+|Árbol de decisiones y comunicación previsible de fases; ampliación con comparación de soluciones y propuesta de mejora.
+|Uso de IA
+|La evaluable verifica resolución personal. La IA solo se utilizará si el enunciado la autoriza de forma expresa para un apartado delimitado, con registro y verificación.
+|Visitas y actividades complementarias
+|Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.
+|===
+

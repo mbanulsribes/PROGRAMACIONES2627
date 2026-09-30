@@ -1,0 +1,52 @@
+= Registro de reorganización
+
+Los originales se conservan byte a byte en `archivo/originales/`, incluido el HTML previo y README.md. Sus SHA-256 constan en `archivo/manifiesto-originales.json`. El repositorio Git no se modifica.
+
+Los cuerpos, títulos y avisos se conservan íntegros. El encabezado de cada original permanece en la copia histórica; sus metadatos se trasladan a atributos. Objetivos generales se incluye un nivel por debajo de estándares, siguiendo el esquema del DOCX y manteniendo 13 apartados principales. Los dos apartados adicionales de ASO se conservan después del apartado 13, en `src/anexos/aso/`, con su título y numeración consecutiva original.
+
+[cols="2,3,3",options="header"]
+|===
+|Origen |Apartado |Destino
+|Programacion_AO_2026_2027.adoc |Propuestas de mejora y modificaciones respecto a la versión anterior |src/capitulos/ao/00_mejoras.adoc
+|Programacion_AO_2026_2027.adoc |Datos identificativos, marco normativo y contextualización del módulo |src/capitulos/ao/01_datos_contextualizacion.adoc
+|Programacion_AO_2026_2027.adoc |Relación entre los estándares de competencia y los módulos del ciclo formativo |src/capitulos/ao/02_estandares.adoc
+|Programacion_AO_2026_2027.adoc |Contribución del módulo a los objetivos generales |src/capitulos/ao/02b_objetivos_generales.adoc
+|Programacion_AO_2026_2027.adoc |Contribución de los resultados de aprendizaje a las competencias |src/capitulos/ao/03_competencias_ra.adoc
+|Programacion_AO_2026_2027.adoc |Esquema general y secuenciación de las unidades de programación |src/capitulos/ao/04_unidades_programacion.adoc
+|Programacion_AO_2026_2027.adoc |Metodología del proceso de enseñanza y aprendizaje |src/capitulos/ao/05_metodologia.adoc
+|Programacion_AO_2026_2027.adoc |Recursos |src/capitulos/ao/06_recursos.adoc
+|Programacion_AO_2026_2027.adoc |Uso de espacios y equipamientos |src/capitulos/ao/07_espacios.adoc
+|Programacion_AO_2026_2027.adoc |Medidas de atención a la diversidad |src/capitulos/ao/08_diversidad.adoc
+|Programacion_AO_2026_2027.adoc |Evaluación del aprendizaje |src/capitulos/ao/09_evaluacion.adoc
+|Programacion_AO_2026_2027.adoc |Actividades complementarias y extraescolares |src/capitulos/ao/10_actividades.adoc
+|Programacion_AO_2026_2027.adoc |Evaluación del desarrollo de la programación y de la práctica docente |src/capitulos/ao/11_evaluacion_programacion.adoc
+|Programacion_AO_2026_2027.adoc |Otros acuerdos relevantes del PCCF y cierre del documento |src/capitulos/ao/12_otros.adoc
+|programacion-ASO-2026-2027.adoc |Propuestas de mejora y modificaciones respecto a la versión anterior |src/capitulos/aso/00_mejoras.adoc
+|programacion-ASO-2026-2027.adoc |Datos identificativos, marco normativo y contextualización |src/capitulos/aso/01_datos_contextualizacion.adoc
+|programacion-ASO-2026-2027.adoc |Relación entre los estándares de competencia y el módulo |src/capitulos/aso/02_estandares.adoc
+|programacion-ASO-2026-2027.adoc |Contribución a los objetivos generales del ciclo |src/capitulos/aso/02b_objetivos_generales.adoc
+|programacion-ASO-2026-2027.adoc |Contribución de los RA a las competencias |src/capitulos/aso/03_competencias_ra.adoc
+|programacion-ASO-2026-2027.adoc |Esquema general y secuenciación de las unidades |src/capitulos/aso/04_unidades_programacion.adoc
+|programacion-ASO-2026-2027.adoc |Metodología del proceso de enseñanza-aprendizaje |src/capitulos/aso/05_metodologia.adoc
+|programacion-ASO-2026-2027.adoc |Recursos didácticos y referencias |src/capitulos/aso/06_recursos.adoc
+|programacion-ASO-2026-2027.adoc |Uso de espacios y equipamientos |src/capitulos/aso/07_espacios.adoc
+|programacion-ASO-2026-2027.adoc |Medidas de atención a la diversidad |src/capitulos/aso/08_diversidad.adoc
+|programacion-ASO-2026-2027.adoc |Evaluación del aprendizaje |src/capitulos/aso/09_evaluacion.adoc
+|programacion-ASO-2026-2027.adoc |Actividades complementarias y extraescolares |src/capitulos/aso/10_actividades.adoc
+|programacion-ASO-2026-2027.adoc |Evaluación de la programación y de la práctica docente |src/capitulos/aso/11_evaluacion_programacion.adoc
+|programacion-ASO-2026-2027.adoc |Otros apartados y cierre de la versión aprobada |src/capitulos/aso/12_otros.adoc
+|programacion-ASO-2026-2027.adoc |Matriz de criterios de evaluación y evidencias |src/anexos/aso/13_matriz_evaluacion.adoc
+|programacion-ASO-2026-2027.adoc |Registro de seguimiento propuesto |src/anexos/aso/14_seguimiento.adoc
+|===
+
+== Referencia visual
+
+DOCX íntegro en `referencias/`. Imágenes extraídas sin alteraciones de word/media: image1.png → logo-ue.png; image2.jpeg → logo-ies-font.jpeg; image3.png → logo-gva.png. Se mantiene incluso la denominación institucional histórica del logotipo de la Generalitat. Portada centrada con panel gris, Arial 11 en el cuerpo y Times New Roman en ciclo y módulo; A4 y márgenes 25,4 mm. Sumario automático, encabezado de módulo/curso y pie de centro/página desde la segunda página.
+
+La paginación varía con el contenido y el motor Asciidoctor. Las anotaciones del DOCX se conservan en el original de referencia; no se incorporan como decisiones curriculares. No se ha revisado ni modificado la normativa o las propuestas didácticas de los textos.
+
+== Comprobaciones y límites
+
+Verificados los hashes SHA-256 de los cuatro originales y la reconstrucción exacta de los cuerpos de AO y ASO a partir de capítulos y anexos. HTML compilado sin advertencias de Asciidoctor; comprobadas las rutas locales de imágenes y CSS. Probado el generador de módulos sobre una copia de trabajo. PDF generado con sumario, enlaces y fuentes incrustadas. La pequeña extensión `scripts/pdf-cover.rb` aplica exclusivamente al panel de portada su fondo gris.
+
+No se ha podido renderizar el DOCX de referencia porque el entorno no incluye LibreOffice; la adaptación se apoya en el XML de estilos, dimensiones, contenido e imágenes del DOCX. Se han inspeccionado visualmente las portadas, el sumario y una página de tablas del PDF; no se certifica identidad página a página con Word. La numeración incluye la portada, aunque su encabezado y pie están ocultos. El HTML conserva el estilo y sumario navegable; el encabezado y pie repetidos con número de página corresponden al PDF.

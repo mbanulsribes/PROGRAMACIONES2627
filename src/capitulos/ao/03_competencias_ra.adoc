@@ -1,0 +1,97 @@
+== Contribución de los resultados de aprendizaje a las competencias
+
+=== Competencia general y resultados de aprendizaje
+
+La competencia general del título se refiere a instalar, configurar y mantener sistemas microinformáticos, aislados o en red, y redes locales, asegurando su funcionalidad y aplicando los protocolos de calidad, seguridad y respeto ambiental. Este módulo contribuye a ella desde las aplicaciones, la documentación y la atención al usuario.
+
+Los nueve resultados de aprendizaje se reproducen del anexo I del título. Los criterios se desarrollan en <<matriz-ce,la matriz de evaluación>>.
+
+[cols="1,7,2",options="header"]
+|===
+|RA |Resultado de aprendizaje |Aplicación principal
+|RA1
+|Instala y actualiza aplicaciones ofimáticas, interpretando especificaciones y describiendo los pasos a seguir en el proceso.
+|UP 1 y 11
+|RA2
+|Elabora documentos y plantillas, describiendo y aplicando las opciones avanzadas de procesadores de textos.
+|UP 2 y 3
+|RA3
+|Elabora documentos y plantillas de cálculo, describiendo y aplicando opciones avanzadas de hojas de cálculo.
+|UP 4 y 5
+|RA4
+|Elabora documentos con bases de datos ofimáticas describiendo y aplicando operaciones de manipulación de datos.
+|UP 6
+|RA5
+|Manipula imágenes digitales analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.
+|UP 7
+|RA6
+|Manipula secuencias de vídeo analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.
+|UP 8
+|RA7
+|Elabora presentaciones multimedia describiendo y aplicando normas básicas de composición y diseño.
+|UP 9
+|RA8
+|Realiza operaciones de gestión del correo y la agenda electrónica, relacionando necesidades de uso con su configuración.
+|UP 10
+|RA9
+|Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias.
+|UP 1, 3 y 11; aplicación transversal
+|===
+
+=== Competencias profesionales y para la empleabilidad
+
+La contribución del módulo comprende las competencias *a, c, f, g, h, j, k, l, m, n, ñ, p y r* señaladas en las orientaciones del título. Las siguientes descripciones son síntesis operativas, no nuevas competencias normativas.
+
+[cols="1,7,2",options="header"]
+|===
+|CPPE |Desarrollo en el módulo |RA
+|a, c
+|Organizar recursos e instalar y configurar aplicaciones de acuerdo con requisitos y procedimientos.
+|1, 9
+|f
+|Instalar, configurar y mantener aplicaciones y recursos compartidos que atiendan necesidades de usuarios.
+|1, 8, 9
+|g, h
+|Realizar pruebas funcionales, diagnosticar problemas, mantener y actualizar componentes lógicos.
+|1, 9
+|j
+|Elaborar documentación técnica y administrativa.
+|2–9
+|k, l
+|Preparar presupuestos y asesorar o asistir a usuarios, derivando las incidencias cuando proceda.
+|3, 9
+|m, p
+|Organizar el trabajo y cooperar de forma responsable para alcanzar objetivos comunes.
+|1–9
+|n, ñ
+|Mantenerse actualizado, seleccionar fuentes fiables y utilizar documentación para resolver problemas nuevos.
+|1–9
+|r
+|Resolver problemas y tomar decisiones dentro del ámbito de responsabilidad y de los procedimientos establecidos.
+|1–9
+|===
+
+=== Competencias transversales
+
+Se utilizan los códigos internos siguientes para planificar tareas y apoyos. No son RA adicionales ni un porcentaje independiente de actitud. Su valoración solo afecta a la nota cuando constituye evidencia de un CE del módulo.
+
+[cols="1,5,4",options="header"]
+|===
+|Código |Desarrollo observable |Referencia de evaluación
+|CT1
+|Comunicación: explicar una actuación, redactar un mensaje o elaborar una guía comprensible.
+|RA2.f; RA6.e; RA7.c/e; RA8.a/b; RA9.a/c/d/e
+|CT2
+|Autonomía: localizar ayuda, comprobar el resultado y corregir errores.
+|RA1.e/i; RA9.b/g/h
+|CT3
+|Organización y cooperación: distribuir tareas durante la práctica, identificar versiones y conservar evidencias individuales.
+|RA9.e/f/h cuando se evalúa documentación, protección o calidad del servicio.
+|CT4
+|Responsabilidad digital: respetar licencias, proteger información y revisar críticamente aportaciones de IA.
+|RA1.h; RA9.f/g
+|CT5
+|Accesibilidad, calidad y sostenibilidad: documentos legibles, formatos adecuados y uso razonable de recursos.
+|RA2.b/f; RA5.c; RA7.c/d; RA9.a/h
+|===
+

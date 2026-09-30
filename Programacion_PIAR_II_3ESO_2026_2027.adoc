@@ -1,0 +1,601 @@
+= Programación didáctica de Programación, Inteligencia Artificial y Robótica II
+Maria Bañuls Ribes
+:doctype: article
+:lang: es
+:toc: left
+:toc-title: Índice
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:revnumber: 1.0
+:revdate: 30 de septiembre de 2026
+:curso: 2026–2027
+:centro: PENDIENTE DE COMPLETAR
+:grupo: PENDIENTE DE COMPLETAR
+
+*3.º de Educación Secundaria Obligatoria · Curso {curso} · Departamento de Informática*
+
+Esta programación concreta la enseñanza y evaluación de PIAR II mediante el libro de Aules elaborado para la materia, ejercicios individuales guiados y actividades evaluables de aplicación. Mantiene el sistema de trabajo vigente. No incorpora la reestructuración comentada para 2.º ESO, que se decidió posponer.
+
+[IMPORTANT]
+.Estado del documento
+====
+Documento de trabajo para revisión del departamento. Faltan los datos de centro y grupo, la concreción del calendario y el desarrollo de U8 de robótica física. La fórmula de calificación 90/10 recoge la decisión de la profesora, no una ponderación impuesta por la normativa. Su aplicación debe quedar incorporada a los acuerdos del departamento y vinculada a evidencias curriculares.
+====
+
+Se conservan los trece apartados de la plantilla aportada, adaptada desde Formación Profesional a ESO. Las referencias a módulos, resultados de aprendizaje profesionales y estándares de competencia se sustituyen por competencias específicas, saberes y criterios de evaluación. No se trasladan la formación en empresa, el proyecto intermodular ni las convocatorias propias de FP.
+
+== Propuestas de mejora y modificaciones respecto a la versión anterior
+
+No se dispone de la programación aprobada del curso anterior. Los cambios se refieren a los materiales de aula disponibles y no se presentan como comparación con un documento no consultado.
+
+[cols="1,3,3",options="header"]
+|===
+|Fecha |Modificación |Finalidad
+|30/09/2026 |Adaptación de la plantilla de FP a PIAR II de 3.º ESO. |Organizar la programación con los referentes de la etapa.
+|30/09/2026 |Nueve unidades desarrolladas y reserva de U8. |Diferenciar lo preparado de lo pendiente.
+|30/09/2026 |Libro con teoría, 18 guiados y plantillas específicas. |Facilitar el trabajo semiautónomo y las evidencias individuales.
+|30/09/2026 |Calificación 90 % evaluables y 10 % hábitos de trabajo. |Explicitar la información comunicada al alumnado.
+|30/09/2026 |Registro de criterios y revisión de evidencias. |Evitar que una nota global o una simulación acrediten aprendizajes no observados.
+|===
+
+Se revisará la programación al finalizar cada evaluación. Los cambios de secuencia, recursos y evaluación se documentarán y comunicarán antes de su aplicación.
+
+== Datos identificativos, marco normativo y contextualización de la materia
+
+=== Datos identificativos
+
+[cols="1,3",options="header"]
+|===
+|Dato |Concreción
+|Centro y localidad |{centro}
+|Etapa y nivel |Educación Secundaria Obligatoria, 3.º
+|Materia |Programación, Inteligencia Artificial y Robótica II
+|Curso académico |{curso}
+|Grupo o grupos |{grupo}
+|Departamento |Informática
+|Profesora |Maria Bañuls Ribes
+|Correo |m.banulsribes@edu.gva.es
+|Horario comunicado |Miércoles de 8:00 a 9:50. Dos periodos de 55 minutos como referencia, pendientes de contraste con el horario oficial.
+|Aula y dotación |Aula de informática. Inventario y número de equipos por confirmar.
+|Libro |https://aules.edu.gva.es/docent/mod/book/view.php?id=4839618[Libro de PIAR II en Aules]
+|Aprobación por el departamento |PENDIENTE
+|===
+
+=== Marco normativo y documental
+
+Se toman como referencias:
+
+* https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899[Ley Orgánica 2/2006, de Educación], modificada por la Ley Orgánica 3/2020.
+* https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975[Real Decreto 217/2022, de 29 de marzo], de ordenación y enseñanzas mínimas de ESO.
+* https://dogv.gva.es/datos/2022/08/11/pdf/2022_7573.pdf[Decreto 107/2022, de 5 de agosto, del Consell], de ordenación y currículo de ESO. Se utiliza el currículo del anexo III, columna de 3.º curso, correspondiente al segundo nivel de la materia.
+* https://dogv.gva.es/datos/2024/06/26/pdf/2024_6134.pdf[Decreto 66/2024, de 21 de junio], que modifica el Decreto 107/2022 y la Orden 19/2023.
+* Orden 19/2023, de 29 de junio, para los procedimientos derivados de la ordenación de ESO y Bachillerato, con sus modificaciones aplicables.
+* Proyecto educativo, concreción curricular, acuerdos de evaluación y planes de inclusión y convivencia del centro. Identificación y versiones pendientes de incorporar.
+
+La referencia facilitada por la profesora es el https://ceice.gva.es/documents/162640733/364069413/Programaci%C3%B3n,+Inteligencia+Artificial+y+Rob%C3%B3tica+I+y+II.pdf/48556c46-1eb4-2fa0-8a89-04d1d805b370[PDF curricular de Conselleria sobre PIAR I y II].
+
+Para esta redacción se utiliza el texto oficial del anexo III del Decreto 107/2022 conservado en el expediente de trabajo, páginas PDF 1125–1138. No ha sido posible descargar de nuevo el PDF enlazado para comprobar su identidad. Quedan por contrastar las instrucciones de organización y funcionamiento de 2026–2027 y cualquier modificación aplicable posterior. No se certifica haber agotado esa revisión normativa.
+
+=== Contextualización
+
+La propuesta se dirige a alumnado de 3.º ESO que cursa el segundo nivel. La evaluación inicial comprobará el manejo de archivos, acceso a Aules y fundamentos de programación. No se presupone un dominio homogéneo.
+
+Se prioriza que el alumnado lea instrucciones, ejecute acciones y compruebe resultados con apoyos escritos. La profesora supervisa y proporciona ayudas breves. Las observaciones comunicadas sobre atención y manejo básico del ordenador en 2.º ESO no se atribuyen automáticamente al grupo de 3.º.
+
+El número de estudiantes, antecedentes académicos y necesidades específicas se incorporarán tras la evaluación inicial y la coordinación con tutoría y orientación. La versión pública no incluirá datos personales sensibles.
+
+== Relación entre los referentes curriculares y la materia
+
+Este apartado sustituye la relación entre estándares profesionales y módulos de la plantilla. En ESO se relacionan competencias clave, objetivos de etapa, competencias específicas, saberes y criterios. No se inventan resultados de aprendizaje profesionales.
+
+La materia contribuye a la autonomía, el uso crítico de información, el razonamiento científico y tecnológico, la explicación de decisiones y el respeto en la colaboración. Estas contribuciones se concretan en planes, programas, pruebas, informes y revisiones.
+
+[cols="1,3,2",options="header"]
+|===
+|Competencia clave |Contribución |Evidencias
+|CCL |Comprender instrucciones y justificar decisiones. |Planes y documentación.
+|CP |Interpretar términos y fuentes en otras lenguas con apoyo. |Consulta de documentación.
+|STEM |Modelizar problemas y comprobar hipótesis. |Algoritmos, medidas y pruebas.
+|CD |Crear y mantener soluciones digitales responsables. |Programas, versiones y licencias.
+|CPSAA |Planificar, revisar errores y gestionar ayuda. |Incidencias y mejoras.
+|CC |Valorar consecuencias sociales y participar con respeto. |Análisis éticos y colaboración.
+|CE, emprendedora |Seleccionar alternativas y asumir decisiones. |Planes y justificaciones.
+|CCEC |Comunicar mediante representaciones comprensibles. |Interfaces y modelos visuales.
+|===
+
+La tabla es una concreción didáctica, no una relación oficial de descriptores operativos. No genera una segunda calificación independiente.
+
+== Contribución de las competencias específicas a las competencias de la etapa
+
+=== Competencias específicas
+
+Las siguientes síntesis remiten al currículo oficial:
+
+* *CE1.* Investigar y emplear IA y virtualización para resolver problemas, valorando ética e inclusión.
+* *CE2.* Aplicar pensamiento computacional al análisis y resolución de problemas mediante software.
+* *CE3.* Montar y controlar sistemas robóticos, analizando su interacción con el entorno.
+* *CE4.* Proponer soluciones tecnológicas y valorar sus implicaciones éticas y ecosociales.
+
+CE1 se concreta principalmente en U5, U6 y U9; CE2 atraviesa programación y mantenimiento; CE3 se prepara en U7 y requiere desarrollar U8; CE4 se trabaja mediante decisiones, revisión, colaboración acotada y diseño responsable.
+
+=== Objetivos didácticos
+
+. Analizar entradas, salidas y condiciones de problemas sencillos.
+. Planificar algoritmos y elegir estructuras de datos y control.
+. Relacionar programación por bloques y textual.
+. Probar casos normales, límites y entradas no válidas.
+. Mantener versiones, documentar cambios y respetar licencias.
+. Utilizar un modelo de IA, separar entrenamiento y prueba e interpretar errores y sesgos.
+. Emplear un modelo virtual interactivo para comparar alternativas.
+. Participar en una revisión técnica con reparto de funciones y aportaciones propias.
+. Incorporar accesibilidad, inclusión y uso responsable de recursos al diseño.
+. Montar, transferir, validar y controlar un robot real cuando se concrete U8. Este objetivo permanece pendiente de desarrollo didáctico y dotación.
+
+== Esquema general y secuenciación de las unidades de programación
+
+=== Saberes básicos
+
+B1, B2 y B3 son abreviaturas de los bloques oficiales, no códigos de saberes individuales.
+
+* *B1. Inteligencia Artificial:* sensores, sistemas expertos, redes neuronales, aprendizaje automático, procesado de información, sesgos, equidad, ética y virtualización. La práctica con un clasificador se acompaña de comparación conceptual de otras técnicas.
+* *B2. Programación:* modelado, algoritmos, abstracción, patrones, estructuras de control, variables y operadores, lenguajes de alto nivel, sintaxis y semántica, aplicaciones móviles, mantenimiento, licencias, simuladores de controladoras, inclusión, sostenibilidad y metacognición.
+* *B3. Robótica:* montaje, sensores, actuadores, controladores, carga y ejecución de algoritmos, control y experimentación con prototipos. La simulación no acredita automáticamente las actuaciones físicas.
+
+Scratch sirve como puente inicial. PIAR II incorpora Python y una aplicación web adaptable a dispositivos móviles. U9 utiliza un modelo 2D interactivo, sin presentarlo como realidad inmersiva.
+
+=== Temporalización
+
+Previsión de *68 periodos de 55 minutos*: 54 para unidades desarrolladas, 8 reservados para U8 y 6 de diagnóstico, refuerzo, recuperación e incidencias. Equivale a 62 horas y 20 minutos y a 34 bloques semanales de 110 minutos. Es una referencia pendiente de ajuste al calendario real y sus festivos.
+
+[cols="1,4,1,2",options="header"]
+|===
+|Unidad |Título |Periodos |Previsión
+|U1 |Condiciones y límites |5 |Primer trimestre
+|U2 |Listas, bucles y bloques propios |6 |Primer trimestre
+|U3 |Programación textual con Python |6 |Primer trimestre
+|U4 |Aplicación web para ordenador y móvil |8 |Primer y segundo trimestre
+|U5 |Entrenar y evaluar un modelo de IA |6 |Segundo trimestre
+|U6 |Investigación e implicaciones de la IA |5 |Segundo trimestre
+|U7 |Tarjetas y robots simulados |7 |Segundo y tercer trimestre
+|U8 |Robótica física |8 reservados |Tercer trimestre, pendiente
+|U9 |Virtualización de un espacio |6 |Tercer trimestre
+|U10 |Mantenimiento y mejora de aplicaciones |5 |Tercer trimestre
+|Margen |Diagnóstico, refuerzo, recuperación e incidencias |6 |Distribuido
+|Total | |68 |
+|===
+
+U8 puede cambiar de posición según la dotación. No se presupone que ocho periodos sean suficientes hasta concretar su diseño. Los ajustes de calendario no suprimen criterios curriculares.
+
+=== Fichas de las unidades
+
+Los baremos de las evaluables son sobre 10 e integran el componente del 90 %. Los guiados tienen finalidad formativa. Las evidencias de colaboración se observan en la revisión de U10.
+
+==== U1. Condiciones y límites
+
+*Temporalización:* 5 periodos. *Saberes:* B2. *Criterios:* 2.1, 2.3, 2.4 parcial y 4.4.
+
+*Justificación:* Comprender fronteras de una condición evita respuestas incorrectas.
+
+*Objetivos:* Distinguir igualdad y desigualdad, parametrizar límites y justificar pruebas.
+
+*Guiados:* Aviso de aforo; cambio de capacidad. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Scratch, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Una biblioteca permite pedir hasta *4 libros*, incluidos los 4. Tu aplicación recibe un entero: si es negativo debe avisar de entrada no válida; si es de 0 a 4 debe aceptar; si supera 4 debe avisar de que excede el límite. Guarda el límite de manera que pueda cambiarse en un solo lugar.
+
+Antes de construir, escribe un plan propio de 4–6 pasos y las condiciones que has elegido. Programa y prueba con −1, 0, 3, 4 y 5. Después cambia el límite a 6 y comprueba 6 y 7. Entrega `U01_E_ID.sb3` y un documento con tu plan, resultados esperados/observados, explicación de una corrección y una captura final. *No copies las respuestas del aforo: aquí la igualdad tiene otro significado.*
+
+*Se valora sobre 10:* plan y elección de condiciones (3), funcionamiento y cambio del límite (4), pruebas (2), explicación (1). *Referencia docente:* 2.1, 2.3, 2.4 —evidencia parcial en un entorno— y 4.4.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U2. Listas, bucles y bloques propios
+
+*Temporalización:* 6 periodos. *Saberes:* B2. *Criterios:* 2.1–2.4 y 4.4.
+
+*Justificación:* Generalizar evita repetir instrucciones para cada dato.
+
+*Objetivos:* Recorrer listas, acumular y reutilizar bloques con parámetros.
+
+*Guiados:* Suma de materiales; bloque reutilizable. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Scratch, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Cada mesa necesita una cantidad de paquetes: 2, 4, 1 y 3. Cada paquete contiene 6 tarjetas. Planifica y construye un programa que recorra esa lista y calcule el total de tarjetas. Utiliza un bloque propio que reciba la cantidad de paquetes y acumule las tarjetas correspondientes. Después añade una quinta mesa que pide 2 paquetes y comprueba la actualización sin rehacer el bucle.
+
+Entrega `.sb3`, plan propio, traza del total tras cada mesa, pruebas con cuatro y cinco mesas y explicación de por qué tu solución sirve para listas de distinta longitud. *Se valora:* planificación y estructura de datos (2), bucle y bloque propio (4), pruebas (3), explicación (1). *Criterios:* 2.1, 2.2, 2.3, 2.4 —parcial—, 4.4.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U3. Programación textual con Python
+
+*Temporalización:* 6 periodos. *Saberes:* B2. *Criterios:* 2.1–2.4 y 4.4.
+
+*Justificación:* Relacionar bloques y texto facilita la transición de lenguaje.
+
+*Objetivos:* Usar listas, bucles, funciones y condiciones con sintaxis y sangría correctas.
+
+*Guiados:* Acumulador en Python; función de aviso. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Editor e intérprete Python, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Resuelve en Python la necesidad de U1: una función recibe cantidad de libros y máximo permitido. Debe distinguir negativos, cantidades aceptadas —incluida la igualdad— y exceso. Planifica la función y prepara un bucle que la pruebe con −1, 0, 4 y 5 para máximo 4, y con 6 y 7 para máximo 6. No se exige leer el teclado: los valores pueden estar en listas.
+
+Entrega tu `.py`, plan, salida de las pruebas y una comparación breve con tu solución de Scratch: qué algoritmo comparten y qué cambia en la forma de escribirlo. *Se valora:* plan (2), función y condiciones (4), pruebas (3), comparación (1). *Criterios:* 2.1, 2.2, 2.3, 2.4 —complemento de otros entornos— y 4.4.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U4. Aplicación web para ordenador y móvil
+
+*Temporalización:* 8 periodos. *Saberes:* B2. *Criterios:* 2.1–2.4, 4.3 y 4.5.
+
+*Justificación:* Una aplicación de préstamo permite trabajar validación y accesibilidad.
+
+*Objetivos:* Integrar HTML, CSS y JavaScript, validar entradas y comprobar plataformas.
+
+*Guiados:* Comprobador de cantidades; adaptación y pruebas. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Editor, navegador y U04_base.html, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Adapta lo aprendido a una biblioteca: admite entre 0 y 6 libros, incluidos ambos extremos; rechaza campo vacío, negativos y cantidades no enteras. El título, etiqueta y mensajes deben explicar esa tarea. Debe funcionar con teclado, mostrar los avisos mediante texto y ajustarse a pantalla pequeña.
+
+Antes de modificar, escribe qué partes del código cambiarás y por qué. Entrega HTML, plan, tabla con seis casos elegidos por ti —incluidos vacío, 6 y 7— y pruebas en pantalla amplia y pequeña. Documenta dos plataformas reales cuando estén disponibles; distingue las comprobaciones realizadas de las pendientes. *Se valora:* plan y adaptación autónoma (2), comportamiento (4), accesibilidad y presentación adaptable (2), pruebas justificadas (2). *Criterios:* 2.1–2.4, 4.3 y 4.5. La prueba multiplataforma se completa con los equipos que facilite el centro.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U5. Entrenar y evaluar un modelo de IA
+
+*Temporalización:* 6 periodos. *Saberes:* B1 y B2. *Criterios:* 1.1, 1.3, 1.4, 2.2–2.4 y 4.5.
+
+*Justificación:* Un modelo simple permite observar el efecto de los datos.
+
+*Objetivos:* Clasificar, separar entrenamiento/prueba, medir aciertos y tratar incertidumbre.
+
+*Guiados:* Clasificador por medias; evaluación con datos separados. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Python y datos sintéticos, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Entrena con oscuras `[12, 18, 24]` y claras `[72, 78, 84]`. Crea una aplicación que clasifique una lista de datos y explique que la salida es orientativa. Debe responder “revisar” si hay empate y rechazar medidas numéricas fuera de 0–100. Las entradas de esta actividad son números; no se exige procesar texto de teclado.
+
+Planifica cómo integrarás el control del intervalo que aprendiste en U1/U3. Prueba 15/oscura, 35/oscura, 65/clara y 85/clara, y por separado los casos 48, −1 y 101. No incluyas en la tasa de acierto etiquetada los tres casos sin etiqueta de clase. Entrega código, plan, entrenamiento, tabla de pruebas y un uso adecuado y otro inadecuado de esta aplicación. *Se valora:* modelo (2), integración y validación (3), pruebas (3), límites y uso responsable (2). *Criterios:* 1.1, 1.3, 1.4, 2.2–2.4 y 4.5.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U6. Investigación e implicaciones de la IA
+
+*Temporalización:* 5 periodos. *Saberes:* B1. *Criterios:* 1.2, 1.3, 4.2, 4.3 y 4.5.
+
+*Justificación:* Un resultado global puede ocultar diferencias entre grupos.
+
+*Objetivos:* Contrastar fuentes, calcular tasas y proponer mejoras justificadas.
+
+*Guiados:* Lectura de fuentes; comparación de errores. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Fuentes del libro, Python y editor, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Una biblioteca plantea clasificar sus libros con IA. En un ensayo ficticio, el sistema acierta 18/20 títulos de ciencias y 8/20 de literatura; sus responsables quieren anunciar únicamente el resultado conjunto. Redacta un informe de una o dos páginas: calcula los resultados por grupo y global, explica qué información se perdería, propone dos causas posibles y una prueba para investigarlas, y decide qué revisión exigirías antes de usarlo.
+
+Relaciona el caso con tu consulta de U6-G1: explica qué fuente técnica buscarías, qué tendría que decir y por qué una publicidad no bastaría. Incluye una ventaja posible, un cambio que produciría en el trabajo de la biblioteca y una medida de privacidad o accesibilidad. Entrega el informe con tus cálculos y fuentes realmente consultadas; distingue el caso ficticio de las fuentes reales. *Se valora:* cálculos y lectura crítica (3), investigación y distinción de fuentes (2), pruebas propuestas (2), consecuencias y medidas concretas (3). *Criterios:* 1.2, 1.3, 4.2, 4.3 y 4.5.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U7. Tarjetas y robots simulados
+
+*Temporalización:* 7 periodos. *Saberes:* B2 y B3. *Criterios:* 2.1–2.4, 3.4 y 3.5 parciales, 4.3 y 4.4.
+
+*Justificación:* La simulación permite comprobar la relación entre medidas y acciones.
+
+*Objetivos:* Programar umbrales, probar situaciones y reconocer límites de simulación.
+
+*Guiados:* Sensor de luz simulado; parada por distancia. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* MakeCode micro:bit y Open Roberta, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Planifica y programa dos respuestas: una tarjeta virtual que muestre `BAJA` si la luz es menor que 80 y `ALTA` en los demás casos; y un robot virtual que avance y se detenga cuando la distancia sea menor que 25 cm. Elige una velocidad moderada y justifícala. No necesitas añadir hardware.
+
+Entrega ambos programas, plan de cada control, pruebas alrededor de 80 en la tarjeta y desde tres posiciones en el robot. Compara entrada, salida, condición y repetición de los dos programas. Distingue los resultados observados de lo que todavía no puedes afirmar sobre un equipo físico. *Se valora:* planificación (2), controles (4), pruebas (3), comparación y límites (1). *Criterios:* 2.1–2.4, 3.4 y 3.5 como preparación/evidencia de simulación, 4.3 y 4.4. La parte física y remota queda pendiente en U8.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U8. Robótica física
+
+Pendiente de desarrollo por indicación de la profesora. Se reservan 8 periodos sin inventar equipo, actividades, entregables ni baremos.
+
+Deben concretarse las evidencias de 3.1, 3.2, 3.3 y 3.6 y completarse 3.4 y 3.5 con equipo real. Esta reserva no permite dar por cerrado el diseño curricular. La falta de dotación no se atribuye al alumnado como incumplimiento.
+
+==== U9. Virtualización de un espacio
+
+*Temporalización:* 6 periodos. *Saberes:* B1 y B2. *Criterios:* 1.5, 2.2, 2.3, 4.3 y 4.5.
+
+*Justificación:* Comparar distribuciones permite anticipar obstáculos.
+
+*Objetivos:* Modificar coordenadas, probar recorridos y explicar límites del modelo.
+
+*Guiados:* Explorar un modelo; modificar obstáculos. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Editor, navegador y U09_modelo_base.html, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Usa la misma cuadrícula de seis por cuatro, inicio (0,0) y meta (5,3). Diseña dos distribuciones distintas, cada una con al menos cuatro obstáculos. No bloquees inicio ni meta y conserva al menos un recorrido posible. Planifica en papel las coordenadas antes de editar.
+
+Entrega dos archivos HTML, dibujo o tabla de cada distribución, un recorrido válido en cada una y tres comprobaciones: límite exterior, colisión y llegada. Explica qué distribución prefieres para la tarea ficticia y qué medidas reales te faltarían para decidir sobre una sala. *Se valora:* planificación/modelado (3), modificación funcional (3), comprobaciones (2), comparación y límites (2). *Criterios:* 1.5, 2.2, 2.3, 4.3 y 4.5. Estás empleando virtualización 2D interactiva; no se exige desarrollar una aplicación de realidad aumentada.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+==== U10. Mantenimiento y mejora de aplicaciones
+
+*Temporalización:* 5 periodos. *Saberes:* B2. *Criterios:* 2.2, 2.3, 2.5, 4.1, 4.4 y 4.5.
+
+*Justificación:* Cambiar un requisito exige conservar los comportamientos correctos.
+
+*Objetivos:* Planificar mantenimiento, ejecutar regresión, conservar licencias y revisar con otra persona.
+
+*Guiados:* Cambio de límite; mejora accesible y revisión por parejas. Incluyen pasos, comprobaciones y plantilla de evidencias en el libro.
+
+*Recursos:* Versiones de U4, navegador, editor y licencia MIT, libro y tarea de Aules.
+
+*Evaluable, entregables y baremo:*
+
+Parte de tu aplicación de préstamo de la evaluable U4. El nuevo máximo es 8 libros. Debe conservar el rechazo de vacío, negativos y decimales, funcionar con teclado y mostrar mensajes que indiquen cómo corregir un error. Conserva la versión anterior, respeta la licencia del código reutilizado y elige una mejora sencilla de accesibilidad o de uso de recursos que puedas justificar.
+
+Entrega ambas versiones, plan del cambio, registro de modificaciones, pruebas antiguas y nuevas —incluidas 6, 7, 8 y 9— y explicación de qué cambió y qué debía mantenerse. La revisión por parejas anterior sirve de preparación; esta entrega y sus decisiones son individuales. *Se valora:* planificación y mantenimiento (3), funcionamiento (3), pruebas de regresión (2), licencia y mejora justificada (2). *Criterios:* 2.2, 2.3, 2.5, 4.4 y 4.5. La evidencia del criterio 4.1 se recoge durante la revisión real, no se deduce de esta entrega individual.
+
+*Refuerzo:* repetir una variante guiada y localizar el paso que falla. *Ampliación:* añadir un caso o requisito y justificar sus pruebas. No se prevé visita externa asociada.
+
+
+
+== Metodología del proceso de enseñanza y aprendizaje
+
+Se mantiene el libro actual de PIAR II como referencia estable. Cada unidad combina lectura breve, dos ejercicios guiados y una actividad de aplicación individual. Primero se practica con ayuda y después se toman decisiones propias ante una variante. La propuesta no depende de explicaciones orales prolongadas ni de un proyecto colectivo que organice todo el curso.
+
+El libro reúne teoría, ejemplos, pasos, resultados esperados y ayuda ante errores. Las tareas de Aules recogen las respuestas. En los guiados se copia la plantilla correspondiente, se completan los campos y se añaden las evidencias solicitadas. Se conserva el archivo editable además de las capturas. La libreta se completa sin borrar lo anterior.
+
+La profesora comprueba el inicio de la actividad, observa una muestra rotatoria del alumnado y proporciona retroalimentación breve. Ante una dificultad común puede intervenir de forma corta. Se registra el apoyo sin confundir ayuda de acceso con falta de aprendizaje.
+
+El trabajo es principalmente individual. Para 4.1 se realiza una revisión por parejas en U10: acuerdo de tareas, reparto e intercambio de funciones, prueba de una solución ajena y respuesta a la aportación recibida. Se observan actuaciones individuales. Si faltan evidencias se repite la situación. Una redacción hipotética sobre equipos no acredita colaboración real.
+
+Los retos se contextualizan en aforo, préstamos, materiales, bibliotecas, control y organización de espacios. Son situaciones de aplicación de saberes sin exigir una estructura general de ABP. Los principios de proyectos y colaboración de la etapa se coordinan con el proyecto educativo del centro.
+
+Una sesión de 55 minutos puede distribuirse en objetivo escrito (3), lectura (8), ejemplo (7), práctica (27), evidencias (7) y registro del siguiente paso (3). Es una orientación flexible. En el bloque semanal se alternan actividades y comprobaciones según el ritmo del grupo.
+
+== Recursos
+
+=== Recursos didácticos y tecnológicos
+
+* Libro de PIAR II en Aules, 18 guiados y sus plantillas.
+* Nueve evaluables desarrolladas, rúbricas y guía docente reservada.
+* Ordenadores, navegador, editor, Scratch, Python, MakeCode y Open Roberta según disponibilidad.
+* Archivos `U04_base.html` y `U09_modelo_base.html`, con su licencia.
+* Documentación oficial de Python, MDN, MakeCode y Open Roberta enlazada en el libro.
+* Proyector para demostraciones breves.
+* Equipo de robótica y plataformas adicionales: pendientes de inventario.
+
+Se ha confirmado LliureX para 2.º ESO, pero falta confirmar la configuración de 3.º. Antes de cada entorno se comprobarán ejecución, guardado y permisos. No se exigirá instalar programas ni crear cuentas personales externas sin una organización previa del centro.
+
+Se utilizarán datos sintéticos sin información personal para IA. Se identificarán recursos ajenos y licencias. No se exigirán dispositivos privados para acreditar ejecución multiplataforma.
+
+=== Referencias internas
+
+Se emplean el cuaderno `Temario_PIAR_II_3ESO`, la guía `Guia_docente_PIAR_II_3ESO` y `Materiales_apoyo_PIAR_II`. Los archivos anteriores de PIAR I no son la referencia de esta programación. Las fuentes normativas se recogen en el apartado 2.
+
+== Uso de espacios y equipamientos
+
+El aula de informática será el espacio habitual. Se organizará el puesto para consultar el libro y el programa de trabajo. Si se comparte equipo por necesidad, se alternará su uso y se recogerán evidencias individuales, sin asignar automáticamente una nota conjunta.
+
+Al inicio se comprueba el acceso. Al finalizar se guardan archivos, se revisa la entrega, se cierra sesión y se recoge el puesto. No se modifican archivos ajenos ni configuraciones sin indicación. Las incidencias se comunican a la profesora.
+
+La ubicación de carpetas, identificación y persistencia del almacenamiento se concretarán según las cuentas y equipos reales. Las actividades físicas requerirán instrucciones específicas de montaje, conexión y uso seguro al desarrollar U8.
+
+== Medidas de atención a la diversidad
+
+La respuesta parte del diagnóstico inicial y de la coordinación con orientación. Se facilitarán apoyos para comprender instrucciones, representar ideas y demostrar el aprendizaje por medios accesibles.
+
+=== Medidas ordinarias
+
+* Fragmentar pasos y destacar objetivo, resultado esperado y entrega.
+* Proporcionar ejemplos resueltos en los guiados, plantillas y vocabulario explicado.
+* Ajustar tiempos, repetir pruebas y ofrecer comentarios concretos.
+* Apoyar el acceso a archivos y plataformas sin resolver la decisión evaluada.
+* Facilitar lectura asistida, ampliación visual, teclado y formatos alternativos cuando proceda.
+* Ofrecer nuevos casos y requisitos a quien avance con rapidez.
+
+=== Medidas individualizadas y organizativas
+
+Las medidas específicas y adaptaciones se acordarán con los profesionales correspondientes y constarán en la documentación individual del centro. Se preservará la confidencialidad. No se inventan diagnósticos ni se aplican apoyos idénticos por una etiqueta.
+
+Pedir ayuda, necesitar más tiempo o utilizar apoyos no disminuye automáticamente la nota. En los criterios de autonomía se identifica qué decisión toma el alumno y qué ayuda de acceso recibe. Para altas capacidades se ofrecen problemas más abiertos y justificaciones, evitando aumentar solo la cantidad de ejercicios repetidos.
+
+== Evaluación del aprendizaje
+
+=== Principios de evaluación
+
+La evaluación es continua, formativa e integradora y toma como referentes los criterios de la materia. La evaluación inicial orienta apoyos, sin penalizar la nota. Requisitos, entregables y baremos se comunican antes de cada actividad.
+
+Se contrastan archivos, ejecución, pruebas, explicaciones y observación. Una captura aislada no demuestra todo el funcionamiento. Una tarea puede aportar evidencias a varios criterios, pero su nota global no se copia indiscriminadamente a todos ellos.
+
+=== Instrumentos
+
+[cols="1,3,2",options="header"]
+|===
+|Instrumento |Finalidad |Uso
+|Diagnóstico |Acceso, archivos y razonamiento básico. |Ajuste de apoyos.
+|Libreta |Proceso, pruebas, dudas y correcciones. |Evaluación formativa.
+|Rúbrica de evaluable |Desempeño aplicado según apartados publicados. |Componente del 90 %.
+|Observación |Hábitos curriculares y colaboración con fecha y contexto. |Componente del 10 % y seguimiento de criterios.
+|Comprobación individual breve |Contrastar decisiones y comprensión. |Autoría y retroalimentación.
+|Versiones y recuperación |Comprobar mejora tras comentarios. |Actualizar evidencias.
+|===
+
+=== Relación de criterios, unidades e instrumentos
+
+Los 21 criterios del segundo nivel se presentan en síntesis. Prevalece el texto oficial. Esta tabla sustituye la distribución por RA de FP. Los porcentajes 90/10 son componentes de calificación, no porcentajes oficiales de cada competencia.
+
+[cols="1,3,4",options="header"]
+|===
+|Criterio |Desempeño, en síntesis |Evidencia prevista y estado
+|1.1 |Identificar el funcionamiento de técnicas de IA |U5, función y explicación del modelo; referencia conceptual a otras técnicas
+|1.2 |Investigar situaciones de aplicación de IA |U6-G1 y evaluable U6 con fuentes identificadas
+|1.3 |Valorar criterios éticos aplicados a funciones de IA |U5 evaluable y U6, medidas vinculadas a fallos concretos
+|1.4 |Emplear IA en aplicaciones siguiendo criterios éticos e inclusivos |U5 evaluable, modelo ejecutable con rechazo, revisión y límites
+|1.5 |Emplear técnicas sencillas de virtualización |U9, modelos interactivos modificados y recorridos comprobados
+|2.1 |Analizar problemas eligiendo estructuras de control |Planes y condiciones de U1–U5/U7
+|2.2 |Evaluar y mantener aplicaciones propias |U4/G2, U5/G2, U9 y especialmente U10 con versiones y regresión
+|2.3 |Planificar autónomamente algoritmos y estructuras de datos |Planes previos de evaluables; copiar pasos de guiados no basta
+|2.4 |Programar aplicaciones sencillas multiplataforma autónomamente |U4 evaluable y adaptación en otros lenguajes. Completar pruebas reales de dos plataformas; no certificar solo por capturas de emulación
+|2.5 |Aplicar y respetar autoría/licencias al crear software |U10, conservación efectiva del aviso y declaración de recursos
+|3.1 |Montar robots de mayor complejidad con componentes |*Pendiente U8*
+|3.2 |Conectar, transferir y validar la ejecución en el robot |*Pendiente U8*
+|3.3 |Seleccionar módulos de entrada/salida para robots autónomos |*Pendiente U8*; elegir un bloque del simulador no equivale a seleccionar y montar módulos físicos
+|3.4 |Analizar y evaluar la eficacia de la interacción robótica |U7 aporta simulación; *falta contraste físico en U8*
+|3.5 |Programar instrucciones multiplataforma autónomamente para un robot |U7 prepara control en varios entornos; *falta la aplicación al robot físico y su contraste en U8*
+|3.6 |Controlar en tiempo real y remotamente el robot |*Pendiente U8*; pulsar botones en un navegador local no lo acredita
+|4.1 |Planificar trabajo en equipo, repartir funciones y colaborar |U10-G2, acuerdo real y observación individual; repetir cuando falte evidencia
+|4.2 |Valorar la transformación social, cultural y científica de IA/programación/robótica |U6, cambio en el trabajo de biblioteca y efectos argumentados
+|4.3 |Diseñar eligiendo la solución que mejor responde al reto |Decisiones propias U4, U6, U7 y U9
+|4.4 |Gestionar incertidumbre con actitud positiva y conocimiento |Registros de incidencias, reintentos y explicación de estrategias; no una nota genérica de “actitud”
+|4.5 |Aplicar sostenibilidad e inclusión en el diseño |U4 y U10: teclado, mensajes, estructura adaptable y ausencia de recursos/datos innecesarios; U5: límites de uso
+|===
+
+
+El registro docente contendrá fecha, tarea, criterio, evidencia, nivel observado, apoyo prestado y nueva comprobación prevista. Los criterios de colaboración requieren interacción real. Los de robótica física y control remoto siguen pendientes mientras no se desarrolle U8.
+
+=== Criterios de calificación
+
+Se mantiene la propuesta comunicada al alumnado:
+
+* *Ejercicios evaluables: 90 %*, hasta 9 puntos.
+* *Hábitos de trabajo y responsabilidad: 10 %*, hasta 1 punto.
+
+[listing]
+----
+Nota de evaluación = 0,90 × E + H
+E = media aritmética de evaluables calificadas sobre 10.
+H = suma de cuatro indicadores, entre 0 y 1.
+Ejemplo: E = 8; H = 0,75; nota = 7,20 + 0,75 = 7,95.
+----
+
+Como concreción operativa propuesta, las evaluables de cada periodo tienen igual peso dentro de E. La media final se calcula con todas las evaluables del curso actualizadas tras recuperación, evitando que medias trimestrales con distinto número de tareas alteren su peso. H se fundamenta en el seguimiento del curso y la evolución observada. Esta concreción debe ratificarse antes de la aprobación definitiva.
+
+Cada evaluable utiliza el baremo específico sobre 10 del libro, reproducido en las fichas de unidad. Se permite consultar apuntes. No se prevén exámenes. Se ofrecen comentarios y posibilidad de corregir. Las comprobaciones breves de comprensión o autoría no generan un porcentaje adicional no anunciado.
+
+==== Hábitos de trabajo y responsabilidad
+
+[cols="2,4,1,3",options="header"]
+|===
+|Indicador |Actuaciones |Máximo |Relación curricular y límite
+|Cuida el material |Usa bien el equipo, respeta archivos ajenos y recoge el puesto. |0,25 |4.5 cuando expresa uso sostenible y responsable en una actividad tecnológica. El mero orden no acredita el criterio.
+|Respeta a las personas |Escucha y permite trabajar sin interrupciones ni burlas. |0,25 |4.1 en colaboración real. El silencio por sí solo no acredita planificación o colaboración.
+|Trabaja durante la clase |Inicia la actividad, emplea el tiempo en ella y pide ayuda pertinente. |0,25 |4.4 al afrontar incertidumbre con lo aprendido. No puntúa asistencia ni rapidez.
+|Revisa y mejora |Comprueba, atiende indicaciones y corrige errores. |0,25 |2.2 y 4.4 mediante revisiones documentadas.
+|===
+
+Cada indicador se valora con 0,25 si se demuestra habitualmente; 0,125 si se demuestra irregularmente y requiere recordatorios; y 0 si todavía no se demuestra pese a oportunidades y apoyos. Se hará un registro breve semanal y una valoración del periodo. Un incidente aislado no implica una penalización automática.
+
+Pedir ayuda, trabajar a otro ritmo o necesitar adaptaciones no reduce la puntuación. Las medidas de convivencia se separan de la evaluación curricular. No se restan puntos por hablar, retrasarse o recibir una sanción al margen de las evidencias de aprendizaje. Si la observación no se relaciona con el criterio indicado, sirve para seguimiento y tutoría, no como justificación suficiente de una calificación académica.
+
+No se aplica dos veces una misma penalización a la tarea y a hábitos. Se distinguen las actuaciones del proceso y la calidad del producto. El 10 % no sustituye el seguimiento completo de CE4 ni elimina la evaluación de otros criterios.
+
+==== Entregas, ausencia de evidencias y comunicación
+
+Aules conserva tareas y comentarios. Una entrega vacía no acredita aprendizaje. Antes de cerrar una valoración se ofrecerá la ocasión de completar o realizar una evidencia equivalente cuando exista una incidencia técnica, ausencia justificada o necesidad de apoyo. En el registro se distinguirá «pendiente» de «insuficiente».
+
+Una actividad no realizada por falta de recursos del centro no se califica como cero del alumno. Debe reorganizarse la enseñanza. La falta de U8 es una limitación de la programación, no una supresión de criterios.
+
+Se informará por los canales institucionales. La expresión de las calificaciones oficiales y cualquier conversión o redondeo se ajustarán a la normativa y acuerdos del centro, pendientes de incorporar. La fórmula interna no autoriza un redondeo automático no acordado.
+
+=== Recuperación y refuerzo
+
+La recuperación se integra en el proceso ordinario. Se identifica el apartado y criterio que requieren mejora, se proporciona una indicación y se acuerda una corrección o variante equivalente. Se conservan versión inicial y nueva.
+
+La nueva evidencia actualiza el aprendizaje revisado cuando demuestra mejora, sin un techo automático de 5 por recuperar. Para criterios físicos, remotos o multiplataforma se facilitan los medios pertinentes. Una explicación hipotética no sustituye la ejecución.
+
+Si hubiera alumnado con una materia pendiente anterior, recibirá un plan específico del departamento con actividades, seguimiento y responsables. No se presupone su existencia ni se usa automáticamente PIAR II para recuperar PIAR I.
+
+=== Evaluación final, superación y promoción
+
+Se realizará una valoración final de las evidencias y referentes curriculares conforme a los acuerdos del centro. El umbral numérico de suficiencia y su expresión oficial se incorporarán conforme a dichos acuerdos y la normativa. No se introducen mínimos por examen, porcentajes de asistencia ni requisitos ocultos.
+
+La promoción es una decisión del equipo docente en los términos establecidos para ESO. No depende únicamente de esta materia ni se reproduce la regulación de FP. No se programa una segunda convocatoria propia de ciclos formativos. Las medidas específicas se ajustarán a las instrucciones de etapa.
+
+== Actividades complementarias y extraescolares
+
+No se han acordado salidas específicas. Se podrán proponer actividades de divulgación tecnológica, uso responsable de IA o aplicaciones cercanas si el centro las aprueba y garantiza su accesibilidad.
+
+Antes de incorporarlas se concretarán objetivos, criterios, fecha, responsables, organización, recursos y alternativa equivalente cuando proceda. Una actividad no accesible a todo el alumnado no será la única evidencia de un criterio.
+
+== Evaluación del desarrollo de la programación y de la práctica docente
+
+Al finalizar cada evaluación se contrastarán secuencia, recursos y evidencias. El análisis permitirá ajustar apoyos, tiempos e instrumentos, sin atribuir al alumnado problemas derivados de organización o dotación.
+
+[cols="2,3,2",options="header"]
+|===
+|Indicador |Fuente |Decisión posible
+|Comprensión de instrucciones |Dudas repetidas y pasos difíciles. |Aclarar texto o apoyo puntual.
+|Seguimiento y entrega |Tareas iniciadas, completadas y recuperadas. |Ajustar carga y tiempos.
+|Logro por criterio |Registro de evidencias. |Nueva oportunidad de desempeño.
+|Autonomía |Decisiones propias y ayuda recibida. |Graduar apoyos.
+|Accesibilidad |Barreras y respuesta a las medidas. |Cambiar formato o acceso.
+|Cobertura |Matriz, especialmente CE3 y 4.1. |Completar actividad o dotación.
+|Calificación |Coherencia entre rúbricas y resultados. |Revisar procedimiento.
+|Recursos |Incidencias y equipos. |Preparar alternativas.
+|===
+
+Se recogerá una valoración breve del alumnado sobre las instrucciones que le ayudan y dónde se pierde. La memoria final identificará avances y propuestas. Los cambios se anotarán en el apartado 1.
+
+== Otros aspectos relevantes y coordinación con los documentos del centro
+
+=== Coordinación, información y datos
+
+La programación se coordina con departamento, tutoría y orientación. Aules ofrece presentación, condiciones de evaluación, libro y tareas. Debe mantenerse la coherencia entre lo publicado y lo aplicado.
+
+Las evidencias se gestionan mediante medios institucionales autorizados. Las capturas contienen solo lo necesario. No se solicitan datos personales para entrenar modelos. Se identifican recursos ajenos y avisos de licencia.
+
+=== Correspondencia con la plantilla
+
+[cols="1,3,3",options="header"]
+|===
+|Apartado |Plantilla de FP |Adaptación a ESO
+|1 |Mejoras |Registro de cambios.
+|2 |Datos del módulo |Datos de la materia.
+|3 |Estándares y módulos |Referentes y competencias clave.
+|4 |RA y competencias |Competencias específicas y objetivos.
+|5 |Unidades y centro/empresa |Unidades y periodos lectivos.
+|6 |Metodología |Trabajo guiado y autonomía.
+|7 |Recursos |Libro, plataformas y dotación.
+|8 |Espacios |Aula de informática.
+|9 |Diversidad |Apoyos coordinados.
+|10 |RA y convocatorias |Criterios, calificación y recuperación.
+|11 |Actividades externas |Previsión sin salidas confirmadas.
+|12 |Evaluación de programación |Revisión trimestral.
+|13 |Otros aspectos del PCCF |Documentos de etapa y centro.
+|===
+
+=== Pendientes antes de la aprobación
+
+. Nombre y código del centro, localidad y grupos.
+. Número de estudiantes, diagnóstico y medidas concretas.
+. Horario oficial, calendario y sesiones efectivas.
+. Configuración de equipos de 3.º.
+. Dotación y desarrollo de U8 con evidencias de CE3.
+. Ratificación de calificación, media final y recuperación; concreción de suficiencia y expresión oficial.
+. Revisión de instrucciones 2026–2027 y PDF curricular enlazado.
+. Fecha y órgano de aprobación, comunicación y revisión.
+
+Estas marcas señalan información no facilitada o pendiente de contraste. No representan actuaciones realizadas ni acuerdos aprobados.

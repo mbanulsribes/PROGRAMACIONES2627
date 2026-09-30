@@ -1,0 +1,17 @@
+== Actividades complementarias y extraescolares
+
+=== Visita a la Universitat Politècnica de València: iniciación a Scratch
+
+Se prevé una actividad complementaria durante la semana previa a las vacaciones de Navidad consistente en una visita a la Universitat Politècnica de València para realizar un taller de iniciación a la programación con Scratch.
+
+Objetivos principales:
+
+* comprender la programación como secuencia ordenada de instrucciones;
+* reconocer los conceptos básicos de algoritmo, instrucción y programación por bloques;
+* experimentar la creación digital en un entorno tecnológico distinto al aula ordinaria;
+* fomentar el interés por la tecnología y los estudios científico-tecnológicos;
+* integrar la experiencia en el entorno personal de aprendizaje del alumnado.
+
+Antes de la visita se realizarán actividades introductorias, entre ellas «Programa a tu profesora» y un primer contacto con Scratch. Después de la actividad, el alumnado elaborará en OneNote la página «Mi visita a la UPV», recogiendo qué hizo, qué aprendió, qué le resultó fácil o difícil y qué le gustaría programar.
+
+La fecha definitiva y las condiciones organizativas quedarán sujetas a la planificación del centro y de la entidad colaboradora.

@@ -1,0 +1,9 @@
+:modulo: Administración de Sistemas Operativos
+:codigo: 0374
+:ciclo: Administración de Sistemas Informáticos en Red
+:grado: Grado Superior
+:grupo: 2.º ASIR
+:docente: María Bañuls Ribes
+:curso: 2026-2027
+:revnumber: 1.1
+:revdate: 30 de septiembre de 2026

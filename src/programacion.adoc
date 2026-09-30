@@ -1,0 +1,5 @@
+// Maestro: seleccione -a modulo-id=ao o -a modulo-id=aso
+ifndef::modulo-id[]
+:modulo-id: ao
+endif::[]
+include::modulos/{modulo-id}.adoc[]

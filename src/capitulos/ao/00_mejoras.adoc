@@ -1,0 +1,21 @@
+== Propuestas de mejora y modificaciones respecto a la versión anterior
+
+No se ha aportado la programación oficial aprobada del curso anterior. Por tanto, esta tabla registra las decisiones de elaboración de la presente versión, sin atribuir carencias a una programación anterior no consultada.
+
+[cols="1,5",options="header"]
+|===
+|Fecha |Modificación y finalidad
+|30/09/2026
+|Adaptación de la plantilla de 0485 Programación a 0223 Aplicaciones Ofimáticas, 1.º SMR, curso 2026–2027. Normalización de la numeración de apartados.
+|30/09/2026
+|Organización de once unidades mediante incidencias de CAOS, S.L., con práctica guiada, transferencia a un caso nuevo y evaluable individual.
+|30/09/2026
+|Ajuste de la propuesta de temporalización a 233 horas curriculares. El reparto centro/empresa queda pendiente del plan formativo.
+|30/09/2026
+|Correspondencia explícita entre actividades, nueve RA y sus 62 criterios de evaluación, incluyendo instalación, macros, sincronización y soporte.
+|30/09/2026
+|Uso de LliureX 23, LibreOffice y SimpleScreenRecorder. Separación entre web de consulta y Aules para entregas y seguimiento.
+|30/09/2026
+|Incorporación de demostraciones del proceso, vídeos cuando proceda, uso formativo y declarado de IA y alternativas accesibles de evidencia.
+|===
+

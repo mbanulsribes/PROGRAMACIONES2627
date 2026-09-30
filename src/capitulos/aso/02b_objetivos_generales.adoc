@@ -1,0 +1,15 @@
+== Contribución a los objetivos generales del ciclo
+
+Las orientaciones del módulo en el RD 1629/2009 relacionan ASO con los objetivos a), b), n), ñ), o) y q). Se conserva esa identificación de referencia; las descripciones siguientes son una síntesis didáctica y deberán cotejarse con la versión del título que utilice el PCCF.
+
+[cols="1,3",options="header"]
+|===
+|Referencia |Contribución del módulo
+|a), b) |Analizar software de base e instalar y configurar sistemas y servicios siguiendo documentación técnica.
+|n), ñ) |Asignar recursos, analizar disfunciones y restablecer el servicio mediante un diagnóstico ordenado.
+|o) |Aplicar herramientas y procedimientos de administración valorando cambios tecnológicos.
+|q) |Resolver incidencias y tomar decisiones contrastando información y alternativas.
+|===
+
+La instalación inicial recupera aprendizajes previos y prepara el laboratorio. Su realización, por sí sola, no acredita un RA independiente de ASO.
+
