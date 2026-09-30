@@ -1,0 +1,39 @@
+[
+  {
+    "id": "trdr-1eso",
+    "title": "Taller de Relaciones Digitales Responsables",
+    "level": "1.º ESO",
+    "stage": "ESO",
+    "source": "src/eso/trdr-1eso/index.adoc"
+  },
+  {
+    "id": "piar-i",
+    "title": "Programación, Inteligencia Artificial y Robótica I",
+    "level": "2.º ESO",
+    "stage": "ESO",
+    "source": "src/eso/piar-i/programacion.adoc"
+  },
+  {
+    "id": "piar-ii",
+    "title": "Programación, Inteligencia Artificial y Robótica II",
+    "level": "3.º ESO",
+    "stage": "ESO",
+    "source": "src/eso/piar-ii/programacion.adoc"
+  },
+  {
+    "id": "ao",
+    "title": "Aplicaciones Ofimáticas",
+    "level": "1.º SMR · 0223",
+    "stage": "Formación Profesional",
+    "source": "src/modulos/ao.adoc",
+    "pdf": "output/pdf/programacion-ao.pdf"
+  },
+  {
+    "id": "aso",
+    "title": "Administración de Sistemas Operativos",
+    "level": "2.º ASIR · 0374",
+    "stage": "Formación Profesional",
+    "source": "src/modulos/aso.adoc",
+    "pdf": "output/pdf/programacion-aso.pdf"
+  }
+]

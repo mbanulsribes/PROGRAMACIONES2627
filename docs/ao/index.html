@@ -1,0 +1,2972 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.26">
+<title>Programación didáctica de Aplicaciones Ofimáticas</title>
+<link rel="stylesheet" href="../assets/styles/document.css">
+</head>
+
+<nav class="site-nav" aria-label="Navegación"><a href="../index.html">← Todas las programaciones</a><span>1.º SMR · 0223 · 2026–2027</span><a href="../descargas/ao.pdf">Descargar PDF <small>(30/09/2026)</small></a></nav>
+<div id="header">
+<div class="details">
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">30 de septiembre de 2026</span>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="openblock portada">
+<div class="content">
+<table class="tableblock frame-none grid-none stretch logos">
+<colgroup>
+<col style="width: 28.5714%;">
+<col style="width: 42.8571%;">
+<col style="width: 28.5715%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
+<div class="content">
+<img src="../assets/images/logo-gva.png" alt="Generalitat Valenciana" width="150">
+</div>
+</div></div></td>
+<td class="tableblock halign-center valign-top"><div class="content"><div class="paragraph">
+<p>INSTITUT D’EDUCACIÓ SECUNDÀRIA<br>
+<strong>IES FONT DE SANT LLUÍS</strong></p>
+</div></div></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="imageblock">
+<div class="content">
+<img src="../assets/images/logo-ue.png" alt="Unión Europea" width="150">
+</div>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph departamento text-center">
+<p><strong>Departamento de Informática</strong></p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="../assets/images/logo-ies-font.jpeg" alt="IES Font" width="180">
+</div>
+</div>
+<div class="paragraph ciclo text-center">
+<p>Ciclo Formativo de Grado Medio:<br>
+<strong>Sistemas Microinformáticos y Redes</strong></p>
+</div>
+<table class="tableblock frame-all grid-none stretch modulo">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top" style="background-color: #DFDFDF;"><div class="content"><div class="paragraph titulo-modulo">
+<p>Programación didáctica del Módulo:<br>
+<strong>0223 Aplicaciones Ofimáticas</strong></p>
+</div>
+<div class="paragraph curso">
+<p><strong>(Curso 2026-2027)</strong></p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph profesor text-right">
+<p><strong>Profesor/a: María Bañuls Ribes</strong></p>
+</div>
+</div>
+</div>
+<div style="page-break-after: always;"></div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">SUMARIO</div>
+<ul class="sectlevel1">
+<li><a href="#_propuestas_de_mejora_y_modificaciones_respecto_a_la_versión_anterior">1. Propuestas de mejora y modificaciones respecto a la versión anterior</a></li>
+<li><a href="#_datos_identificativos_marco_normativo_y_contextualización_del_módulo">2. Datos identificativos, marco normativo y contextualización del módulo</a>
+<ul class="sectlevel2">
+<li><a href="#_datos_identificativos">2.1. Datos identificativos</a></li>
+<li><a href="#_marco_normativo">2.2. Marco normativo</a></li>
+<li><a href="#_contextualización_del_módulo">2.3. Contextualización del módulo</a></li>
+</ul>
+</li>
+<li><a href="#_relación_entre_los_estándares_de_competencia_y_los_módulos_del_ciclo_formativo">3. Relación entre los estándares de competencia y los módulos del ciclo formativo</a>
+<ul class="sectlevel2">
+<li><a href="#_contribución_del_módulo_a_los_objetivos_generales">3.1. Contribución del módulo a los objetivos generales</a></li>
+</ul>
+</li>
+<li><a href="#_contribución_de_los_resultados_de_aprendizaje_a_las_competencias">4. Contribución de los resultados de aprendizaje a las competencias</a>
+<ul class="sectlevel2">
+<li><a href="#_competencia_general_y_resultados_de_aprendizaje">4.1. Competencia general y resultados de aprendizaje</a></li>
+<li><a href="#_competencias_profesionales_y_para_la_empleabilidad">4.2. Competencias profesionales y para la empleabilidad</a></li>
+<li><a href="#_competencias_transversales">4.3. Competencias transversales</a></li>
+</ul>
+</li>
+<li><a href="#_esquema_general_y_secuenciación_de_las_unidades_de_programación">5. Esquema general y secuenciación de las unidades de programación</a>
+<ul class="sectlevel2">
+<li><a href="#_contenidos_básicos_y_concreción_didáctica">5.1. Contenidos básicos y concreción didáctica</a></li>
+<li><a href="#_secuenciación_y_temporalización">5.2. Secuenciación y temporalización</a></li>
+<li><a href="#_reparto_entre_centro_y_empresa">5.3. Reparto entre centro y empresa</a></li>
+<li><a href="#_unidades_de_programación">5.4. Unidades de programación</a>
+<ul class="sectlevel3">
+<li><a href="#_up01_sos_supervivencia_digital">5.4.1. UP01 · SOS: supervivencia digital</a></li>
+<li><a href="#_up02_documento_final">5.4.2. UP02 · Documento FINAL</a></li>
+<li><a href="#_up03_documentos_que_trabajan_solos">5.4.3. UP03 · Documentos que trabajan solos</a></li>
+<li><a href="#_up04_valor_las_cuentas_no_cuadran">5.4.4. UP04 · #¡VALOR!: las cuentas no cuadran</a></li>
+<li><a href="#_up05_datos_sin_significado">5.4.5. UP05 · Datos sin significado</a></li>
+<li><a href="#_up06_847_clientes">5.4.6. UP06 · 847 clientes</a></li>
+<li><a href="#_up07_marketing_ha_vuelto">5.4.7. UP07 · Marketing ha vuelto</a></li>
+<li><a href="#_up08_vídeo_para_ayer">5.4.8. UP08 · Vídeo para ayer</a></li>
+<li><a href="#_up09_mañana_viene_dirección">5.4.9. UP09 · Mañana viene dirección</a></li>
+<li><a href="#_up10_243_correos">5.4.10. UP10 · 243 correos</a></li>
+<li><a href="#_up11_incidente_crítico">5.4.11. UP11 · Incidente crítico</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#_metodología_del_proceso_de_enseñanza_y_aprendizaje">6. Metodología del proceso de enseñanza y aprendizaje</a>
+<ul class="sectlevel2">
+<li><a href="#_enfoque_y_principios_metodológicos">6.1. Enfoque y principios metodológicos</a></li>
+<li><a href="#_organización_de_la_sesión_y_papel_de_los_participantes">6.2. Organización de la sesión y papel de los participantes</a></li>
+<li><a href="#_vídeos_como_evidencia_del_aprendizaje">6.3. Vídeos como evidencia del aprendizaje</a></li>
+<li><a href="#_uso_educativo_de_inteligencia_artificial">6.4. Uso educativo de inteligencia artificial</a></li>
+</ul>
+</li>
+<li><a href="#_recursos">7. Recursos</a>
+<ul class="sectlevel2">
+<li><a href="#_recursos_didácticos_y_materiales">7.1. Recursos didácticos y materiales</a></li>
+<li><a href="#_bibliografía_y_referencias_de_consulta">7.2. Bibliografía y referencias de consulta</a></li>
+</ul>
+</li>
+<li><a href="#_uso_de_espacios_y_equipamientos">8. Uso de espacios y equipamientos</a></li>
+<li><a href="#_medidas_de_atención_a_la_diversidad">9. Medidas de atención a la diversidad</a>
+<ul class="sectlevel2">
+<li><a href="#_marco_y_principios_de_actuación">9.1. Marco y principios de actuación</a></li>
+<li><a href="#_medidas_ordinarias">9.2. Medidas ordinarias</a></li>
+<li><a href="#_medidas_específicas_y_organizativas">9.3. Medidas específicas y organizativas</a></li>
+<li><a href="#_refuerzo_y_ampliación">9.4. Refuerzo y ampliación</a></li>
+</ul>
+</li>
+<li><a href="#_evaluación_del_aprendizaje">10. Evaluación del aprendizaje</a>
+<ul class="sectlevel2">
+<li><a href="#_principios_de_la_evaluación">10.1. Principios de la evaluación</a></li>
+<li><a href="#_instrumentos_de_evaluación">10.2. Instrumentos de evaluación</a></li>
+<li><a href="#_distribución_de_la_evaluación_por_resultados_de_aprendizaje">10.3. Distribución de la evaluación por resultados de aprendizaje</a></li>
+<li><a href="#matriz-ce">10.4. Matriz de criterios de evaluación y evidencias</a>
+<ul class="sectlevel3">
+<li><a href="#_ra1_8_del_módulo_propuesto">10.4.1. RA1 · 8 % del módulo propuesto</a></li>
+<li><a href="#_ra2_20_del_módulo_propuesto">10.4.2. RA2 · 20 % del módulo propuesto</a></li>
+<li><a href="#_ra3_22_del_módulo_propuesto">10.4.3. RA3 · 22 % del módulo propuesto</a></li>
+<li><a href="#_ra4_12_del_módulo_propuesto">10.4.4. RA4 · 12 % del módulo propuesto</a></li>
+<li><a href="#_ra5_8_del_módulo_propuesto">10.4.5. RA5 · 8 % del módulo propuesto</a></li>
+<li><a href="#_ra6_8_del_módulo_propuesto">10.4.6. RA6 · 8 % del módulo propuesto</a></li>
+<li><a href="#_ra7_8_del_módulo_propuesto">10.4.7. RA7 · 8 % del módulo propuesto</a></li>
+<li><a href="#_ra8_6_del_módulo_propuesto">10.4.8. RA8 · 6 % del módulo propuesto</a></li>
+<li><a href="#_ra9_8_del_módulo_propuesto">10.4.9. RA9 · 8 % del módulo propuesto</a></li>
+</ul>
+</li>
+<li><a href="#_criterios_de_calificación">10.5. Criterios de calificación</a>
+<ul class="sectlevel3">
+<li><a href="#_registro_y_cálculo_propuestos">10.5.1. Registro y cálculo propuestos</a></li>
+<li><a href="#_descriptores_para_las_rúbricas_de_las_tareas">10.5.2. Descriptores para las rúbricas de las tareas</a></li>
+<li><a href="#_entregas_ausencia_e_incidencias">10.5.3. Entregas, ausencia e incidencias</a></li>
+</ul>
+</li>
+<li><a href="#_recuperación_refuerzo_y_segunda_convocatoria">10.6. Recuperación, refuerzo y segunda convocatoria</a></li>
+<li><a href="#_formación_en_empresa_u_organismo_equiparado">10.7. Formación en empresa u organismo equiparado</a></li>
+<li><a href="#_proyecto_intermodular">10.8. Proyecto intermodular</a></li>
+<li><a href="#_criterios_de_superación_y_promoción">10.9. Criterios de superación y promoción</a></li>
+</ul>
+</li>
+<li><a href="#_actividades_complementarias_y_extraescolares">11. Actividades complementarias y extraescolares</a></li>
+<li><a href="#_evaluación_del_desarrollo_de_la_programación_y_de_la_práctica_docente">12. Evaluación del desarrollo de la programación y de la práctica docente</a>
+<ul class="sectlevel2">
+<li><a href="#_indicadores_de_seguimiento">12.1. Indicadores de seguimiento</a></li>
+<li><a href="#_procedimiento_de_revisión">12.2. Procedimiento de revisión</a></li>
+</ul>
+</li>
+<li><a href="#_otros_acuerdos_relevantes_del_pccf_y_cierre_del_documento">13. Otros acuerdos relevantes del PCCF y cierre del documento</a>
+<ul class="sectlevel2">
+<li><a href="#_coordinación_comunicación_y_conservación_de_evidencias">13.1. Coordinación, comunicación y conservación de evidencias</a></li>
+<li><a href="#_aspectos_pendientes_para_la_aprobación">13.2. Aspectos pendientes para la aprobación</a></li>
+<li><a href="#_registro_de_aprobación">13.3. Registro de aprobación</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+<div class="paragraph">
+<p><strong>IES Font de Sant Lluís · Departamento de Informática</strong><br>
+<strong>Ciclo formativo de grado medio de Sistemas Microinformáticos y Redes</strong><br>
+<strong>Módulo 0223 · Primer curso · Curso académico 2026–2027</strong></p>
+</div>
+<div class="paragraph">
+<p>Esta programación organiza la enseñanza, las actividades y la evaluación del módulo Aplicaciones Ofimáticas. Se elabora a partir de la plantilla del departamento aportada por la profesora y de los materiales del curso, cuyo hilo conductor es la resolución de incidencias en la empresa ficticia CAOS, S.L.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p><strong>Documento de trabajo para validación del departamento.</strong> La estructura y el desarrollo didáctico están completos. Antes de su aprobación deben incorporarse el reparto de horas y resultados de aprendizaje en empresa, el calendario efectivo del centro y los acuerdos del PCCF sobre evaluación. Las ponderaciones y reglas operativas de calificación que se presentan se identifican como <strong>propuesta</strong>, puesto que no se ha aportado el PCCF aprobado. No sustituyen retroactivamente los criterios ya comunicados al alumnado.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_propuestas_de_mejora_y_modificaciones_respecto_a_la_versión_anterior"><a class="anchor" href="#_propuestas_de_mejora_y_modificaciones_respecto_a_la_versión_anterior"></a>1. Propuestas de mejora y modificaciones respecto a la versión anterior</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>No se ha aportado la programación oficial aprobada del curso anterior. Por tanto, esta tabla registra las decisiones de elaboración de la presente versión, sin atribuir carencias a una programación anterior no consultada.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 16.6666%;">
+<col style="width: 83.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Fecha</th>
+<th class="tableblock halign-left valign-top">Modificación y finalidad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adaptación de la plantilla de 0485 Programación a 0223 Aplicaciones Ofimáticas, 1.º SMR, curso 2026–2027. Normalización de la numeración de apartados.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Organización de once unidades mediante incidencias de CAOS, S.L., con práctica guiada, transferencia a un caso nuevo y evaluable individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ajuste de la propuesta de temporalización a 233 horas curriculares. El reparto centro/empresa queda pendiente del plan formativo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Correspondencia explícita entre actividades, nueve RA y sus 62 criterios de evaluación, incluyendo instalación, macros, sincronización y soporte.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de LliureX 23, LibreOffice y SimpleScreenRecorder. Separación entre web de consulta y Aules para entregas y seguimiento.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">30/09/2026</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Incorporación de demostraciones del proceso, vídeos cuando proceda, uso formativo y declarado de IA y alternativas accesibles de evidencia.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_datos_identificativos_marco_normativo_y_contextualización_del_módulo"><a class="anchor" href="#_datos_identificativos_marco_normativo_y_contextualización_del_módulo"></a>2. Datos identificativos, marco normativo y contextualización del módulo</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_datos_identificativos"><a class="anchor" href="#_datos_identificativos"></a>2.1. Datos identificativos</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 28.5714%;">
+<col style="width: 71.4286%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Dato</th>
+<th class="tableblock halign-left valign-top">Concreción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Centro</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">IES Font de Sant Lluís</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Departamento</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Informática</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Docente</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">María Bañuls Ribes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Familia profesional</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Informática y Comunicaciones</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ciclo y nivel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Técnico en Sistemas Microinformáticos y Redes · Grado medio</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Código y denominación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0223 · Aplicaciones ofimáticas</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Curso académico y nivel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2026–2027 · 1.º SMR</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Duración del ciclo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.000 horas</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Duración del módulo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">233 horas; 7 horas semanales según el anexo I del Decreto 114/2025, tabla de SMR, página 34 del PDF oficial.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Organización semanal comunicada</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Martes: 2 periodos lectivos; jueves: 3; viernes: 2.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Entorno de trabajo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aula informática con LliureX 23 y LibreOffice.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Formación en empresa</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Horas, periodos, RA/CE compartidos y porcentaje del módulo: pendientes de concreción en el plan formativo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentos de referencia del centro</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PCCF de SMR, proyecto educativo, normas de organización y calendario aprobado: completar referencia y versión antes de aprobar este documento.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_marco_normativo"><a class="anchor" href="#_marco_normativo"></a>2.2. Marco normativo</h3>
+<div class="paragraph">
+<p>El marco general del ciclo, la organización del centro y los procedimientos comunes de evaluación se desarrollan en el PCCF. Para este módulo se toman como referencias específicas:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.boe.es/eli/es/rd/2007/12/14/1691">Real Decreto 1691/2007, de 14 de diciembre</a>: identificación del título, competencia general, objetivos generales, correspondencias profesionales y RA/CE del módulo 0223 en su anexo I.</p>
+</li>
+<li>
+<p><a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2024-10684">Real Decreto 499/2024, de 21 de mayo</a>: adaptación de títulos de grado medio a la nueva ordenación. Se utiliza la denominación «competencias profesionales y para la empleabilidad» y se distingue el carácter orientativo de los contenidos del carácter prescriptivo de los RA y CE.</p>
+</li>
+<li>
+<p><a href="https://dogv.gva.es/datos/2025/08/04/pdf/2025_29742_es.pdf">Decreto 114/2025, de 29 de julio, del Consell</a>: currículo valenciano; artículos 3, 5, 7, 8 y 9 sobre currículo, proyecto intermodular, formación en empresa, PCCF y programación didáctica; anexo I para la carga horaria.</p>
+</li>
+<li>
+<p><a href="https://www.boe.es/eli/es/rd/2023/07/18/659/con">Real Decreto 659/2023, de 18 de julio, texto consolidado</a>: desarrollo de la ordenación del Sistema de Formación Profesional, evaluación referida a RA/CE y colaboración en la formación en empresa.</p>
+</li>
+<li>
+<p><a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2025-13147">Real Decreto 532/2025, de 24 de junio</a>: integración de estándares de competencias profesionales derivados de las anteriores unidades de competencia.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>La aplicación de las instrucciones autonómicas de organización y evaluación de 2026–2027, las medidas de inclusión y las normas de protección de datos se concretará mediante la referencia vigente recogida en el PCCF. <strong>Pendiente de validación documental:</strong> incorporar las instrucciones de curso y los acuerdos del centro antes de aprobar la programación; no se trasladan automáticamente las instrucciones de 2025–2026 de la plantilla.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_contextualización_del_módulo"><a class="anchor" href="#_contextualización_del_módulo"></a>2.3. Contextualización del módulo</h3>
+<div class="paragraph">
+<p>Aplicaciones Ofimáticas prepara al alumnado para instalar y utilizar aplicaciones de propósito general, producir documentación profesional y prestar soporte a usuarios. En SMR, estas tareas conectan el manejo cotidiano del equipo con su mantenimiento y con la asistencia técnica: no basta con obtener un documento, también hay que elegir formatos, conservar los originales, justificar decisiones y resolver incidencias.</p>
+</div>
+<div class="paragraph">
+<p>Se parte de una posible diversidad de experiencias previas: el uso habitual de un teléfono o de aplicaciones en línea no acredita por sí mismo autonomía en archivos, aplicaciones de escritorio, hojas de cálculo o documentación técnica. La evaluación inicial permitirá concretar las necesidades reales del grupo, sin atribuirle características no comprobadas.</p>
+</div>
+<div class="paragraph">
+<p>El contexto didáctico común es <strong>CAOS, S.L.</strong>, una empresa ficticia con archivos desordenados, documentos inconsistentes, cálculos erróneos y problemas de comunicación. El alumnado asume progresivamente tareas de apoyo ofimático y soporte. Se emplean datos ficticios y situaciones comprensibles para un grupo de primer curso.</p>
+</div>
+<div class="paragraph">
+<p>La web del módulo reúne teoría, ejemplos, ejercicios y materiales descargables. Aules contiene las evaluables, condiciones de realización, fechas, entregas, retroalimentación y calificaciones. Esta organización reduce la duplicación y facilita que el alumnado sepa dónde consultar y dónde entregar.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_relación_entre_los_estándares_de_competencia_y_los_módulos_del_ciclo_formativo"><a class="anchor" href="#_relación_entre_los_estándares_de_competencia_y_los_módulos_del_ciclo_formativo"></a>3. Relación entre los estándares de competencia y los módulos del ciclo formativo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>El anexo V del Real Decreto 1691/2007 relaciona el módulo 0223 con las antiguas unidades UC0221_2 y UC0222_2. El catálogo actual de INCUAL recoge los estándares ECP0221_2 y ECP0222_2. La tabla diferencia la correspondencia normativa de la relación didáctica con los RA, que es una concreción de esta programación.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 33.3333%;">
+<col style="width: 44.4445%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Estándar actual</th>
+<th class="tableblock halign-left valign-top">Referencia anterior en el título</th>
+<th class="tableblock halign-left valign-top">Módulo y relación didáctica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ECP0221_2 · Gestionar aplicaciones en sistemas microinformáticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UC0221_2 · Instalar, configurar y mantener paquetes informáticos de propósito general y aplicaciones específicas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0223 Aplicaciones ofimáticas. RA1: instalación y actualización; RA2–RA8: explotación de aplicaciones; RA9: resolución de incidencias.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ECP0222_2 · Dar soporte al usuario de equipos microinformáticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UC0222_2 · Facilitar al usuario la utilización de paquetes informáticos de propósito general y aplicaciones específicas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">0223 Aplicaciones ofimáticas. RA9 como eje del soporte; RA2–RA8 mediante demostraciones, manuales y atención a necesidades de uso.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Referencia de consulta: <a href="https://incual.educacion.gob.es/en/instrumentos/nivel2/informatica">INCUAL, estándares de nivel 2 de Informática y Comunicaciones</a>. Esta tabla no establece convalidaciones nuevas ni sustituye el procedimiento administrativo de acreditación.</p>
+</div>
+<div class="paragraph">
+<p>La coordinación con Montaje y mantenimiento de equipos, Sistemas operativos monopuesto y Redes locales se centra en requisitos, permisos, dispositivos y conectividad. Cada módulo evalúa sus propios RA y evita duplicar pruebas sin finalidad formativa.</p>
+</div>
+<div class="sect2">
+<h3 id="_contribución_del_módulo_a_los_objetivos_generales"><a class="anchor" href="#_contribución_del_módulo_a_los_objetivos_generales"></a>3.1. Contribución del módulo a los objetivos generales</h3>
+<div class="paragraph">
+<p>Las orientaciones pedagógicas del módulo identifican los objetivos generales <strong>a, c, g, h, i, k, l, m, n y o</strong> del título. Se sintetizan a continuación; las letras conservan su correspondencia con el artículo 9 del Real Decreto 1691/2007.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 66.6666%;">
+<col style="width: 22.2223%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">OG</th>
+<th class="tableblock halign-left valign-top">Aportación del módulo</th>
+<th class="tableblock halign-left valign-top">RA vinculados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interpretar documentación técnica y organizar medios y procedimientos para instalar o mantener aplicaciones.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar procedimientos de instalación de software con criterios de calidad y seguridad.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Localizar y analizar disfunciones de las aplicaciones y de sus resultados.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 3, 4, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ajustar o sustituir componentes lógicos para recuperar el funcionamiento.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Seleccionar información y elaborar documentación técnica y administrativa.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2–9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">k</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reconocer las posibilidades de las aplicaciones para asesorar y asistir al usuario.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1–9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">l</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar cambios tecnológicos y elegir alternativas de actualización.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 5, 6, 8, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">m</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reconocer incidencias, identificar causas y documentar acciones correctoras.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 9; transferencia en 2–8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">n</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar procedimientos de calidad, prevención y respeto ambiental en el trabajo informático.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1–9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">o</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identificar oportunidades de aprendizaje profesional a partir de tareas y herramientas del sector.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 9; transversal</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_contribución_de_los_resultados_de_aprendizaje_a_las_competencias"><a class="anchor" href="#_contribución_de_los_resultados_de_aprendizaje_a_las_competencias"></a>4. Contribución de los resultados de aprendizaje a las competencias</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_competencia_general_y_resultados_de_aprendizaje"><a class="anchor" href="#_competencia_general_y_resultados_de_aprendizaje"></a>4.1. Competencia general y resultados de aprendizaje</h3>
+<div class="paragraph">
+<p>La competencia general del título se refiere a instalar, configurar y mantener sistemas microinformáticos, aislados o en red, y redes locales, asegurando su funcionalidad y aplicando los protocolos de calidad, seguridad y respeto ambiental. Este módulo contribuye a ella desde las aplicaciones, la documentación y la atención al usuario.</p>
+</div>
+<div class="paragraph">
+<p>Los nueve resultados de aprendizaje se reproducen del anexo I del título. Los criterios se desarrollan en <a href="#matriz-ce">la matriz de evaluación</a>.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 10%;">
+<col style="width: 70%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">RA</th>
+<th class="tableblock halign-left valign-top">Resultado de aprendizaje</th>
+<th class="tableblock halign-left valign-top">Aplicación principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instala y actualiza aplicaciones ofimáticas, interpretando especificaciones y describiendo los pasos a seguir en el proceso.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 1 y 11</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elabora documentos y plantillas, describiendo y aplicando las opciones avanzadas de procesadores de textos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 2 y 3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elabora documentos y plantillas de cálculo, describiendo y aplicando opciones avanzadas de hojas de cálculo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 4 y 5</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elabora documentos con bases de datos ofimáticas describiendo y aplicando operaciones de manipulación de datos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 6</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Manipula imágenes digitales analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 7</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Manipula secuencias de vídeo analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elabora presentaciones multimedia describiendo y aplicando normas básicas de composición y diseño.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Realiza operaciones de gestión del correo y la agenda electrónica, relacionando necesidades de uso con su configuración.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 1, 3 y 11; aplicación transversal</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_competencias_profesionales_y_para_la_empleabilidad"><a class="anchor" href="#_competencias_profesionales_y_para_la_empleabilidad"></a>4.2. Competencias profesionales y para la empleabilidad</h3>
+<div class="paragraph">
+<p>La contribución del módulo comprende las competencias <strong>a, c, f, g, h, j, k, l, m, n, ñ, p y r</strong> señaladas en las orientaciones del título. Las siguientes descripciones son síntesis operativas, no nuevas competencias normativas.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 10%;">
+<col style="width: 70%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CPPE</th>
+<th class="tableblock halign-left valign-top">Desarrollo en el módulo</th>
+<th class="tableblock halign-left valign-top">RA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a, c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Organizar recursos e instalar y configurar aplicaciones de acuerdo con requisitos y procedimientos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Instalar, configurar y mantener aplicaciones y recursos compartidos que atiendan necesidades de usuarios.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 8, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">g, h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Realizar pruebas funcionales, diagnosticar problemas, mantener y actualizar componentes lógicos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">j</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elaborar documentación técnica y administrativa.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2–9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">k, l</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparar presupuestos y asesorar o asistir a usuarios, derivando las incidencias cuando proceda.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3, 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">m, p</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Organizar el trabajo y cooperar de forma responsable para alcanzar objetivos comunes.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1–9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">n, ñ</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mantenerse actualizado, seleccionar fuentes fiables y utilizar documentación para resolver problemas nuevos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1–9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">r</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Resolver problemas y tomar decisiones dentro del ámbito de responsabilidad y de los procedimientos establecidos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1–9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_competencias_transversales"><a class="anchor" href="#_competencias_transversales"></a>4.3. Competencias transversales</h3>
+<div class="paragraph">
+<p>Se utilizan los códigos internos siguientes para planificar tareas y apoyos. No son RA adicionales ni un porcentaje independiente de actitud. Su valoración solo afecta a la nota cuando constituye evidencia de un CE del módulo.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 10%;">
+<col style="width: 50%;">
+<col style="width: 40%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Código</th>
+<th class="tableblock halign-left valign-top">Desarrollo observable</th>
+<th class="tableblock halign-left valign-top">Referencia de evaluación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CT1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comunicación: explicar una actuación, redactar un mensaje o elaborar una guía comprensible.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.f; RA6.e; RA7.c/e; RA8.a/b; RA9.a/c/d/e</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CT2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Autonomía: localizar ayuda, comprobar el resultado y corregir errores.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.e/i; RA9.b/g/h</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CT3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Organización y cooperación: distribuir tareas durante la práctica, identificar versiones y conservar evidencias individuales.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA9.e/f/h cuando se evalúa documentación, protección o calidad del servicio.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CT4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Responsabilidad digital: respetar licencias, proteger información y revisar críticamente aportaciones de IA.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.h; RA9.f/g</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CT5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Accesibilidad, calidad y sostenibilidad: documentos legibles, formatos adecuados y uso razonable de recursos.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.b/f; RA5.c; RA7.c/d; RA9.a/h</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_esquema_general_y_secuenciación_de_las_unidades_de_programación"><a class="anchor" href="#_esquema_general_y_secuenciación_de_las_unidades_de_programación"></a>5. Esquema general y secuenciación de las unidades de programación</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_contenidos_básicos_y_concreción_didáctica"><a class="anchor" href="#_contenidos_básicos_y_concreción_didáctica"></a>5.1. Contenidos básicos y concreción didáctica</h3>
+<div class="paragraph">
+<p>Los contenidos orientativos del título se actualizan al entorno disponible, manteniendo íntegramente los RA y CE. Se trabajan instalación y licencias; documentos, estilos, plantillas y macros; cálculos, gráficos, análisis y automatización; bases de datos relacionales; captura y edición de imágenes y vídeo; presentaciones; correo y agenda; documentación y soporte.</p>
+</div>
+<div class="paragraph">
+<p>Se priorizan formatos abiertos (ODT, ODS, ODB y ODP) y la exportación a formatos de intercambio, especialmente PDF, CSV y formatos multimedia. Se ensaya la interoperabilidad cuando forma parte del encargo. La mecanografía, los nombres de archivo y la gestión de carpetas se refuerzan como destrezas instrumentales, sin convertirlos en una calificación independiente ajena a los CE.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_secuenciación_y_temporalización"><a class="anchor" href="#_secuenciación_y_temporalización"></a>5.2. Secuenciación y temporalización</h3>
+<div class="paragraph">
+<p>La distribución siguiente es una <strong>propuesta curricular de 233 horas</strong>, incluida la parte que se acuerde realizar en empresa. No representa 233 horas adicionales de presencia en el centro. Una vez conocido el plan de FE se desglosarán las horas y actividades de cada unidad sin duplicarlas.</p>
+</div>
+<div class="paragraph">
+<p>Se distinguen las horas curriculares de los periodos lectivos del horario. Las equivalencias semanales son orientativas a 7 periodos por semana; no constituyen una conversión a sesiones de 60 minutos. El calendario de sesiones efectivo se cerrará con jefatura de estudios, teniendo en cuenta descansos, festivos, evaluaciones y FE.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 8.3333%;">
+<col style="width: 41.6666%;">
+<col style="width: 8.3333%;">
+<col style="width: 16.6666%;">
+<col style="width: 25.0002%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">UP</th>
+<th class="tableblock halign-left valign-top">Título</th>
+<th class="tableblock halign-left valign-top">Horas</th>
+<th class="tableblock halign-left valign-top">Periodo orientativo</th>
+<th class="tableblock halign-left valign-top">RA principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SOS: supervivencia digital</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 y 9; introducción a 2, 5 y 8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documento FINAL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentos que trabajan solos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2 y 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">#¡VALOR!: las cuentas no cuadran</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">32</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Datos sin significado</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">847 clientes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">28</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Marketing ha vuelto</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">18</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vídeo para ayer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mañana viene dirección</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">243 correos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Incidente crítico</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.ª</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1 y 9; transferencia de 2–8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">—</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo, recuperación, ajuste de calendario y cierre</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distribución flexible</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA pendientes</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOTAL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Módulo completo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">233</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Centro + FE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1–9</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>La primera evaluación concentra inicialmente las UP1–UP4 (92 horas); la segunda, UP5–UP7 (71 horas); la tercera, UP8–UP11 (63 horas), más una reserva flexible de 7 horas. Son bloques orientativos que se redistribuirán si la FE o el calendario del centro lo requieren. La reserva no sustituye los apoyos y recuperaciones que se ofrecen durante todo el curso.</p>
+</div>
+<div class="paragraph">
+<p>El arranque comunicado del módulo es el viernes 11 de septiembre de 2026. La planificación específica del tema 1 sitúa su primer caso evaluable el viernes 25 de septiembre. Son referencias de planificación, no afirmaciones de que todas las actividades se hayan ejecutado. El resto de fechas se publicará en Aules tras ajustar el calendario real.</p>
+</div>
+<div class="paragraph">
+<p>El patrón semanal será: martes, incidencia y modelado; jueves, práctica guiada y autónoma; viernes, consolidación, retroalimentación o evaluable. <strong>No todos los viernes tienen una evaluable.</strong> Las pruebas se programarán preferentemente en viernes y con antelación suficiente.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reparto_entre_centro_y_empresa"><a class="anchor" href="#_reparto_entre_centro_y_empresa"></a>5.3. Reparto entre centro y empresa</h3>
+<div class="paragraph">
+<p>Sea <strong>HFE</strong> el número de horas de este módulo atribuido a FE en el plan aprobado: horas en el centro = <strong>233 − HFE</strong>; porcentaje en empresa = <strong>100 × HFE / 233</strong>; porcentaje en el centro = <strong>100 × (233 − HFE) / 233</strong>. No se aplica automáticamente a este módulo el porcentaje global de FE del ciclo.</p>
+</div>
+<div class="paragraph">
+<p>Antes de cerrar el calendario, la profesora y la tutoría dual concretarán horas, actividades, RA/CE y evidencias en ambos entornos. Las propuestas de tareas en empresa del apartado de evaluación no constituyen una asignación definitiva.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_unidades_de_programación"><a class="anchor" href="#_unidades_de_programación"></a>5.4. Unidades de programación</h3>
+<div class="paragraph">
+<p>En las fichas, las cuatro cantidades de distribución temporal corresponden a <strong>inicio y modelado / práctica guiada / aplicación autónoma / evaluación y devolución</strong>. Son horas curriculares de planificación, no cuatro sesiones. Los bloques semanales de 2/3/2 periodos se desglosarán en el calendario efectivo una vez fijada la FE.</p>
+</div>
+<div class="paragraph">
+<p>La calificación de cada evaluable se registra por CE según <a href="#matriz-ce">la matriz común</a>. El número de unidad no determina un porcentaje independiente de nota. Las competencias transversales se observan mediante los indicadores definidos en su apartado y los CE correspondientes.</p>
+</div>
+<div class="sect3">
+<h4 id="_up01_sos_supervivencia_digital"><a class="anchor" href="#_up01_sos_supervivencia_digital"></a>5.4.1. UP01 · SOS: supervivencia digital</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recuperar el control de un puesto de trabajo y establecer una rutina común de archivos, ayuda y entrega.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14 horas curriculares. Distribución: 3 / 4 / 4 / 3. Evaluación orientativa: 1.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 1 y 9; introducción a 2, 5 y 8. OG: a, c, g, h, i, k, l, m, n. CPPE: a, c, g, h, j, l, m, ñ, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Archivos y extensiones; estructura de carpetas; compresión y copias; editable y PDF; licencias libres y propietarias, modelos comerciales y de distribución; requisitos, instalación, componentes y actualización; mensajes profesionales; registro de incidencias.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elegir una aplicación justificando licencia y requisitos; instalar y actualizar en un entorno autorizado; recuperar y organizar archivos; dejar un ticket reproducible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.a–i y RA9.b/e/f/g/h, mediante evidencias distribuidas entre E01 y E11</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diagnóstico de acceso y archivos; rescate guiado de una carpeta de CAOS; práctica «Ahora tú»; caso «Nueva incidencia»; laboratorio de instalación y actualización; ticket individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01: carpeta organizada, originales y exportaciones solicitadas, archivo ZIP e informe de incidencia; demostración breve del procedimiento cuando lo indique el enunciado. El laboratorio de instalación se registra con lista de cotejo y se completa o reevalúa en E11 si es necesario.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestor de archivos de LliureX, LibreOffice, compresor, ayuda oficial, equipo de pruebas o máquina virtual preparada por el centro.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pasos literales con casillas, ejemplo de carpeta y nombres; ampliación mediante comparación de alternativas y recuperación de una copia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable individual sin IA, incluido el guion del vídeo. Durante el aprendizaje se podrán analizar explicaciones de IA previamente seleccionadas por la profesora.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up02_documento_final"><a class="anchor" href="#_up02_documento_final"></a>5.4.2. UP02 · Documento FINAL</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Transformar un documento inconsistente en un informe profesional que pueda modificarse sin rehacer su formato.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25 horas curriculares. Distribución: 4 / 8 / 9 / 4. Evaluación orientativa: 1.ª. Equivalencia de referencia: 3.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 2. OG: i, k, n. CPPE: j, l, m, p, r. CT: CT1, CT2, CT3, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Writer: interfaz, estilos de párrafo y página, saltos, encabezados, pies, numeración, tablas, imágenes, índice automático, revisión, plantillas y exportación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Estructurar con estilos; controlar cambios de página y numeración; introducir texto e imágenes; crear una plantilla y verificar ODT y PDF.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.a/b/c/d/f</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comparar versiones defectuosas; modelado de estilos; práctica sobre un informe; nueva incidencia de maquetación; elaboración individual de una plantilla y un manual breve.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E02: informe ODT, PDF comprobado, plantilla OTT y guía breve. Demostración de actualización del índice y cambio de estilo sin formato manual repetitivo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LibreOffice Writer, originales desordenados, imágenes ficticias, escáner o captura de un periférico del centro para introducir contenido.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Modelo final visible, checklist de páginas y estilos; ampliación con referencias cruzadas y opciones de accesibilidad.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En práctica, revisión de claridad de un texto ficticio y contraste con el original. No se admite que la IA sustituya la estructuración del documento o la explicación de sus estilos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up03_documentos_que_trabajan_solos"><a class="anchor" href="#_up03_documentos_que_trabajan_solos"></a>5.4.3. UP03 · Documentos que trabajan solos</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reutilizar documentos y reducir tareas repetitivas sin perder el control de los datos y del resultado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21 horas curriculares. Distribución: 3 / 6 / 8 / 4. Evaluación orientativa: 1.ª. Equivalencia de referencia: 3.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 2 y 9. OG: i, k, l, m. CPPE: j, l, m, n, ñ, p, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Plantillas, campos, combinación de correspondencia, fuentes de datos, creación y uso de macros de Writer, seguridad de macros, instrucciones de uso.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generar documentos personalizados desde datos ficticios; crear y usar una macro sencilla; comprobar resultados y enseñar su utilización a otra persona.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.b/d/e/f; RA9.a/c/d</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Detectar repetición en cartas de CAOS; construir plantilla y fuente; ensayar una macro en entorno controlado; intercambiar instrucciones durante la práctica; evaluable individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E03: plantilla, fuente de datos, documentos generados, macro creada y probada y manual visual. Demostración de cambio de un dato y regeneración.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Writer, Calc como origen de datos, archivos de prueba y perfil de laboratorio para macros autorizadas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fuente pequeña y modelo de combinación; ampliación con campos condicionales y validación de destinatarios.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ayuda conceptual autorizada durante la práctica, con comprobación. Las macros se comprenden y se prueban; no se ejecuta código externo sin revisión.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up04_valor_las_cuentas_no_cuadran"><a class="anchor" href="#_up04_valor_las_cuentas_no_cuadran"></a>5.4.4. UP04 · #¡VALOR!: las cuentas no cuadran</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Corregir presupuestos y cálculos para que se actualicen al cambiar los datos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">32 horas curriculares. Distribución: 5 / 10 / 12 / 5. Evaluación orientativa: 1.ª. Equivalencia de referencia: 4.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 3. OG: g, i, k, m, n. CPPE: g, j, k, l, m, ñ, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Calc: datos y formatos, referencias relativas, absolutas y mixtas; fórmulas, funciones, errores, hojas y rangos; gráficos; importación y exportación; impresión.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distinguir dato, formato y fórmula; construir cálculos reutilizables; comprobar resultados con casos conocidos; presentar un presupuesto comprensible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.a/b/c/d/f/h</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Auditoría de una hoja errónea; ejercicios graduados de referencias; presupuesto con cambios de cantidades; gráfico razonado; caso individual con datos diferentes.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E04: libro ODS con fórmulas verificables, gráfico y exportación solicitada. Demostración de cambio de datos y explicación de referencias.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Calc, tarifas y cantidades ficticias, archivos CSV e imágenes o códigos capturados con recursos del aula.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tabla pequeña, referencias coloreadas y ejemplos resueltos parciales; ampliación con escenarios y validaciones.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Se puede pedir una explicación de un error durante el entrenamiento y contrastarla. El alumnado debe escribir, probar y explicar las fórmulas de la evaluable.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up05_datos_sin_significado"><a class="anchor" href="#_up05_datos_sin_significado"></a>5.4.5. UP05 · Datos sin significado</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Convertir datos desordenados en información útil y automatizar una operación repetitiva.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">25 horas curriculares. Distribución: 4 / 7 / 10 / 4. Evaluación orientativa: 2.ª. Equivalencia de referencia: 3.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 3. OG: i, k, l, m, n. CPPE: j, k, l, m, n, ñ, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Limpieza e importación, listas, formularios, filtros, ordenación, protección, tablas dinámicas, gráficos, funciones y macros de Calc.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparar datos coherentes; filtrar y resumir información; proteger celdas; utilizar una macro y verificar que no altera los datos de partida.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.b/c/d/e/f/g/h</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Inspeccionar un CSV; limpiar tipos y duplicados; crear formulario y filtros; obtener resumen y gráfico; usar una macro controlada; encargo individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E05: ODS con lista, formulario, filtros, protección, resumen, gráfico y macro empleada; breve explicación de decisiones y archivo de intercambio.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Calc, conjuntos sintéticos de ventas o incidencias, ayuda de funciones y macros de laboratorio.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diccionario de campos y secuencia de limpieza; ampliación mediante tablas dinámicas y análisis de datos ausentes.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contrastar interpretaciones de gráficos y detectar conclusiones falsas con datos ficticios. No aceptar resultados sin verificar filtros, fórmulas y procedencia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up06_847_clientes"><a class="anchor" href="#_up06_847_clientes"></a>5.4.6. UP06 · 847 clientes</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Organizar información relacionada y evitar la duplicación de datos en la gestión de clientes y pedidos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">28 horas curriculares. Distribución: 4 / 8 / 11 / 5. Evaluación orientativa: 2.ª. Equivalencia de referencia: 4.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 4. OG: g, i, k, m, n. CPPE: g, j, l, m, ñ, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Base: tablas, campos, tipos, claves, relaciones e integridad; altas, bajas y modificaciones; consultas, formularios e informes con asistentes; búsqueda, filtros y macros.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diseñar una base sencilla; manejar registros sin romper relaciones; construir consultas y salidas con asistentes; crear y utilizar una macro sencilla de la aplicación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4.a–h</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diferenciar hoja de cálculo y base relacional; diseñar clientes-pedidos; crear tablas y relaciones; generar consultas, formulario e informe; automatizar una acción controlada; evaluable.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06: base ODB, esquema de relaciones, consultas, formulario, informe y macro creada y utilizada. Comprobación individual con un registro nuevo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">LibreOffice Base y dependencias comprobadas previamente en el aula; datos ficticios; plantilla de pruebas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Esquema visual de relaciones y pocos registros iniciales; ampliación con consultas de varias condiciones y control de integridad.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En práctica se podrá contrastar un diseño de tablas, señalando errores de la propuesta. No se sustituye la creación y prueba individual de la base.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up07_marketing_ha_vuelto"><a class="anchor" href="#_up07_marketing_ha_vuelto"></a>5.4.7. UP07 · Marketing ha vuelto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparar imágenes adecuadas al medio de destino y respetar su procedencia y licencia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">18 horas curriculares. Distribución: 3 / 5 / 7 / 3. Evaluación orientativa: 2.ª. Equivalencia de referencia: 2.6 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 5. OG: i, k, l, n. CPPE: j, l, m, n, ñ, r. CT: CT1, CT2, CT4, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Imagen raster y vectorial; formatos; resolución, tamaño y compresión; adquisición mediante periféricos; recorte, color, capas y exportación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Capturar una imagen con un periférico; editarla sin perder el original; elegir resolución y formato para web e impresión; documentar la licencia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5.a–e</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comparar imágenes pixeladas y sobredimensionadas; adquirir imagen de un objeto neutro con periférico del centro; editar; producir versiones para dos usos; evaluable.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E07: imagen original, archivo editable, exportaciones y ficha de formato, resolución y derechos; demostración de una modificación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GIMP o editor libre disponible; cámara o escáner del centro; banco de imágenes con licencia identificada.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Guía visual de herramientas y objetivo final; ampliación con máscaras y optimización justificada.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar procedencia y límites de imágenes generadas cuando el encargo lo permita. La generación no sustituye el CE de adquisición con periféricos ni las técnicas de edición.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up08_vídeo_para_ayer"><a class="anchor" href="#_up08_vídeo_para_ayer"></a>5.4.8. UP08 · Vídeo para ayer</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Producir un videotutorial claro que permita repetir un procedimiento.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21 horas curriculares. Distribución: 3 / 6 / 8 / 4. Evaluación orientativa: 3.ª. Equivalencia de referencia: 3.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 6. OG: i, k, l, n. CPPE: j, l, m, n, ñ, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Planificación de secuencias; captura; vídeo, audio, formatos, contenedores y códecs; importación, edición básica, títulos, exportación y revisión.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Planificar un tutorial breve; capturar pantalla y sonido; editar lo necesario; exportar y comprobar legibilidad, duración, sonido y tamaño.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6.a–e</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar un tutorial confuso; escribir un guion; grabar con SimpleScreenRecorder; editar con la herramienta del aula; probar reproducción; producir tutorial individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E08: proyecto o materiales editables, vídeo exportado y ficha técnica. Se valora el procedimiento de captura y edición y la utilidad del tutorial.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">SimpleScreenRecorder; editor de vídeo libre disponible, por ejemplo Kdenlive si está instalado; auriculares y micrófono.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Guion por pasos y grabaciones cortas; ampliación con subtítulos y comparación de exportaciones.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En práctica, revisar la claridad de un guion propio si está autorizado y declarar los cambios. No generar una demostración que suplante el trabajo realizado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up09_mañana_viene_dirección"><a class="anchor" href="#_up09_mañana_viene_dirección"></a>5.4.9. UP09 · Mañana viene dirección</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Comunicar información técnica o resultados de gestión de forma breve y comprensible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14 horas curriculares. Distribución: 2 / 4 / 5 / 3. Evaluación orientativa: 3.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 7. OG: i, k, n. CPPE: j, l, m, p, r. CT: CT1, CT2, CT3, CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Impress: opciones, vistas, patrones, plantillas, composición, tipografía, contraste, color, inserción multimedia, notas y proyección.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Seleccionar información; diseñar una plantilla coherente; crear una presentación legible; ejecutar la exposición con periféricos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7.a–f</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reducir una diapositiva sobrecargada; crear patrón; organizar resultados de CAOS; ensayo con proyector; presentación individual y comprobación del equipo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E09: ODP y exportación, plantilla o patrón y presentación ejecutada con proyector u otro periférico disponible.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Impress, proyector o pantalla del aula, resultados ficticios de unidades anteriores.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Estructura de diapositivas y ensayo anticipado; alternativa de exposición accesible acordada manteniendo los CE.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Revisión autorizada de la estructura durante la práctica. El alumnado selecciona, comprueba y explica la información, sin inventar datos.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up10_243_correos"><a class="anchor" href="#_up10_243_correos"></a>5.4.10. UP10 · 243 correos</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Configurar y organizar correo y agenda para atender necesidades profesionales sin perder información.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14 horas curriculares. Distribución: 2 / 4 / 5 / 3. Evaluación orientativa: 3.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 8. OG: i, k, l, m, n. CPPE: f, j, l, m, ñ, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elementos del correo, protocolos y tipos de cuenta, configuración, firma, contactos, carpetas, etiquetas, filtros, búsqueda, eventos, invitaciones y sincronización móvil.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Configurar cuentas de prueba de distinto tipo; organizar mensajes y contactos; gestionar citas; conectar y sincronizar una agenda con un dispositivo móvil autorizado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA8.a–g</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Clasificar una bandeja de prueba; configurar cuentas en entorno controlado; crear contactos y filtros; resolver conflicto de agenda; comprobar sincronización; evaluable.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10: demostración de configuración, gestión del correo, contactos y agenda; evidencia de sincronización real en dispositivo del centro. Sin contraseñas en capturas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cliente de correo y agenda disponible, cuentas institucionales de prueba y dispositivo móvil de préstamo del centro.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mensajes modelo, tarjetas de acciones y lista de comprobación; ampliación con filtros combinados.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Revisión de tono de mensajes ficticios durante la práctica. Nunca introducir mensajes reales, direcciones personales, credenciales o datos del alumnado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_up11_incidente_crítico"><a class="anchor" href="#_up11_incidente_crítico"></a>5.4.11. UP11 · Incidente crítico</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22.2222%;">
+<col style="width: 77.7778%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Elemento</th>
+<th class="tableblock halign-left valign-top">Desarrollo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Justificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Integrar diagnóstico, corrección, protección de datos y comunicación al usuario en una incidencia nueva.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Temporalización</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">14 horas curriculares. Distribución: 2 / 4 / 5 / 3. Evaluación orientativa: 3.ª. Equivalencia de referencia: 2.0 semanas de 7 periodos; sesiones concretas y desglose centro/FE pendientes del calendario aprobado.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Relación curricular</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA: 1 y 9; transferencia de 2–8. OG: a, c, g, h, i, k, l, m, n, o. CPPE: a, c, f, g, h, j, k, l, m, n, ñ, p, r. CT: CT1–CT5.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Contenidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Análisis de requisitos, instalación, actualización, componentes, conflictos de aplicación, copias y restauración; manuales, guías visuales, asesoramiento y cierre de tickets.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Objetivos didácticos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diagnosticar antes de actuar; salvaguardar información; intervenir y probar; elaborar una guía útil; explicar al usuario la solución y las medidas de prevención.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.a–i; RA9.a–h. Otros CE únicamente si se anuncian y registran expresamente.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actividades propuestas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Simulación de atención a un usuario; consulta de ayuda; laboratorio de instalación y actualización pendiente; ensayo de recuperación; ticket crítico individual.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evaluable y evidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E11: registro de diagnóstico, copia y prueba de recuperación, actuación verificable, guía visual e informe de cierre; demostración y preguntas de comprobación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Criterios de calificación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicación de los descriptores comunes a los CE anunciados en la tarea. Se valora corrección, funcionalidad y procedimiento conforme al CE; la calidad estética del vídeo no aporta puntos salvo que sea contenido propio de RA6. Los CE repetidos no se cuentan dos veces.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Recursos y materiales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Puesto de pruebas o máquina virtual preparada, versiones y componentes autorizados, copias sintéticas y documentación oficial.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Refuerzo y ampliación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Árbol de decisiones y comunicación previsible de fases; ampliación con comparación de soluciones y propuesta de mejora.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Uso de IA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">La evaluable verifica resolución personal. La IA solo se utilizará si el enunciado la autoriza de forma expresa para un apartado delimitado, con registro y verificación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Visitas y actividades complementarias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin salida externa confirmada. Vinculación opcional con las actividades AC1/AC2 descritas en el apartado de actividades complementarias; requieren acuerdo del centro.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_metodología_del_proceso_de_enseñanza_y_aprendizaje"><a class="anchor" href="#_metodología_del_proceso_de_enseñanza_y_aprendizaje"></a>6. Metodología del proceso de enseñanza y aprendizaje</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_enfoque_y_principios_metodológicos"><a class="anchor" href="#_enfoque_y_principios_metodológicos"></a>6.1. Enfoque y principios metodológicos</h3>
+<div class="paragraph">
+<p>Se adopta una metodología práctica basada en problemas profesionales de dificultad progresiva. La profesora explica y modela las decisiones esenciales, el alumnado ensaya con apoyos y posteriormente resuelve una variante. El objetivo es poder repetir el procedimiento, justificarlo y reconocer cuándo el resultado es incorrecto.</p>
+</div>
+<div class="paragraph">
+<p>Cada tema mantiene una secuencia reconocible:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Incidencia inicial:</strong> comprender qué necesita el usuario y qué producto debe obtenerse.</p>
+</li>
+<li>
+<p><strong>Rescate guiado:</strong> observar una demostración breve, verbalizando las decisiones.</p>
+</li>
+<li>
+<p><strong>Lo que necesitas saber:</strong> organizar conceptos y consultar ejemplos y documentación.</p>
+</li>
+<li>
+<p><strong>Ahora tú:</strong> practicar con instrucciones, modelos y retroalimentación.</p>
+</li>
+<li>
+<p><strong>Nueva incidencia:</strong> aplicar lo aprendido a datos o condiciones diferentes.</p>
+</li>
+<li>
+<p><strong>Ticket cerrado:</strong> realizar una evaluable individual y verificar la entrega.</p>
+</li>
+<li>
+<p><strong>Devolución:</strong> identificar el CE conseguido, el error y la siguiente acción de mejora.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>La práctica en parejas y la ayuda entre iguales se emplean para aprender. Las evaluables permiten identificar la competencia de cada estudiante. Se reduce gradualmente el apoyo y se ofrecen ampliaciones cuando el alumnado alcanza antes el objetivo previsto.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_organización_de_la_sesión_y_papel_de_los_participantes"><a class="anchor" href="#_organización_de_la_sesión_y_papel_de_los_participantes"></a>6.2. Organización de la sesión y papel de los participantes</h3>
+<div class="paragraph">
+<p>Al comenzar se proyecta una agenda breve con el objetivo, las fases y el producto final. Se comprueba el material de partida y se hace una demostración acotada. El bloque principal se dedica a trabajar y recibir ayuda; al final se reservan unos minutos para guardar, verificar y registrar la siguiente tarea.</p>
+</div>
+<div class="paragraph">
+<p>La profesora prepara los archivos y equipos, hace visibles los criterios, modela estrategias, observa procesos y ofrece feedback. El alumnado conserva originales, realiza pruebas, consulta fuentes, solicita ayuda describiendo el problema y comprueba los archivos entregados. Un error durante la práctica es información para aprender, no una penalización automática.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_vídeos_como_evidencia_del_aprendizaje"><a class="anchor" href="#_vídeos_como_evidencia_del_aprendizaje"></a>6.3. Vídeos como evidencia del aprendizaje</h3>
+<div class="paragraph">
+<p>Algunas evaluables solicitarán una grabación breve, habitualmente de 3–5 minutos, que muestre las acciones decisivas y explique su propósito. Se utilizará SimpleScreenRecorder en los equipos donde está disponible. No se exige mostrar el rostro ni editar una producción audiovisual, excepto cuando la edición sea objeto de la UP8.</p>
+</div>
+<div class="paragraph">
+<p>El vídeo complementa el archivo editable y la observación: debe mostrar una operación, una modificación y la comprobación del resultado. No basta con recorrer pantallas del producto final. Se podrá pedir una reproducción breve en clase o una explicación individual. La grabación no se considera por sí sola una garantía de autoría.</p>
+</div>
+<div class="paragraph">
+<p>Cuando una barrera de comunicación, acceso o equipamiento lo aconseje, se acordará una demostración presencial, vídeo sin voz con explicación escrita, capturas secuenciadas u otra evidencia equivalente. La alternativa deberá permitir valorar los mismos CE. La ausencia de micrófono personal no limitará la evaluación.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_uso_educativo_de_inteligencia_artificial"><a class="anchor" href="#_uso_educativo_de_inteligencia_artificial"></a>6.4. Uso educativo de inteligencia artificial</h3>
+<div class="paragraph">
+<p>La prioridad es construir autonomía. Primero se realiza un intento propio; después, cuando esté autorizado, la IA puede servir para aclarar un concepto, ofrecer un ejemplo similar, revisar la claridad de un texto ficticio o ayudar a interpretar un error. Toda respuesta se contrasta mediante la aplicación, los datos y documentación fiable.</p>
+</div>
+<div class="paragraph">
+<p>Cada evaluable indicará si no se permite IA, si se permite solo para acciones concretas o si el análisis crítico de una respuesta forma parte de la tarea. En la E01 no se permite IA, tampoco para el guion del vídeo. No se presupone que autorizar IA en una práctica la autorice en la evaluable.</p>
+</div>
+<div class="paragraph">
+<p>Si se utiliza, se declararán herramienta, finalidad, consulta relevante, aportación incorporada y comprobación realizada. No se introducirán datos personales, credenciales, grabaciones del alumnado ni información de empresas. No se exige crear cuentas privadas de pago. La sospecha de uso indebido se contrasta con evidencias y comprobación individual; un detector de IA no decide por sí solo una calificación.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_recursos"><a class="anchor" href="#_recursos"></a>7. Recursos</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_recursos_didácticos_y_materiales"><a class="anchor" href="#_recursos_didácticos_y_materiales"></a>7.1. Recursos didácticos y materiales</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Web del módulo: <a href="https://mbanulsribes.github.io/AO/">Aplicaciones Ofimáticas</a>. Publicación progresiva de teoría, prácticas y archivos de CAOS, S.L.</p>
+</li>
+<li>
+<p>Aules: <a href="https://aules.edu.gva.es/fp/course/view.php?id=223597">Curso de AO</a>. Enunciados, criterios, fechas, entrega, comentarios y calificaciones.</p>
+</li>
+<li>
+<p>Guía del alumnado, fichas de consulta, instrucciones paso a paso, ejemplos terminados y rúbricas por CE.</p>
+</li>
+<li>
+<p>Materiales sintéticos: documentos, datos de clientes, presupuestos, imágenes, mensajes y tickets, sin datos reales de terceros.</p>
+</li>
+<li>
+<p>LliureX 23; LibreOffice Writer, Calc, Base e Impress; gestor de archivos y compresor; navegador; SimpleScreenRecorder; editores de imagen y vídeo disponibles y autorizados.</p>
+</li>
+<li>
+<p>Equipos de pruebas para instalación, componentes y actualización; proyector; auriculares y micrófono de préstamo; escáner o cámara y dispositivo móvil del centro para los CE que exigen adquisición o sincronización.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Antes de cada unidad se verificará que el software abre los archivos, que las dependencias de Base funcionan y que los permisos permiten la práctica prevista. Si falta un recurso necesario, se programará acceso por turnos o a un equipo alternativo del centro; una explicación teórica no sustituye un CE de ejecución.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bibliografía_y_referencias_de_consulta"><a class="anchor" href="#_bibliografía_y_referencias_de_consulta"></a>7.2. Bibliografía y referencias de consulta</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://help.libreoffice.org/latest/es/">Ayuda oficial de LibreOffice</a>, seleccionando la versión y las funciones disponibles en el aula.</p>
+</li>
+<li>
+<p><a href="https://documentation.libreoffice.org/es/documentacion-en-espanol/">Documentación de LibreOffice en español</a>, guías de Writer, Calc, Base e Impress.</p>
+</li>
+<li>
+<p><a href="https://portal.edu.gva.es/lliurex/">Portal oficial de LliureX</a>, documentación y recursos del entorno educativo.</p>
+</li>
+<li>
+<p><a href="https://www.maartenbaert.be/simplescreenrecorder/">Documentación de SimpleScreenRecorder</a>.</p>
+</li>
+<li>
+<p>Normativa y fuentes curriculares enlazadas en el apartado de marco normativo.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Las referencias complementan los materiales propios; no se exige adquirir un manual comercial. La profesora revisará que los ejemplos coincidan con la interfaz instalada.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_uso_de_espacios_y_equipamientos"><a class="anchor" href="#_uso_de_espacios_y_equipamientos"></a>8. Uso de espacios y equipamientos</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>El aula informática combina explicaciones con proyección, trabajo individual y agrupamientos puntuales. Se procurará un puesto por estudiante en las evaluables y acceso individual por turnos a los periféricos compartidos. Las grabaciones se organizan evitando capturar voces, pantallas o datos de otros estudiantes.</p>
+</div>
+<div class="paragraph">
+<p>El puesto se ajustará para facilitar la lectura y una postura adecuada, con pausas y alternancia de tareas conforme a la organización del centro. Se mantendrán despejadas las zonas de paso y se comunicarán los problemas de funcionamiento sin intervenir en cableado o instalaciones no autorizadas.</p>
+</div>
+<div class="paragraph">
+<p>Las instalaciones y pruebas con privilegios se realizarán en equipos de laboratorio o máquinas virtuales preparadas. No se modificará indiscriminadamente la configuración del aula. Se comprobarán copias y puntos de retorno antes de cambios que puedan afectar a los datos.</p>
+</div>
+<div class="paragraph">
+<p>El alumnado conservará un archivo editable y una copia de seguridad de los productos relevantes. Al terminar cerrará las sesiones y comprobará que no deja datos o credenciales expuestos. Se utilizará la impresión solo cuando el objetivo lo requiera, priorizando la revisión digital previa.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_medidas_de_atención_a_la_diversidad"><a class="anchor" href="#_medidas_de_atención_a_la_diversidad"></a>9. Medidas de atención a la diversidad</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_marco_y_principios_de_actuación"><a class="anchor" href="#_marco_y_principios_de_actuación"></a>9.1. Marco y principios de actuación</h3>
+<div class="paragraph">
+<p>Se aplicarán el marco de inclusión y los procedimientos recogidos en el PCCF, en coordinación con tutoría, orientación y el equipo docente. Las medidas se basarán en barreras observadas y en la información profesional disponible. La programación pública no incorpora diagnósticos, identidades ni documentación personal del alumnado.</p>
+</div>
+<div class="paragraph">
+<p>Se mantiene la referencia a los RA y CE y se flexibilizan la presentación, los apoyos, los tiempos y las formas de respuesta cuando proceda. No se deducen necesidades de una etiqueta diagnóstica ni se asignan automáticamente las mismas medidas a todas las personas.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_medidas_ordinarias"><a class="anchor" href="#_medidas_ordinarias"></a>9.2. Medidas ordinarias</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Agenda visible y anticipación de cambios, fechas y productos de cada sesión.</p>
+</li>
+<li>
+<p>Enunciados literales, una acción por paso, verbos concretos y separación entre instrucciones y ejemplos.</p>
+</li>
+<li>
+<p>Modelos de resultado, capturas legibles, checklist de entrega y vocabulario breve de la unidad.</p>
+</li>
+<li>
+<p>Fragmentación de las tareas extensas, puntos intermedios de revisión y ayudas que se retiran progresivamente.</p>
+</li>
+<li>
+<p>Presentación escrita de las explicaciones esenciales y posibilidad de volver a ver las demostraciones.</p>
+</li>
+<li>
+<p>Opciones de tamaño de letra, contraste, disposición del puesto y reducción de distractores.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_medidas_específicas_y_organizativas"><a class="anchor" href="#_medidas_específicas_y_organizativas"></a>9.3. Medidas específicas y organizativas</h3>
+<div class="paragraph">
+<p>Tras la valoración correspondiente se podrán acordar tiempos adicionales, pausas, espacio con menos estímulos, apoyo de planificación, anticipación individual o una modalidad alternativa de demostración. Los acuerdos se registrarán por los cauces internos, con acceso limitado a quienes los necesiten.</p>
+</div>
+<div class="paragraph">
+<p>Las evaluables tendrán un inicio y un final claros, materiales identificados y criterios conocidos. La profesora comprobará que se ha entendido la consigna sin resolver el procedimiento que se evalúa. La respuesta oral o el vídeo con voz no se impondrán si existe una alternativa adecuada al mismo CE y a las medidas acordadas.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_refuerzo_y_ampliación"><a class="anchor" href="#_refuerzo_y_ampliación"></a>9.4. Refuerzo y ampliación</h3>
+<div class="paragraph">
+<p>El refuerzo recupera pasos esenciales con conjuntos de datos más pequeños, problemas graduados y feedback específico. Se registra qué criterio requiere nueva evidencia y se evita repetir una unidad completa cuando no es necesario.</p>
+</div>
+<div class="paragraph">
+<p>Para alumnado que avance más rápido o presente necesidades de mayor desafío se ofrecen tareas de interoperabilidad, automatización, accesibilidad, comparación de soluciones y apoyo técnico documentado. La ampliación incrementa la profundidad y no consiste únicamente en más ejercicios repetitivos ni sustituye la atención del profesorado.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evaluación_del_aprendizaje"><a class="anchor" href="#_evaluación_del_aprendizaje"></a>10. Evaluación del aprendizaje</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_principios_de_la_evaluación"><a class="anchor" href="#_principios_de_la_evaluación"></a>10.1. Principios de la evaluación</h3>
+<div class="paragraph">
+<p>La evaluación es continua, práctica y referida a los RA y CE. La evaluación inicial orienta la intervención y no aporta nota. Las prácticas habituales proporcionan feedback. <strong>La calificación se obtiene de las actividades evaluables</strong>, incluidas las pruebas prácticas y demostraciones identificadas como tales, con criterios comunicados previamente.</p>
+</div>
+<div class="paragraph">
+<p>La asistencia, el comportamiento o la mera acumulación de ejercicios no tienen un porcentaje separado. Cuando una conducta constituye un desempeño curricular observable —por ejemplo, salvaguardar archivos o elaborar un informe de incidencia— se valora mediante su CE. Se informará al alumnado de los instrumentos, condiciones y procedimientos de revisión.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_instrumentos_de_evaluación"><a class="anchor" href="#_instrumentos_de_evaluación"></a>10.2. Instrumentos de evaluación</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 11.1111%;">
+<col style="width: 33.3333%;">
+<col style="width: 55.5556%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Código</th>
+<th class="tableblock halign-left valign-top">Instrumento</th>
+<th class="tableblock halign-left valign-top">Qué aporta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Prueba práctica individual o desempeño observado</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ejecución de operaciones, modificación de datos, diagnóstico y pruebas de funcionamiento.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Análisis del producto entregado</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Archivo editable, estructura, fórmulas, relaciones, formato y resultados comprobables.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lista de cotejo del procedimiento</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Registro de instalación, captura, configuración, sincronización, proyección y seguridad de la información.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">D</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Demostración y explicación individual</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vídeo cuando se solicite o alternativa accesible; comprobación de decisiones y capacidad de repetir una operación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Informe, manual o guía</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentación de incidencias, instrucciones al usuario y justificación de decisiones.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Una misma evaluable puede utilizar varios instrumentos sobre un CE. No se asigna una nota independiente al vídeo por su existencia: se usa para observar el criterio correspondiente. La observación diaria solo se incorpora a la calificación cuando corresponde a una actividad evaluable anunciada y queda registrada.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_distribución_de_la_evaluación_por_resultados_de_aprendizaje"><a class="anchor" href="#_distribución_de_la_evaluación_por_resultados_de_aprendizaje"></a>10.3. Distribución de la evaluación por resultados de aprendizaje</h3>
+<div class="paragraph">
+<p><strong>Propuesta de ponderación para aprobación por el departamento.</strong> La distribución prioriza producción documental y cálculo, manteniendo peso propio para todos los RA. No constituye una ponderación impuesta por la normativa.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 12.5%;">
+<col style="width: 25%;">
+<col style="width: 62.5%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">RA</th>
+<th class="tableblock halign-left valign-top">Peso propuesto en el módulo</th>
+<th class="tableblock halign-left valign-top">Evaluables principales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 1 y 11</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">20 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 2 y 3</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 4 y 5</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA4</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">12 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 6</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA5</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 7</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA7</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 10</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">UP 1, 3 y 11; aplicación transversal</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TOTAL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100 %</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="matriz-ce"><a class="anchor" href="#matriz-ce"></a>10.4. Matriz de criterios de evaluación y evidencias</h3>
+<div class="paragraph">
+<p>La tabla incluye los <strong>62 CE</strong>. Su descripción es una síntesis fiel para facilitar el registro; la formulación normativa completa se consulta en el anexo I del Real Decreto 1691/2007. Las letras se mantienen. Se propone igual peso para los CE dentro de cada RA: la expresión <strong>100/n %</strong> representa una fracción exacta, evitando errores de redondeo.</p>
+</div>
+<div class="paragraph">
+<p>E01–E11 identifican las evaluables de las UP1–UP11. Cuando hay varias tareas para un CE, la primera sirve para obtener evidencia y las posteriores para ampliarla o actualizarla, según la regla de calificación siguiente. Los instrumentos se definen en la tabla anterior.</p>
+</div>
+<div class="sect3">
+<h4 id="_ra1_8_del_módulo_propuesto"><a class="anchor" href="#_ra1_8_del_módulo_propuesto"></a>10.4.1. RA1 · 8 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identificar y establecer fases de instalación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L, I</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Respetar las especificaciones técnicas de instalación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Configurar aplicaciones según criterios establecidos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar incidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Solucionar problemas de instalación o integración</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Añadir o eliminar componentes de la instalación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Actualizar aplicaciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Respetar las licencias del software</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, I</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.i</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Proponer soluciones software para entornos de aplicación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/9 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I, D</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra2_20_del_módulo_propuesto"><a class="anchor" href="#_ra2_20_del_módulo_propuesto"></a>10.4.2. RA2 · 20 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Personalizar opciones y barra de herramientas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E02</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diseñar plantillas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E02/E03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar aplicaciones y periféricos para introducir textos e imágenes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E02</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Importar y exportar documentos de otras aplicaciones y formatos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E02/E03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear y utilizar macros en documentos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elaborar manuales específicos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E02/E03</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra3_22_del_módulo_propuesto"><a class="anchor" href="#_ra3_22_del_módulo_propuesto"></a>10.4.3. RA3 · 22 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Personalizar opciones y barra de herramientas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E04</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, L</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar tipos de datos y referencias de celdas, rangos, hojas y libros</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E04/E05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar fórmulas y funciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E04/E05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Generar y modificar gráficos de diferentes tipos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E04/E05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Emplear macros en documentos y plantillas de cálculo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Importar y exportar hojas de cálculo de otras aplicaciones y formatos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E04/E05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Usar la hoja como base de datos: formularios, listas, filtros, protección y ordenación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar aplicaciones y periféricos para introducir textos, números, códigos e imágenes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E04/E05</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P, A</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra4_12_del_módulo_propuesto"><a class="anchor" href="#_ra4_12_del_módulo_propuesto"></a>10.4.4. RA4 · 12 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identificar elementos de bases de datos relacionales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear bases de datos ofimáticas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Insertar, modificar y eliminar registros de las tablas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar asistentes para crear consultas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar asistentes para crear formularios</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar asistentes para crear informes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Buscar y filtrar información almacenada</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">4.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear y utilizar macros</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E06</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A, D</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra5_8_del_módulo_propuesto"><a class="anchor" href="#_ra5_8_del_módulo_propuesto"></a>10.4.5. RA5 · 8 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar formatos de imágenes</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adquirir imágenes con periféricos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Trabajar con distintas resoluciones según la finalidad</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Emplear herramientas de edición de imagen digital</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">5.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Importar y exportar imágenes en diversos formatos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E07</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra6_8_del_módulo_propuesto"><a class="anchor" href="#_ra6_8_del_módulo_propuesto"></a>10.4.6. RA6 · 8 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reconocer los elementos de una secuencia de vídeo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Estudiar los formatos y códecs más utilizados</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Importar y exportar secuencias de vídeo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Capturar secuencias de vídeo con recursos adecuados</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elaborar videotutoriales</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/5 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, D</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra7_8_del_módulo_propuesto"><a class="anchor" href="#_ra7_8_del_módulo_propuesto"></a>10.4.7. RA7 · 8 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identificar opciones básicas de las aplicaciones de presentaciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reconocer los tipos de vista de una presentación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar y reconocer tipografía, composición, diseño y color</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Diseñar plantillas de presentaciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Crear presentaciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">7.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar periféricos para ejecutar presentaciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/6 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E09</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra8_6_del_módulo_propuesto"><a class="anchor" href="#_ra8_6_del_módulo_propuesto"></a>10.4.8. RA8 · 6 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Describir los elementos de un correo electrónico</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/7 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analizar necesidades de gestión de correo y agenda</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/7 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Configurar distintos tipos de cuentas de correo</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/7 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conectar y sincronizar agendas del equipo con dispositivos móviles</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/7 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Operar con la libreta de direcciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/7 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestionar correo mediante etiquetas, filtros, carpetas y otras opciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/7 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">8.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar opciones de agenda electrónica</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/7 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, A</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect3">
+<h4 id="_ra9_8_del_módulo_propuesto"><a class="anchor" href="#_ra9_8_del_módulo_propuesto"></a>10.4.9. RA9 · 8 % del módulo propuesto</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 46.1538%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3846%;">
+<col style="width: 15.3847%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">CE</th>
+<th class="tableblock halign-left valign-top">Descripción operativa</th>
+<th class="tableblock halign-left valign-top">Peso dentro del RA</th>
+<th class="tableblock halign-left valign-top">Evaluable</th>
+<th class="tableblock halign-left valign-top">Instrumentos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.a</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Elaborar guías visuales de conceptos básicos de uso de una aplicación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E03/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.b</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Identificar problemas de uso de aplicaciones ofimáticas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, I</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.c</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar manuales de usuario para instruir en aplicaciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E03/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, I, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.d</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar técnicas de asesoramiento en el uso de aplicaciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E03/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, D</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.e</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Realizar informes de incidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">I</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar procedimientos de salvaguarda y recuperación de información</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilizar documentación, ayuda y soporte para resolver incidencias</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">P, I</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">9.h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Resolver incidencias en tiempo adecuado y con la calidad esperada</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">100/8 %</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">E01/E11</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">L, P, A</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_criterios_de_calificación"><a class="anchor" href="#_criterios_de_calificación"></a>10.5. Criterios de calificación</h3>
+<div class="sect3">
+<h4 id="_registro_y_cálculo_propuestos"><a class="anchor" href="#_registro_y_cálculo_propuestos"></a>10.5.1. Registro y cálculo propuestos</h4>
+<div class="paragraph">
+<p>Cada CE se valora en una escala de 0 a 10 mediante los indicadores de la tarea. La rúbrica distingue entre evidencia inexistente o no válida, logro parcial, logro suficiente, logro consistente y transferencia autónoma. Los apoyos de acceso acordados no reducen la nota; se valora el desempeño que corresponde al CE.</p>
+</div>
+<div class="paragraph">
+<p>La ficha de cada evaluable especificará qué acción permite observar cada criterio. Por ejemplo, para RA3.c se comprobará que las fórmulas calculan correctamente los casos previstos y siguen funcionando cuando cambian los datos; para RA9.f se verificará tanto la copia como la recuperación, no solo la existencia de un archivo ZIP.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Nota de un CE:</strong> si una tarea observa todo su alcance, se registra la valoración de la ejecución y del producto. Si se reparte entre varias tareas, el enunciado identifica los indicadores complementarios y su reparto antes de realizarlas.</p>
+</li>
+<li>
+<p><strong>Nueva evidencia:</strong> una recuperación completa y equivalente actualiza la valoración del mismo CE, conservando el historial. No se suman puntos por repetirlo ni se promedian automáticamente el error inicial y el aprendizaje posterior. Esta regla requiere aprobación y comunicación previa.</p>
+</li>
+<li>
+<p><strong>Nota del RA:</strong> media de sus CE con la ponderación indicada. Una evidencia parcial no acredita por sí sola todo el criterio.</p>
+</li>
+<li>
+<p><strong>Nota global calculada:</strong> <code>0,08·RA1 + 0,20·RA2 + 0,22·RA3 + 0,12·RA4 + 0,08·RA5 + 0,08·RA6 + 0,08·RA7 + 0,06·RA8 + 0,08·RA9</code>.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>En las evaluaciones parciales se informará del progreso en los CE trabajados y de la cobertura pendiente. No se promedian sin más las notas de los trimestres o de los once temas. Los CE todavía no impartidos se registran como «no evaluados», no como cero. La calificación oficial y su expresión se ajustarán a las reglas aprobadas en el PCCF.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_descriptores_para_las_rúbricas_de_las_tareas"><a class="anchor" href="#_descriptores_para_las_rúbricas_de_las_tareas"></a>10.5.2. Descriptores para las rúbricas de las tareas</h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 75%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Nivel</th>
+<th class="tableblock halign-left valign-top">Descripción orientativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sin evidencia suficiente · pendiente de valoración</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">No se dispone de una ejecución o producto verificable que permita observar el CE. Debe identificarse la causa y la oportunidad de obtención de evidencia; no equivale automáticamente a cero.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Logro insuficiente · 0–4,9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">En una ejecución evaluada no realiza la operación o solo logra una parte, con errores que impiden el resultado o sin comprobar los requisitos esenciales.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Logro suficiente · 5–6,9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Realiza las operaciones esenciales, obtiene un resultado funcional y verifica lo solicitado en el CE.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Logro consistente · 7–8,9</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Trabaja con precisión, corrige errores y explica las decisiones relevantes con claridad.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Transferencia autónoma · 9–10</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplica el procedimiento a una variante, justifica alternativas y comprueba el resultado con criterios de calidad.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Las rúbricas concretas traducirán estos niveles a valores y a indicadores observables adecuados a cada CE. No se impone la misma proporción de presentación, vídeo o informe a todas las evaluables: un presupuesto, una base de datos y una instalación requieren evidencias diferentes.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_entregas_ausencia_e_incidencias"><a class="anchor" href="#_entregas_ausencia_e_incidencias"></a>10.5.3. Entregas, ausencia e incidencias</h4>
+<div class="paragraph">
+<p>Las evaluables se anunciarán en Aules con fecha, tiempo, material permitido, uso de IA, archivos requeridos y criterios. Se realizarán preferentemente los viernes. El alumnado comprobará que la entrega está finalizada y que los archivos abren correctamente.</p>
+</div>
+<div class="paragraph">
+<p>Si se conoce con antelación que no se podrá asistir, se avisará a la profesora por Aules antes de la prueba. Ante una ausencia imprevista se comunicará la situación tan pronto como sea posible. La profesora aplicará el procedimiento del centro y, cuando corresponda, acordará otra fecha o una prueba equivalente. La falta de aviso por una causa imprevisible no se convierte por sí sola en un cero automático.</p>
+</div>
+<div class="paragraph">
+<p>Una falta de entrega o una entrega incompleta se registra inicialmente como evidencia pendiente, diferenciándola de un desempeño insuficiente. Se informará del plazo o procedimiento para resolverla. Al cierre de la evaluación se aplicarán los acuerdos del PCCF; no se inventa aquí un porcentaje de retraso, absentismo o pérdida de evaluación continua.</p>
+</div>
+<div class="paragraph">
+<p>En caso de fallo técnico se conservarán los archivos y se documentará la incidencia. La profesora comprobará qué parte pudo realizarse y acordará la obtención de la evidencia que falte. Si existen dudas fundamentadas sobre autoría, se pedirá una demostración individual y se seguirá el procedimiento del centro, sin decidir únicamente por apariencia o por detectores automáticos.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_recuperación_refuerzo_y_segunda_convocatoria"><a class="anchor" href="#_recuperación_refuerzo_y_segunda_convocatoria"></a>10.6. Recuperación, refuerzo y segunda convocatoria</h3>
+<div class="paragraph">
+<p>Tras cada evaluable se identifican los CE no alcanzados y se ofrece una actividad de refuerzo concreta. La recuperación solicita nuevas evidencias de esos criterios, con un caso equivalente y criterios conocidos. Los CE ya suficientemente acreditados se conservan salvo que una tarea integradora necesite comprobar su aplicación conjunta.</p>
+</div>
+<div class="paragraph">
+<p>La propuesta es que la recuperación pueda acreditar el nivel real de aprendizaje sin un límite artificial de 5; debe validarse con el PCCF antes de aplicarse. Se registra fecha, criterios, instrumento, resultado y cambio respecto a la evidencia anterior.</p>
+</div>
+<div class="paragraph">
+<p>Para la segunda convocatoria o evaluación extraordinaria se entregará un plan individual con CE pendientes, tareas preparatorias, recursos, formato de prueba y calendario oficial. La prueba será práctica y, si hace falta, incluirá explicación o documentación. No se exigirá rehacer todo el curso de forma indiscriminada. Si faltan evidencias de todos los RA, la prueba cubrirá el conjunto del módulo.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_formación_en_empresa_u_organismo_equiparado"><a class="anchor" href="#_formación_en_empresa_u_organismo_equiparado"></a>10.7. Formación en empresa u organismo equiparado</h3>
+<div class="paragraph">
+<p>La FE comparte el desarrollo de RA del módulo y no añade un bloque de contenidos ajeno a ellos. Las horas y los CE concretos están pendientes de acuerdo con la tutoría dual y las empresas. La tabla siguiente es una propuesta de tareas posibles, no un plan formativo aprobado.</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 36.3636%;">
+<col style="width: 18.1818%;">
+<col style="width: 45.4546%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Tarea posible en empresa</th>
+<th class="tableblock halign-left valign-top">RA/CE candidatos</th>
+<th class="tableblock halign-left valign-top">Evidencia acordable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Configurar o actualizar una aplicación con supervisión</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA1.b/c/d/g/h</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Registro de actuación y lista de cotejo de la tutoría, sin credenciales ni información confidencial.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparar documentos o plantillas de uso interno</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA2.b/d/f</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Muestra anonimizada o valoración de indicadores por la tutoría cuando no pueda salir documentación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tratar datos para un informe o presupuesto</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA3.b/c/d/f/g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Descripción de operaciones y comprobaciones, con datos sintéticos si se necesita aportar un archivo.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Gestionar comunicaciones y agenda</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA8.b/e/f/g</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Registro de tareas o lista de cotejo, sin exportar mensajes reales.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Documentar y resolver una incidencia de usuario</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RA9.a–h según la tarea</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Informe anonimizado, valoración de tutoría y contraste con el alumnado.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>El plan identificará para cada estudiante actividades, horas, RA/CE, fechas, responsables y evidencias. La tutoría de empresa informa de lo observado; la profesora integra esa información en la evaluación del RA correspondiente. <strong>No se asigna un porcentaje independiente por estar en empresa</strong> ni se confunde porcentaje de horas con porcentaje de nota.</p>
+</div>
+<div class="paragraph">
+<p>Cuando una tarea no pueda realizarse o no permita evidenciar el criterio previsto, se coordinará una actividad alternativa con el equipo y la tutoría dual conforme al plan y a la normativa. La documentación confidencial de la empresa no se publicará en la web ni se exigirá grabar su actividad sin autorización.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_proyecto_intermodular"><a class="anchor" href="#_proyecto_intermodular"></a>10.8. Proyecto intermodular</h3>
+<div class="paragraph">
+<p>El módulo puede aportar documentación, hojas de cálculo, material visual, presentación y manual de usuario a un reto compartido del ciclo. CAOS, S.L. ofrece un contexto posible, pero sus unidades no se identifican automáticamente con el módulo de Proyecto intermodular.</p>
+</div>
+<div class="paragraph">
+<p>La propuesta de contribución de AO incluye RA2, RA3, RA7 y RA9 según el producto acordado. El equipo docente concretará el reto, responsables y calendario. Una evidencia común puede informar a varios módulos, pero cada docente aplica sus propios CE y evita duplicar una calificación dentro de AO. La nota del Proyecto intermodular se establece según su programación específica.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_criterios_de_superación_y_promoción"><a class="anchor" href="#_criterios_de_superación_y_promoción"></a>10.9. Criterios de superación y promoción</h3>
+<div class="paragraph">
+<p>La superación se determina conforme a la normativa aplicable y al PCCF, a partir de la adquisición de los RA y de sus CE. Antes de aprobar este documento se deberán concretar expresamente: umbral y cálculo de superación, posibles mínimos por RA, tratamiento de evidencia pendiente al cierre, redondeo, convocatorias y procedimiento de revisión.</p>
+</div>
+<div class="paragraph">
+<p>La media ponderada propuesta es una herramienta de cálculo y no autoriza a dar por acreditado un RA sin evidencia. Tampoco se presenta como obligación normativa que todos los CE o todos los RA deban tener individualmente un 5: cualquier condición adicional de mínimos debe estar aprobada, ser coherente con la normativa y comunicarse previamente.</p>
+</div>
+<div class="paragraph">
+<p>La promoción, permanencia, pérdida de evaluación continua y reclamaciones se remiten a los acuerdos y procedimientos del centro y a la normativa vigente. Esta programación no fija porcentajes de faltas ni reglas de promoción no confirmados.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_actividades_complementarias_y_extraescolares"><a class="anchor" href="#_actividades_complementarias_y_extraescolares"></a>11. Actividades complementarias y extraescolares</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>No hay una salida externa confirmada para este módulo. Se proponen las siguientes actividades, condicionadas a la planificación del departamento y a los recursos disponibles:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 33.3333%;">
+<col style="width: 41.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Actividad</th>
+<th class="tableblock halign-left valign-top">Objetivos y unidades</th>
+<th class="tableblock halign-left valign-top">Organización y evidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AC1 · Taller de atención a usuarios en el aula</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Interpretar una petición, resolverla y producir una guía accesible. UP1, UP3 y UP11; RA9.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Simulación con roles y datos ficticios. Fecha a acordar en la UP correspondiente. Trabajo individual identificable dentro de la dinámica. Si se evalúa, se anunciarán previamente los CE; no añade un porcentaje extra.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AC2 · Encuentro con un profesional o visita técnica</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reconocer necesidades ofimáticas reales, licencias, soporte y organización del trabajo. Vinculación con UP1, UP6, UP10 o UP11.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Propuesta pendiente de aprobación, fecha, entidad y autorizaciones. Preparación de preguntas y reflexión posterior. Se preverá una actividad equivalente y accesible para quien no pueda participar.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Las condiciones económicas, de accesibilidad, acompañamiento y protección de datos se concretarán antes de comunicar una salida como confirmada. La no participación en una actividad externa no impedirá obtener las evidencias curriculares mediante una alternativa adecuada.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_evaluación_del_desarrollo_de_la_programación_y_de_la_práctica_docente"><a class="anchor" href="#_evaluación_del_desarrollo_de_la_programación_y_de_la_práctica_docente"></a>12. Evaluación del desarrollo de la programación y de la práctica docente</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_indicadores_de_seguimiento"><a class="anchor" href="#_indicadores_de_seguimiento"></a>12.1. Indicadores de seguimiento</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 33.3333%;">
+<col style="width: 41.6667%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Indicador</th>
+<th class="tableblock halign-left valign-top">Registro y momento</th>
+<th class="tableblock halign-left valign-top">Decisión de mejora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cobertura de los 62 CE</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Matriz de CE y evidencias revisada al finalizar cada UP y cada evaluación.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Programar evidencia específica para los criterios aún no observados; no darlos por cubiertos por mera asistencia.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Progreso por RA</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Distribución de logro y criterios pendientes en cada evaluación, sin publicar datos individuales.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reenseñar dificultades comunes y ajustar apoyos y recuperación.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Adecuación de tiempos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Horas previstas y efectivas, incidencias y avance del grupo.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Redistribuir dentro del total curricular y coordinar cambios con FE.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Claridad de instrucciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dudas repetidas, entregas incompletas y breve consulta al alumnado.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reescribir consignas, añadir modelos y verificar comprensión.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Utilidad de vídeos y demostraciones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tiempo empleado, información obtenida y barreras detectadas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Solicitar solo evidencias útiles y ofrecer alternativas equivalentes.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Accesibilidad y participación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Registro interno de medidas y revisión con tutoría/orientación.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mantener, retirar o ajustar apoyos según resultados observados.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Funcionamiento de herramientas</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Fallos de acceso, archivos, Base, captura y entrega.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Preparar recursos alternativos y revisar el entorno antes de la siguiente unidad.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Coherencia de la evaluación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Revisión de rúbricas, cálculo y muestras de corrección con el departamento.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Evitar dobles cómputos, mejorar indicadores y alinear criterios comunicados.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_procedimiento_de_revisión"><a class="anchor" href="#_procedimiento_de_revisión"></a>12.2. Procedimiento de revisión</h3>
+<div class="paragraph">
+<p>La profesora anota al finalizar cada unidad los contenidos impartidos, evidencias obtenidas, dificultades y ajustes. En cada evaluación se contrasta el avance con el equipo docente y se revisa la coordinación con FE. Se recaba una valoración breve del alumnado sobre claridad, carga de trabajo, ayuda recibida y utilidad de las actividades.</p>
+</div>
+<div class="paragraph">
+<p>La memoria final sintetiza el grado de cumplimiento, los CE con mayores dificultades, los cambios metodológicos útiles y las propuestas para el curso siguiente. Los resultados no se convierten en una calificación de la profesora: son indicadores para mejorar la enseñanza. Las modificaciones sustanciales se documentan con fecha, motivo, aprobación cuando corresponda y comunicación al alumnado.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_otros_acuerdos_relevantes_del_pccf_y_cierre_del_documento"><a class="anchor" href="#_otros_acuerdos_relevantes_del_pccf_y_cierre_del_documento"></a>13. Otros acuerdos relevantes del PCCF y cierre del documento</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_coordinación_comunicación_y_conservación_de_evidencias"><a class="anchor" href="#_coordinación_comunicación_y_conservación_de_evidencias"></a>13.1. Coordinación, comunicación y conservación de evidencias</h3>
+<div class="paragraph">
+<p>La profesora coordinará requisitos de software, permisos, fechas y tareas compartidas con el equipo de SMR. Los cambios de fechas y condiciones se comunicarán por Aules. La web puede mostrar contenidos progresivamente, pero el alumnado dispondrá a tiempo de los materiales necesarios para cada evaluable.</p>
+</div>
+<div class="paragraph">
+<p>Las evidencias y calificaciones se conservarán en los sistemas autorizados y durante el plazo establecido por el centro. Los vídeos de entrega no se publicarán en la web de teoría. Los materiales públicos utilizarán datos ficticios y recursos con licencia compatible; una licencia de los materiales propios no se extiende automáticamente a obras de terceros.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_aspectos_pendientes_para_la_aprobación"><a class="anchor" href="#_aspectos_pendientes_para_la_aprobación"></a>13.2. Aspectos pendientes para la aprobación</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 18.1818%;">
+<col style="width: 54.5454%;">
+<col style="width: 27.2728%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Aspecto</th>
+<th class="tableblock halign-left valign-top">Acción necesaria</th>
+<th class="tableblock halign-left valign-top">Responsables</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PCCF y normativa de curso</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Incorporar versión del PCCF e instrucciones vigentes de 2026–2027; contrastar la programación con los acuerdos del departamento.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Departamento y jefatura de estudios</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Formación en empresa</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Confirmar HFE, régimen, periodos, RA/CE compartidos y evidencias; completar el desglose de cada UP sin duplicar horas.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tutoría dual, profesora y empresas</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Calendario de sesiones</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aplicar calendario real del centro, festivos, evaluaciones y FE; fijar fechas en Aules.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Profesora y jefatura de estudios</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ponderación y superación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Validar los pesos propuestos, tratamiento de CE compartidos, mínimos si proceden, recuperación, redondeo y reglas de cierre.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Departamento y equipo docente</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Medios específicos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Confirmar acceso a periféricos, dispositivo móvil de pruebas, laboratorio de instalación y dependencias de Base.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Departamento y coordinación TIC</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Caracterización del grupo y apoyos</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Incorporar conclusiones de evaluación inicial y medidas acordadas por cauces internos, sin datos personales en la versión pública.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Profesora, tutoría y orientación</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Aprobación</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Registrar fecha, órgano de aprobación y versión definitiva.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Departamento</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>El documento se revisará al completar estos acuerdos. Hasta entonces se mantiene identificado como versión de trabajo; las propuestas nuevas no alteran las condiciones de evaluables ya realizadas o comunicadas.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_registro_de_aprobación"><a class="anchor" href="#_registro_de_aprobación"></a>13.3. Registro de aprobación</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Fecha de aprobación: <strong>pendiente</strong>.</p>
+</li>
+<li>
+<p>Órgano y referencia del acta: <strong>pendiente</strong>.</p>
+</li>
+<li>
+<p>Versión del PCCF: <strong>pendiente</strong>.</p>
+</li>
+<li>
+<p>Docente responsable: <strong>María Bañuls Ribes</strong>.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 1.0<br>
+Last updated 2026-09-30 17:32:21 +0200
+</div>
+</div>
+</body>
+</html>
